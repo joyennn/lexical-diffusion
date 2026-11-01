@@ -1,0 +1,56 @@
+{
+  "time": "2026-11-01T02:53:29.204218+09:00",
+  "all_four200cycle_trajectories_verified": true,
+  "checks": [
+    {
+      "model": "llama",
+      "cycles": 200,
+      "added_cycles": 100,
+      "original100_state_and_call_prefix_preserved": true,
+      "baseline_rules_replayed": true,
+      "total_calls": 4610,
+      "new_calls": 2316,
+      "last_new_call": "2026-10-31T20:52:59.414528+09:00",
+      "checkpoint_sha256": "1846db37d5f7a21b245897527d71dc8b2035efc2e863dd35bc643e99d02b6419",
+      "calls_sha256": "d9e354ea41c5e102db48bc0a5786aceff4b25eadad94c737f5540efc7dfba94c"
+    },
+    {
+      "model": "qwen",
+      "cycles": 200,
+      "added_cycles": 100,
+      "original100_state_and_call_prefix_preserved": true,
+      "baseline_rules_replayed": true,
+      "total_calls": 4335,
+      "new_calls": 2168,
+      "last_new_call": "2026-10-31T22:52:25.907295+09:00",
+      "checkpoint_sha256": "c8b58c71dd17fd0af931a66ebceb2ad839800a952e42bad4e9eedd3e58bb8903",
+      "calls_sha256": "1952e4bc62fb31450b5e8e23feed31b6e41127c690b5e3c1a941cdda26fdce76"
+    },
+    {
+      "model": "gemma",
+      "cycles": 200,
+      "added_cycles": 100,
+      "original100_state_and_call_prefix_preserved": true,
+      "baseline_rules_replayed": true,
+      "total_calls": 4460,
+      "new_calls": 2242,
+      "last_new_call": "2026-11-01T00:53:05.842826+09:00",
+      "checkpoint_sha256": "cc35bc7034a9fa0e56e10ce98c50483b57efff04d4cb78b9d2b0bec5739eb564",
+      "calls_sha256": "fdceb2220ac0f261ec10e41481bf70f82a13647c399ef4e1705f43aade450bcd"
+    },
+    {
+      "model": "mistral",
+      "cycles": 200,
+      "added_cycles": 100,
+      "original100_state_and_call_prefix_preserved": true,
+      "baseline_rules_replayed": true,
+      "total_calls": 4750,
+      "new_calls": 2381,
+      "last_new_call": "2026-11-01T02:53:25.048430+09:00",
+      "checkpoint_sha256": "353376b17f76278f145805b83242f7566013722b6392ed3bdda1998b92fe97f1",
+      "calls_sha256": "4d670f74fa0cd58aa0f7b0a951fae043f40761846d771790b9b95d42bde9d235"
+    }
+  ],
+  "independent_repetitions_added": 0,
+  "meaning_of_comparison": "Same trajectories:1-100 versus101-200; use normalized interval rates, not cumulative count increase alone."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "release_version": "1.0.0",
+  "unit_tests_passed": 19,
+  "independent_audits_reexecuted": true,
+  "numeric_csvs_identical": 15,
+  "fresh_inference_cli_dry_runs_passed": 5,
+  "new_model_inference_executed_during_packaging": false,
+  "raw_members_scanned": 1891,
+  "distribution_files_scanned": 225,
+  "largest_file_bytes": 47459435,
+  "credential_scan_passed": true,
+  "local_home_paths_removed": true,
+  "raw_prompts_and_observations_byte_identical": true,
+  "all_archives_below_95MiB": true
+}

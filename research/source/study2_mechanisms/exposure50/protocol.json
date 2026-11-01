@@ -1,0 +1,72 @@
+{
+  "version": "mechanism-exposure50-1.0",
+  "created_at": "2026-10-31T10:38:25.519483+09:00",
+  "models": [
+    "llama",
+    "qwen",
+    "gemma",
+    "mistral"
+  ],
+  "cycles": 100,
+  "agents": 10,
+  "main_seed": 2026103000,
+  "pilot_seed": 2026103990,
+  "pilot_cycles": 3,
+  "main_trajectories_per_model": 1,
+  "main_scope": "First exploratory100-cycle trajectory per model; no claim of independent model replications.",
+  "initialization": "One source agent owns the60-term glossary and authors60 exogenous source posts atcycle0. No other agent receives an initial bulk read or glossary. Each incoming post is encountered only through a scheduled read turn.",
+  "source_memory": "The source retains its private glossary as an explicit persistent source, outside the mutable memory cap. Source agent excluded from reach outcomes.",
+  "schedule": "Sequential cycles; agents0–9 each take one turn. Model selects read/write; reading selects one unread other-authored post with a fixed seeded random stream and optionally comments. Up to3latest comments are visible with that post. Earlier same-cycle outputs may be read by later agents.",
+  "memory": "Summarize before a turn if mutable memory exceeds1000characters; generated summary is truncated to500characters. Empty outputs/errors stop execution, never become memory-as-message fallbacks.",
+  "message_limits": {
+    "post_characters": 100,
+    "comment_characters": 50,
+    "post_max_tokens": 40,
+    "comment_max_tokens": 20,
+    "summary_max_tokens": 100
+  },
+  "generation": {
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "thinking": false,
+    "uniform_content_role": "user",
+    "action_decoder": "Sample constrained0/1; read/write and read/comment label orders deterministically counterbalanced by task across all models."
+  },
+  "metrics": {
+    "size": "Unique nonseed agents whose FIRST literal use follows recorded exposure from another author; denominator9. Also report all first users and pre-exposure first uses.",
+    "speed": "First qualifying use and reaching5of9nonseed users, in simulator cycles; unreached time is null and right-censored at100.",
+    "exposure_lag": "Cycle difference from first recorded external exposure to qualifying first use. Same-turn comment may have zero-cycle lag.",
+    "amplification": "Literal occurrence counts, per100messages and per1000characters, excluding initial exogenous source posts.",
+    "semantic_limit": "No claim of meaning acquisition or causal transmission from lexical matches."
+  },
+  "differences_from_recovered_historical_code": [
+    "No bulk initial read",
+    "One incoming post per read turn, rather than all unread posts",
+    "Latest three comments can enter another agent input",
+    "Length ceilings enforced and raw output retained",
+    "Constrained numeric action interface; identical meaning across templates",
+    "Missing source example omitted rather than inserting nan",
+    "All requests/exposures and states logged; no empty-output memory fallback"
+  ],
+  "budget_hours": 96,
+  "technical_gate": "All4models complete their separate3-cycle pilot without inference/template/context/empty-output errors; no directional or lexical-uptake gate.",
+  "artifacts": "Progress hourly; raw logs, frozen protocol, derived metrics and Korean comparison with fresh Study1. Do not write manuscript/TeX/PDF/response letter/marked version. No automatic Study2-2,2-3 orStudy3.",
+  "baseline_path": "../../fresh_study1",
+  "recommendation_probability": 0.5,
+  "question": "Does a50% source-recommendation branch during voluntary reads change realized exposure and generated use under the fresh Study1 setting?",
+  "exposure_policy": "For non-source agents only: at each model-selected read, an independent seeded coin selects source recommendation with probability0.5. Recommendation draws uniformly from all60 original source entries WITH replacement. Otherwise use exactly the baseline eligible unread-post sampler. Source agent follows baseline. One post plus up to3latest comments as baseline. Ordinary branch can also choose a source entry, so actual source-entry share is not exactly50%. No guaranteed per-word dose and no forced reads.",
+  "comparison": "Same60words,10personas,4pinned configurations,100cycles,source0,main seed and per-task sampling seeds as original fresh Study1; all new treatment inference, no response reuse. Different feed policy may alter realized histories; one exploratory trajectory/model does not establish stable model effects.",
+  "primary_outcomes": [
+    "All60 literal generated occurrences per100messages and per1000characters, including repeated and pre-exposure uses; source and non-source separate",
+    "Target-bearing message proportion"
+  ],
+  "secondary_outcomes": [
+    "Per-agent-word actual external reading-turn exposure counts including zeros",
+    "Read/write choices and recommendation versus ordinary branch selection",
+    "Unique user coverage, concentration and first-use timing",
+    "20-cycle frequency and exposure trajectories",
+    "Character truncation and summary rates"
+  ],
+  "scope": "Study2-1 changes source prioritization AND permission to reread recommended entries as one exposure-policy package. Cannot isolate weighting versus rereading. No new bridge/downstream access graph, no12-word subset, no memory/time interventions.",
+  "stopping": "Four exploratory100-cycle main runs only, no efficacy stopping, no extra repetitions selected for desired outcome. Separate3-cycle technical pilots/model excluded."
+}

@@ -1,0 +1,92 @@
+{
+  "time": "2026-11-01T22:44:01.002006+09:00",
+  "frozen_files_unchanged": true,
+  "only_engine_change_1000_to4000": true,
+  "same_inputs_and_models": true,
+  "raw_public_messages_exposures_and_memory_verified": true,
+  "primary_metrics_match": true,
+  "pilots_excluded": true,
+  "checks": [
+    {
+      "study": "baseline",
+      "model": "llama",
+      "cycles": 100,
+      "calls": 2294,
+      "last_response": "2026-10-30T15:50:42.999864+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "4d85bcf2e4c4250130a2ea08eb960be49015943b20e8d90410d9da8dccc2b9f0",
+      "checkpoint_sha256": "2b88f0f8a1676a3ec79e78af3275a70e8c4f23e82a7b4c256714034481bff68d"
+    },
+    {
+      "study": "baseline",
+      "model": "qwen",
+      "cycles": 100,
+      "calls": 2167,
+      "last_response": "2026-10-30T19:07:13.375142+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "402c453817b1631502b7051f553c47dfca2f7e5404e8091b750fd5e645a19fc7",
+      "checkpoint_sha256": "f651936ac9f06391e1e049c46318bc2cae1e9f05fb5406d002cf532778cc3ed1"
+    },
+    {
+      "study": "baseline",
+      "model": "gemma",
+      "cycles": 100,
+      "calls": 2218,
+      "last_response": "2026-10-30T21:01:53.227611+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "ad21eed1e1efab62d6380942a8557fed1fa82c4c13ee1213c296393aa79e5e86",
+      "checkpoint_sha256": "09a8c3d197fb9003bea1fd9ce120dfdf30ae278ddc881a38c8bd4d5531529414"
+    },
+    {
+      "study": "baseline",
+      "model": "mistral",
+      "cycles": 100,
+      "calls": 2369,
+      "last_response": "2026-10-30T22:59:31.370637+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "65907a19f892346f1984638beacae8abc21aaa30ebd66b229c20550ceb7b3924",
+      "checkpoint_sha256": "ceff1acb48dd4ac632440044cb9cb082531c3b45d92e5d00493a6398e08a2320"
+    },
+    {
+      "study": "memory4000",
+      "model": "llama",
+      "cycles": 100,
+      "calls": 2181,
+      "last_response": "2026-11-01T12:54:47.383854+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "56cb15dfc75af8965fff52efacff087eabde521325cf160ff6d52502a58461d0",
+      "checkpoint_sha256": "3a93cceef5cbce78f6a2ba6c170cf03a279cf841a54053ec401f3d45d2ba7c13"
+    },
+    {
+      "study": "memory4000",
+      "model": "qwen",
+      "cycles": 100,
+      "calls": 2096,
+      "last_response": "2026-11-01T15:59:04.605770+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "554fcb06e109d38bf601489f04d1b4dd40c0f4e141887abe1551c6b03ea7c902",
+      "checkpoint_sha256": "571d2b756e572dece363ddf6f23c3afd5cef2d4f47ff9a886f084f70a0fc506c"
+    },
+    {
+      "study": "memory4000",
+      "model": "gemma",
+      "cycles": 100,
+      "calls": 2126,
+      "last_response": "2026-11-01T18:53:32.612632+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "003a72d81b7d517950c566f03fd9e010e99c736bbe58a02fd77d6d4d30e309c2",
+      "checkpoint_sha256": "6fbabcc4a566611a6d388d8e1f48876a1dc2783ed418477ed51246d77ae30732"
+    },
+    {
+      "study": "memory4000",
+      "model": "mistral",
+      "cycles": 100,
+      "calls": 2201,
+      "last_response": "2026-11-01T21:44:30.678553+09:00",
+      "memory_and_feed_replayed": true,
+      "calls_sha256": "bf30c6a59fbd052a98b1bfbbdd7f389ec118a465f8c268490949d2374563846e",
+      "checkpoint_sha256": "bba12e49152edc8ddeb047dc6abd386f417e675845349588b1c088d915e3dee9"
+    }
+  ],
+  "review_code_sha256": "88f30bf87ab8a2bc2b40e8707f1061c7c4342642ecd181b48be3993ff559fb91"
+}

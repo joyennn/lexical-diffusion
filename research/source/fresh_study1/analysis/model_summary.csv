@@ -1,0 +1,5 @@
+model,cycles,independent_trajectories,generated_messages,mean_linked_reach,words_ever_linked_used,words_reaching_50percent,preexposure_agent_term_first_uses,interpretation
+llama,100,1,848,0.029629629629629627,9,1,3,"Descriptive trajectory; cycles, words and agents are not independent model replications."
+qwen,100,1,947,0.016666666666666666,9,0,0,"Descriptive trajectory; cycles, words and agents are not independent model replications."
+gemma,100,1,860,0.01851851851851852,7,0,0,"Descriptive trajectory; cycles, words and agents are not independent model replications."
+mistral,100,1,835,0.04444444444444444,16,1,4,"Descriptive trajectory; cycles, words and agents are not independent model replications."

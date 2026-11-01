@@ -1,0 +1,4 @@
+# Recorded local inference versions. Apple Silicon/macOS; numerical reproduction needs none of these.
+mlx==0.32.4
+mlx-lm==0.32.2
+huggingface-hub==2.3.0

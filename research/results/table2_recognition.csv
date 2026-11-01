@@ -1,0 +1,5 @@
+model,meaning_initial_word_macro_percent,cases,words,meaning_use_word_macro_percent,application_initial_word_macro_percent,application_use_word_macro_percent
+llama,97.22222222222221,29,18,100.0,72.91666666666666,75.0
+qwen,79.16666666666666,17,12,100.0,43.75,85.41666666666666
+gemma,100.0,34,26,100.0,94.23076923076923,96.15384615384616
+mistral,93.01075268817203,55,31,100.0,79.47388632872504,90.08064516129032

@@ -1,0 +1,2161 @@
+model,group,start_cycle,end_cycle,term_id,word,occurrences,users
+llama,all,1,100,0,cool beans,0,0
+llama,all,1,100,1,badd,2,1
+llama,all,1,100,2,baller,0,0
+llama,all,1,100,3,chef’s kiss,1,1
+llama,all,1,100,4,picture perfect,1,1
+llama,all,1,100,5,power couple,1,1
+llama,all,1,100,6,rainbow baby,0,0
+llama,all,1,100,7,spooning,1,1
+llama,all,1,100,8,tendies,3,1
+llama,all,1,100,9,word up,0,0
+llama,all,1,100,10,almond mom,0,0
+llama,all,1,100,11,awkward turtle,1,1
+llama,all,1,100,12,butterface,0,0
+llama,all,1,100,13,concern troll,0,0
+llama,all,1,100,14,hamster angle,0,0
+llama,all,1,100,15,problem child,0,0
+llama,all,1,100,16,problematic fave,0,0
+llama,all,1,100,17,sadfishing,0,0
+llama,all,1,100,18,shadow banning,0,0
+llama,all,1,100,19,throwing shade,0,0
+llama,all,1,100,20,adorkable,0,0
+llama,all,1,100,21,dayt,2,1
+llama,all,1,100,22,egotastic,0,0
+llama,all,1,100,23,Friyay,4,1
+llama,all,1,100,24,Galentine’s Day,53,6
+llama,all,1,100,25,realest,0,0
+llama,all,1,100,26,sliving,19,1
+llama,all,1,100,27,smexy,1,1
+llama,all,1,100,28,smize,1,1
+llama,all,1,100,29,quirkyalone,0,0
+llama,all,1,100,30,brigading,0,0
+llama,all,1,100,31,coronaversary,0,0
+llama,all,1,100,32,edgelord,0,0
+llama,all,1,100,33,feminazi,0,0
+llama,all,1,100,34,headdesk,0,0
+llama,all,1,100,35,maskne,0,0
+llama,all,1,100,36,demotional,1,1
+llama,all,1,100,37,selfiecide,0,0
+llama,all,1,100,38,unalive,2,1
+llama,all,1,100,39,whitesplain,0,0
+llama,all,1,100,40,alpha,1,1
+llama,all,1,100,41,drip,0,0
+llama,all,1,100,42,G.O.A.T.,0,0
+llama,all,1,100,43,juice,3,3
+llama,all,1,100,44,pick six,0,0
+llama,all,1,100,45,woke,5,2
+llama,all,1,100,46,going platinum,0,0
+llama,all,1,100,47,hugs and kisses,0,0
+llama,all,1,100,48,Praise the Sun,0,0
+llama,all,1,100,49,relationship goals,2,2
+llama,all,1,100,50,an hero,0,0
+llama,all,1,100,51,beta,0,0
+llama,all,1,100,52,brick wall,0,0
+llama,all,1,100,53,mid,3,2
+llama,all,1,100,54,shook,7,2
+llama,all,1,100,55,snowflake,0,0
+llama,all,1,100,56,sportsball,0,0
+llama,all,1,100,57,this guy,0,0
+llama,all,1,100,58,too much sauce,0,0
+llama,all,1,100,59,washed,0,0
+llama,all,101,200,0,cool beans,0,0
+llama,all,101,200,1,badd,2,1
+llama,all,101,200,2,baller,2,2
+llama,all,101,200,3,chef’s kiss,2,1
+llama,all,101,200,4,picture perfect,2,1
+llama,all,101,200,5,power couple,0,0
+llama,all,101,200,6,rainbow baby,0,0
+llama,all,101,200,7,spooning,0,0
+llama,all,101,200,8,tendies,3,2
+llama,all,101,200,9,word up,3,1
+llama,all,101,200,10,almond mom,1,1
+llama,all,101,200,11,awkward turtle,1,1
+llama,all,101,200,12,butterface,0,0
+llama,all,101,200,13,concern troll,0,0
+llama,all,101,200,14,hamster angle,0,0
+llama,all,101,200,15,problem child,2,1
+llama,all,101,200,16,problematic fave,0,0
+llama,all,101,200,17,sadfishing,0,0
+llama,all,101,200,18,shadow banning,0,0
+llama,all,101,200,19,throwing shade,0,0
+llama,all,101,200,20,adorkable,3,1
+llama,all,101,200,21,dayt,5,1
+llama,all,101,200,22,egotastic,0,0
+llama,all,101,200,23,Friyay,1,1
+llama,all,101,200,24,Galentine’s Day,37,6
+llama,all,101,200,25,realest,7,1
+llama,all,101,200,26,sliving,32,2
+llama,all,101,200,27,smexy,0,0
+llama,all,101,200,28,smize,0,0
+llama,all,101,200,29,quirkyalone,0,0
+llama,all,101,200,30,brigading,0,0
+llama,all,101,200,31,coronaversary,2,1
+llama,all,101,200,32,edgelord,0,0
+llama,all,101,200,33,feminazi,0,0
+llama,all,101,200,34,headdesk,0,0
+llama,all,101,200,35,maskne,17,3
+llama,all,101,200,36,demotional,0,0
+llama,all,101,200,37,selfiecide,0,0
+llama,all,101,200,38,unalive,0,0
+llama,all,101,200,39,whitesplain,0,0
+llama,all,101,200,40,alpha,0,0
+llama,all,101,200,41,drip,0,0
+llama,all,101,200,42,G.O.A.T.,2,1
+llama,all,101,200,43,juice,0,0
+llama,all,101,200,44,pick six,0,0
+llama,all,101,200,45,woke,3,1
+llama,all,101,200,46,going platinum,0,0
+llama,all,101,200,47,hugs and kisses,0,0
+llama,all,101,200,48,Praise the Sun,0,0
+llama,all,101,200,49,relationship goals,0,0
+llama,all,101,200,50,an hero,0,0
+llama,all,101,200,51,beta,0,0
+llama,all,101,200,52,brick wall,0,0
+llama,all,101,200,53,mid,5,1
+llama,all,101,200,54,shook,0,0
+llama,all,101,200,55,snowflake,0,0
+llama,all,101,200,56,sportsball,0,0
+llama,all,101,200,57,this guy,0,0
+llama,all,101,200,58,too much sauce,0,0
+llama,all,101,200,59,washed,0,0
+llama,all,1,200,0,cool beans,0,0
+llama,all,1,200,1,badd,4,1
+llama,all,1,200,2,baller,2,2
+llama,all,1,200,3,chef’s kiss,3,2
+llama,all,1,200,4,picture perfect,3,1
+llama,all,1,200,5,power couple,1,1
+llama,all,1,200,6,rainbow baby,0,0
+llama,all,1,200,7,spooning,1,1
+llama,all,1,200,8,tendies,6,2
+llama,all,1,200,9,word up,3,1
+llama,all,1,200,10,almond mom,1,1
+llama,all,1,200,11,awkward turtle,2,2
+llama,all,1,200,12,butterface,0,0
+llama,all,1,200,13,concern troll,0,0
+llama,all,1,200,14,hamster angle,0,0
+llama,all,1,200,15,problem child,2,1
+llama,all,1,200,16,problematic fave,0,0
+llama,all,1,200,17,sadfishing,0,0
+llama,all,1,200,18,shadow banning,0,0
+llama,all,1,200,19,throwing shade,0,0
+llama,all,1,200,20,adorkable,3,1
+llama,all,1,200,21,dayt,7,1
+llama,all,1,200,22,egotastic,0,0
+llama,all,1,200,23,Friyay,5,1
+llama,all,1,200,24,Galentine’s Day,90,6
+llama,all,1,200,25,realest,7,1
+llama,all,1,200,26,sliving,51,2
+llama,all,1,200,27,smexy,1,1
+llama,all,1,200,28,smize,1,1
+llama,all,1,200,29,quirkyalone,0,0
+llama,all,1,200,30,brigading,0,0
+llama,all,1,200,31,coronaversary,2,1
+llama,all,1,200,32,edgelord,0,0
+llama,all,1,200,33,feminazi,0,0
+llama,all,1,200,34,headdesk,0,0
+llama,all,1,200,35,maskne,17,3
+llama,all,1,200,36,demotional,1,1
+llama,all,1,200,37,selfiecide,0,0
+llama,all,1,200,38,unalive,2,1
+llama,all,1,200,39,whitesplain,0,0
+llama,all,1,200,40,alpha,1,1
+llama,all,1,200,41,drip,0,0
+llama,all,1,200,42,G.O.A.T.,2,1
+llama,all,1,200,43,juice,3,3
+llama,all,1,200,44,pick six,0,0
+llama,all,1,200,45,woke,8,2
+llama,all,1,200,46,going platinum,0,0
+llama,all,1,200,47,hugs and kisses,0,0
+llama,all,1,200,48,Praise the Sun,0,0
+llama,all,1,200,49,relationship goals,2,2
+llama,all,1,200,50,an hero,0,0
+llama,all,1,200,51,beta,0,0
+llama,all,1,200,52,brick wall,0,0
+llama,all,1,200,53,mid,8,3
+llama,all,1,200,54,shook,7,2
+llama,all,1,200,55,snowflake,0,0
+llama,all,1,200,56,sportsball,0,0
+llama,all,1,200,57,this guy,0,0
+llama,all,1,200,58,too much sauce,0,0
+llama,all,1,200,59,washed,0,0
+llama,source,1,100,0,cool beans,0,0
+llama,source,1,100,1,badd,2,1
+llama,source,1,100,2,baller,0,0
+llama,source,1,100,3,chef’s kiss,0,0
+llama,source,1,100,4,picture perfect,1,1
+llama,source,1,100,5,power couple,1,1
+llama,source,1,100,6,rainbow baby,0,0
+llama,source,1,100,7,spooning,1,1
+llama,source,1,100,8,tendies,3,1
+llama,source,1,100,9,word up,0,0
+llama,source,1,100,10,almond mom,0,0
+llama,source,1,100,11,awkward turtle,0,0
+llama,source,1,100,12,butterface,0,0
+llama,source,1,100,13,concern troll,0,0
+llama,source,1,100,14,hamster angle,0,0
+llama,source,1,100,15,problem child,0,0
+llama,source,1,100,16,problematic fave,0,0
+llama,source,1,100,17,sadfishing,0,0
+llama,source,1,100,18,shadow banning,0,0
+llama,source,1,100,19,throwing shade,0,0
+llama,source,1,100,20,adorkable,0,0
+llama,source,1,100,21,dayt,2,1
+llama,source,1,100,22,egotastic,0,0
+llama,source,1,100,23,Friyay,4,1
+llama,source,1,100,24,Galentine’s Day,30,1
+llama,source,1,100,25,realest,0,0
+llama,source,1,100,26,sliving,19,1
+llama,source,1,100,27,smexy,1,1
+llama,source,1,100,28,smize,1,1
+llama,source,1,100,29,quirkyalone,0,0
+llama,source,1,100,30,brigading,0,0
+llama,source,1,100,31,coronaversary,0,0
+llama,source,1,100,32,edgelord,0,0
+llama,source,1,100,33,feminazi,0,0
+llama,source,1,100,34,headdesk,0,0
+llama,source,1,100,35,maskne,0,0
+llama,source,1,100,36,demotional,0,0
+llama,source,1,100,37,selfiecide,0,0
+llama,source,1,100,38,unalive,0,0
+llama,source,1,100,39,whitesplain,0,0
+llama,source,1,100,40,alpha,0,0
+llama,source,1,100,41,drip,0,0
+llama,source,1,100,42,G.O.A.T.,0,0
+llama,source,1,100,43,juice,1,1
+llama,source,1,100,44,pick six,0,0
+llama,source,1,100,45,woke,3,1
+llama,source,1,100,46,going platinum,0,0
+llama,source,1,100,47,hugs and kisses,0,0
+llama,source,1,100,48,Praise the Sun,0,0
+llama,source,1,100,49,relationship goals,0,0
+llama,source,1,100,50,an hero,0,0
+llama,source,1,100,51,beta,0,0
+llama,source,1,100,52,brick wall,0,0
+llama,source,1,100,53,mid,0,0
+llama,source,1,100,54,shook,0,0
+llama,source,1,100,55,snowflake,0,0
+llama,source,1,100,56,sportsball,0,0
+llama,source,1,100,57,this guy,0,0
+llama,source,1,100,58,too much sauce,0,0
+llama,source,1,100,59,washed,0,0
+llama,source,101,200,0,cool beans,0,0
+llama,source,101,200,1,badd,2,1
+llama,source,101,200,2,baller,1,1
+llama,source,101,200,3,chef’s kiss,2,1
+llama,source,101,200,4,picture perfect,2,1
+llama,source,101,200,5,power couple,0,0
+llama,source,101,200,6,rainbow baby,0,0
+llama,source,101,200,7,spooning,0,0
+llama,source,101,200,8,tendies,2,1
+llama,source,101,200,9,word up,3,1
+llama,source,101,200,10,almond mom,1,1
+llama,source,101,200,11,awkward turtle,1,1
+llama,source,101,200,12,butterface,0,0
+llama,source,101,200,13,concern troll,0,0
+llama,source,101,200,14,hamster angle,0,0
+llama,source,101,200,15,problem child,2,1
+llama,source,101,200,16,problematic fave,0,0
+llama,source,101,200,17,sadfishing,0,0
+llama,source,101,200,18,shadow banning,0,0
+llama,source,101,200,19,throwing shade,0,0
+llama,source,101,200,20,adorkable,3,1
+llama,source,101,200,21,dayt,5,1
+llama,source,101,200,22,egotastic,0,0
+llama,source,101,200,23,Friyay,1,1
+llama,source,101,200,24,Galentine’s Day,21,1
+llama,source,101,200,25,realest,7,1
+llama,source,101,200,26,sliving,31,1
+llama,source,101,200,27,smexy,0,0
+llama,source,101,200,28,smize,0,0
+llama,source,101,200,29,quirkyalone,0,0
+llama,source,101,200,30,brigading,0,0
+llama,source,101,200,31,coronaversary,2,1
+llama,source,101,200,32,edgelord,0,0
+llama,source,101,200,33,feminazi,0,0
+llama,source,101,200,34,headdesk,0,0
+llama,source,101,200,35,maskne,0,0
+llama,source,101,200,36,demotional,0,0
+llama,source,101,200,37,selfiecide,0,0
+llama,source,101,200,38,unalive,0,0
+llama,source,101,200,39,whitesplain,0,0
+llama,source,101,200,40,alpha,0,0
+llama,source,101,200,41,drip,0,0
+llama,source,101,200,42,G.O.A.T.,2,1
+llama,source,101,200,43,juice,0,0
+llama,source,101,200,44,pick six,0,0
+llama,source,101,200,45,woke,3,1
+llama,source,101,200,46,going platinum,0,0
+llama,source,101,200,47,hugs and kisses,0,0
+llama,source,101,200,48,Praise the Sun,0,0
+llama,source,101,200,49,relationship goals,0,0
+llama,source,101,200,50,an hero,0,0
+llama,source,101,200,51,beta,0,0
+llama,source,101,200,52,brick wall,0,0
+llama,source,101,200,53,mid,0,0
+llama,source,101,200,54,shook,0,0
+llama,source,101,200,55,snowflake,0,0
+llama,source,101,200,56,sportsball,0,0
+llama,source,101,200,57,this guy,0,0
+llama,source,101,200,58,too much sauce,0,0
+llama,source,101,200,59,washed,0,0
+llama,source,1,200,0,cool beans,0,0
+llama,source,1,200,1,badd,4,1
+llama,source,1,200,2,baller,1,1
+llama,source,1,200,3,chef’s kiss,2,1
+llama,source,1,200,4,picture perfect,3,1
+llama,source,1,200,5,power couple,1,1
+llama,source,1,200,6,rainbow baby,0,0
+llama,source,1,200,7,spooning,1,1
+llama,source,1,200,8,tendies,5,1
+llama,source,1,200,9,word up,3,1
+llama,source,1,200,10,almond mom,1,1
+llama,source,1,200,11,awkward turtle,1,1
+llama,source,1,200,12,butterface,0,0
+llama,source,1,200,13,concern troll,0,0
+llama,source,1,200,14,hamster angle,0,0
+llama,source,1,200,15,problem child,2,1
+llama,source,1,200,16,problematic fave,0,0
+llama,source,1,200,17,sadfishing,0,0
+llama,source,1,200,18,shadow banning,0,0
+llama,source,1,200,19,throwing shade,0,0
+llama,source,1,200,20,adorkable,3,1
+llama,source,1,200,21,dayt,7,1
+llama,source,1,200,22,egotastic,0,0
+llama,source,1,200,23,Friyay,5,1
+llama,source,1,200,24,Galentine’s Day,51,1
+llama,source,1,200,25,realest,7,1
+llama,source,1,200,26,sliving,50,1
+llama,source,1,200,27,smexy,1,1
+llama,source,1,200,28,smize,1,1
+llama,source,1,200,29,quirkyalone,0,0
+llama,source,1,200,30,brigading,0,0
+llama,source,1,200,31,coronaversary,2,1
+llama,source,1,200,32,edgelord,0,0
+llama,source,1,200,33,feminazi,0,0
+llama,source,1,200,34,headdesk,0,0
+llama,source,1,200,35,maskne,0,0
+llama,source,1,200,36,demotional,0,0
+llama,source,1,200,37,selfiecide,0,0
+llama,source,1,200,38,unalive,0,0
+llama,source,1,200,39,whitesplain,0,0
+llama,source,1,200,40,alpha,0,0
+llama,source,1,200,41,drip,0,0
+llama,source,1,200,42,G.O.A.T.,2,1
+llama,source,1,200,43,juice,1,1
+llama,source,1,200,44,pick six,0,0
+llama,source,1,200,45,woke,6,1
+llama,source,1,200,46,going platinum,0,0
+llama,source,1,200,47,hugs and kisses,0,0
+llama,source,1,200,48,Praise the Sun,0,0
+llama,source,1,200,49,relationship goals,0,0
+llama,source,1,200,50,an hero,0,0
+llama,source,1,200,51,beta,0,0
+llama,source,1,200,52,brick wall,0,0
+llama,source,1,200,53,mid,0,0
+llama,source,1,200,54,shook,0,0
+llama,source,1,200,55,snowflake,0,0
+llama,source,1,200,56,sportsball,0,0
+llama,source,1,200,57,this guy,0,0
+llama,source,1,200,58,too much sauce,0,0
+llama,source,1,200,59,washed,0,0
+llama,nonseed,1,100,0,cool beans,0,0
+llama,nonseed,1,100,1,badd,0,0
+llama,nonseed,1,100,2,baller,0,0
+llama,nonseed,1,100,3,chef’s kiss,1,1
+llama,nonseed,1,100,4,picture perfect,0,0
+llama,nonseed,1,100,5,power couple,0,0
+llama,nonseed,1,100,6,rainbow baby,0,0
+llama,nonseed,1,100,7,spooning,0,0
+llama,nonseed,1,100,8,tendies,0,0
+llama,nonseed,1,100,9,word up,0,0
+llama,nonseed,1,100,10,almond mom,0,0
+llama,nonseed,1,100,11,awkward turtle,1,1
+llama,nonseed,1,100,12,butterface,0,0
+llama,nonseed,1,100,13,concern troll,0,0
+llama,nonseed,1,100,14,hamster angle,0,0
+llama,nonseed,1,100,15,problem child,0,0
+llama,nonseed,1,100,16,problematic fave,0,0
+llama,nonseed,1,100,17,sadfishing,0,0
+llama,nonseed,1,100,18,shadow banning,0,0
+llama,nonseed,1,100,19,throwing shade,0,0
+llama,nonseed,1,100,20,adorkable,0,0
+llama,nonseed,1,100,21,dayt,0,0
+llama,nonseed,1,100,22,egotastic,0,0
+llama,nonseed,1,100,23,Friyay,0,0
+llama,nonseed,1,100,24,Galentine’s Day,23,5
+llama,nonseed,1,100,25,realest,0,0
+llama,nonseed,1,100,26,sliving,0,0
+llama,nonseed,1,100,27,smexy,0,0
+llama,nonseed,1,100,28,smize,0,0
+llama,nonseed,1,100,29,quirkyalone,0,0
+llama,nonseed,1,100,30,brigading,0,0
+llama,nonseed,1,100,31,coronaversary,0,0
+llama,nonseed,1,100,32,edgelord,0,0
+llama,nonseed,1,100,33,feminazi,0,0
+llama,nonseed,1,100,34,headdesk,0,0
+llama,nonseed,1,100,35,maskne,0,0
+llama,nonseed,1,100,36,demotional,1,1
+llama,nonseed,1,100,37,selfiecide,0,0
+llama,nonseed,1,100,38,unalive,2,1
+llama,nonseed,1,100,39,whitesplain,0,0
+llama,nonseed,1,100,40,alpha,1,1
+llama,nonseed,1,100,41,drip,0,0
+llama,nonseed,1,100,42,G.O.A.T.,0,0
+llama,nonseed,1,100,43,juice,2,2
+llama,nonseed,1,100,44,pick six,0,0
+llama,nonseed,1,100,45,woke,2,1
+llama,nonseed,1,100,46,going platinum,0,0
+llama,nonseed,1,100,47,hugs and kisses,0,0
+llama,nonseed,1,100,48,Praise the Sun,0,0
+llama,nonseed,1,100,49,relationship goals,2,2
+llama,nonseed,1,100,50,an hero,0,0
+llama,nonseed,1,100,51,beta,0,0
+llama,nonseed,1,100,52,brick wall,0,0
+llama,nonseed,1,100,53,mid,3,2
+llama,nonseed,1,100,54,shook,7,2
+llama,nonseed,1,100,55,snowflake,0,0
+llama,nonseed,1,100,56,sportsball,0,0
+llama,nonseed,1,100,57,this guy,0,0
+llama,nonseed,1,100,58,too much sauce,0,0
+llama,nonseed,1,100,59,washed,0,0
+llama,nonseed,101,200,0,cool beans,0,0
+llama,nonseed,101,200,1,badd,0,0
+llama,nonseed,101,200,2,baller,1,1
+llama,nonseed,101,200,3,chef’s kiss,0,0
+llama,nonseed,101,200,4,picture perfect,0,0
+llama,nonseed,101,200,5,power couple,0,0
+llama,nonseed,101,200,6,rainbow baby,0,0
+llama,nonseed,101,200,7,spooning,0,0
+llama,nonseed,101,200,8,tendies,1,1
+llama,nonseed,101,200,9,word up,0,0
+llama,nonseed,101,200,10,almond mom,0,0
+llama,nonseed,101,200,11,awkward turtle,0,0
+llama,nonseed,101,200,12,butterface,0,0
+llama,nonseed,101,200,13,concern troll,0,0
+llama,nonseed,101,200,14,hamster angle,0,0
+llama,nonseed,101,200,15,problem child,0,0
+llama,nonseed,101,200,16,problematic fave,0,0
+llama,nonseed,101,200,17,sadfishing,0,0
+llama,nonseed,101,200,18,shadow banning,0,0
+llama,nonseed,101,200,19,throwing shade,0,0
+llama,nonseed,101,200,20,adorkable,0,0
+llama,nonseed,101,200,21,dayt,0,0
+llama,nonseed,101,200,22,egotastic,0,0
+llama,nonseed,101,200,23,Friyay,0,0
+llama,nonseed,101,200,24,Galentine’s Day,16,5
+llama,nonseed,101,200,25,realest,0,0
+llama,nonseed,101,200,26,sliving,1,1
+llama,nonseed,101,200,27,smexy,0,0
+llama,nonseed,101,200,28,smize,0,0
+llama,nonseed,101,200,29,quirkyalone,0,0
+llama,nonseed,101,200,30,brigading,0,0
+llama,nonseed,101,200,31,coronaversary,0,0
+llama,nonseed,101,200,32,edgelord,0,0
+llama,nonseed,101,200,33,feminazi,0,0
+llama,nonseed,101,200,34,headdesk,0,0
+llama,nonseed,101,200,35,maskne,17,3
+llama,nonseed,101,200,36,demotional,0,0
+llama,nonseed,101,200,37,selfiecide,0,0
+llama,nonseed,101,200,38,unalive,0,0
+llama,nonseed,101,200,39,whitesplain,0,0
+llama,nonseed,101,200,40,alpha,0,0
+llama,nonseed,101,200,41,drip,0,0
+llama,nonseed,101,200,42,G.O.A.T.,0,0
+llama,nonseed,101,200,43,juice,0,0
+llama,nonseed,101,200,44,pick six,0,0
+llama,nonseed,101,200,45,woke,0,0
+llama,nonseed,101,200,46,going platinum,0,0
+llama,nonseed,101,200,47,hugs and kisses,0,0
+llama,nonseed,101,200,48,Praise the Sun,0,0
+llama,nonseed,101,200,49,relationship goals,0,0
+llama,nonseed,101,200,50,an hero,0,0
+llama,nonseed,101,200,51,beta,0,0
+llama,nonseed,101,200,52,brick wall,0,0
+llama,nonseed,101,200,53,mid,5,1
+llama,nonseed,101,200,54,shook,0,0
+llama,nonseed,101,200,55,snowflake,0,0
+llama,nonseed,101,200,56,sportsball,0,0
+llama,nonseed,101,200,57,this guy,0,0
+llama,nonseed,101,200,58,too much sauce,0,0
+llama,nonseed,101,200,59,washed,0,0
+llama,nonseed,1,200,0,cool beans,0,0
+llama,nonseed,1,200,1,badd,0,0
+llama,nonseed,1,200,2,baller,1,1
+llama,nonseed,1,200,3,chef’s kiss,1,1
+llama,nonseed,1,200,4,picture perfect,0,0
+llama,nonseed,1,200,5,power couple,0,0
+llama,nonseed,1,200,6,rainbow baby,0,0
+llama,nonseed,1,200,7,spooning,0,0
+llama,nonseed,1,200,8,tendies,1,1
+llama,nonseed,1,200,9,word up,0,0
+llama,nonseed,1,200,10,almond mom,0,0
+llama,nonseed,1,200,11,awkward turtle,1,1
+llama,nonseed,1,200,12,butterface,0,0
+llama,nonseed,1,200,13,concern troll,0,0
+llama,nonseed,1,200,14,hamster angle,0,0
+llama,nonseed,1,200,15,problem child,0,0
+llama,nonseed,1,200,16,problematic fave,0,0
+llama,nonseed,1,200,17,sadfishing,0,0
+llama,nonseed,1,200,18,shadow banning,0,0
+llama,nonseed,1,200,19,throwing shade,0,0
+llama,nonseed,1,200,20,adorkable,0,0
+llama,nonseed,1,200,21,dayt,0,0
+llama,nonseed,1,200,22,egotastic,0,0
+llama,nonseed,1,200,23,Friyay,0,0
+llama,nonseed,1,200,24,Galentine’s Day,39,5
+llama,nonseed,1,200,25,realest,0,0
+llama,nonseed,1,200,26,sliving,1,1
+llama,nonseed,1,200,27,smexy,0,0
+llama,nonseed,1,200,28,smize,0,0
+llama,nonseed,1,200,29,quirkyalone,0,0
+llama,nonseed,1,200,30,brigading,0,0
+llama,nonseed,1,200,31,coronaversary,0,0
+llama,nonseed,1,200,32,edgelord,0,0
+llama,nonseed,1,200,33,feminazi,0,0
+llama,nonseed,1,200,34,headdesk,0,0
+llama,nonseed,1,200,35,maskne,17,3
+llama,nonseed,1,200,36,demotional,1,1
+llama,nonseed,1,200,37,selfiecide,0,0
+llama,nonseed,1,200,38,unalive,2,1
+llama,nonseed,1,200,39,whitesplain,0,0
+llama,nonseed,1,200,40,alpha,1,1
+llama,nonseed,1,200,41,drip,0,0
+llama,nonseed,1,200,42,G.O.A.T.,0,0
+llama,nonseed,1,200,43,juice,2,2
+llama,nonseed,1,200,44,pick six,0,0
+llama,nonseed,1,200,45,woke,2,1
+llama,nonseed,1,200,46,going platinum,0,0
+llama,nonseed,1,200,47,hugs and kisses,0,0
+llama,nonseed,1,200,48,Praise the Sun,0,0
+llama,nonseed,1,200,49,relationship goals,2,2
+llama,nonseed,1,200,50,an hero,0,0
+llama,nonseed,1,200,51,beta,0,0
+llama,nonseed,1,200,52,brick wall,0,0
+llama,nonseed,1,200,53,mid,8,3
+llama,nonseed,1,200,54,shook,7,2
+llama,nonseed,1,200,55,snowflake,0,0
+llama,nonseed,1,200,56,sportsball,0,0
+llama,nonseed,1,200,57,this guy,0,0
+llama,nonseed,1,200,58,too much sauce,0,0
+llama,nonseed,1,200,59,washed,0,0
+qwen,all,1,100,0,cool beans,0,0
+qwen,all,1,100,1,badd,1,1
+qwen,all,1,100,2,baller,0,0
+qwen,all,1,100,3,chef’s kiss,43,2
+qwen,all,1,100,4,picture perfect,1,1
+qwen,all,1,100,5,power couple,0,0
+qwen,all,1,100,6,rainbow baby,0,0
+qwen,all,1,100,7,spooning,0,0
+qwen,all,1,100,8,tendies,0,0
+qwen,all,1,100,9,word up,0,0
+qwen,all,1,100,10,almond mom,0,0
+qwen,all,1,100,11,awkward turtle,0,0
+qwen,all,1,100,12,butterface,0,0
+qwen,all,1,100,13,concern troll,0,0
+qwen,all,1,100,14,hamster angle,0,0
+qwen,all,1,100,15,problem child,0,0
+qwen,all,1,100,16,problematic fave,0,0
+qwen,all,1,100,17,sadfishing,0,0
+qwen,all,1,100,18,shadow banning,0,0
+qwen,all,1,100,19,throwing shade,0,0
+qwen,all,1,100,20,adorkable,1,1
+qwen,all,1,100,21,dayt,0,0
+qwen,all,1,100,22,egotastic,0,0
+qwen,all,1,100,23,Friyay,79,2
+qwen,all,1,100,24,Galentine’s Day,0,0
+qwen,all,1,100,25,realest,0,0
+qwen,all,1,100,26,sliving,1,1
+qwen,all,1,100,27,smexy,0,0
+qwen,all,1,100,28,smize,0,0
+qwen,all,1,100,29,quirkyalone,0,0
+qwen,all,1,100,30,brigading,0,0
+qwen,all,1,100,31,coronaversary,1,1
+qwen,all,1,100,32,edgelord,0,0
+qwen,all,1,100,33,feminazi,0,0
+qwen,all,1,100,34,headdesk,0,0
+qwen,all,1,100,35,maskne,0,0
+qwen,all,1,100,36,demotional,0,0
+qwen,all,1,100,37,selfiecide,0,0
+qwen,all,1,100,38,unalive,0,0
+qwen,all,1,100,39,whitesplain,0,0
+qwen,all,1,100,40,alpha,0,0
+qwen,all,1,100,41,drip,0,0
+qwen,all,1,100,42,G.O.A.T.,0,0
+qwen,all,1,100,43,juice,4,1
+qwen,all,1,100,44,pick six,0,0
+qwen,all,1,100,45,woke,1,1
+qwen,all,1,100,46,going platinum,0,0
+qwen,all,1,100,47,hugs and kisses,0,0
+qwen,all,1,100,48,Praise the Sun,0,0
+qwen,all,1,100,49,relationship goals,0,0
+qwen,all,1,100,50,an hero,0,0
+qwen,all,1,100,51,beta,0,0
+qwen,all,1,100,52,brick wall,36,1
+qwen,all,1,100,53,mid,0,0
+qwen,all,1,100,54,shook,0,0
+qwen,all,1,100,55,snowflake,0,0
+qwen,all,1,100,56,sportsball,0,0
+qwen,all,1,100,57,this guy,0,0
+qwen,all,1,100,58,too much sauce,0,0
+qwen,all,1,100,59,washed,0,0
+qwen,all,101,200,0,cool beans,0,0
+qwen,all,101,200,1,badd,0,0
+qwen,all,101,200,2,baller,0,0
+qwen,all,101,200,3,chef’s kiss,79,3
+qwen,all,101,200,4,picture perfect,14,1
+qwen,all,101,200,5,power couple,5,1
+qwen,all,101,200,6,rainbow baby,12,1
+qwen,all,101,200,7,spooning,0,0
+qwen,all,101,200,8,tendies,0,0
+qwen,all,101,200,9,word up,0,0
+qwen,all,101,200,10,almond mom,0,0
+qwen,all,101,200,11,awkward turtle,0,0
+qwen,all,101,200,12,butterface,0,0
+qwen,all,101,200,13,concern troll,0,0
+qwen,all,101,200,14,hamster angle,1,1
+qwen,all,101,200,15,problem child,0,0
+qwen,all,101,200,16,problematic fave,0,0
+qwen,all,101,200,17,sadfishing,0,0
+qwen,all,101,200,18,shadow banning,0,0
+qwen,all,101,200,19,throwing shade,0,0
+qwen,all,101,200,20,adorkable,0,0
+qwen,all,101,200,21,dayt,0,0
+qwen,all,101,200,22,egotastic,0,0
+qwen,all,101,200,23,Friyay,67,4
+qwen,all,101,200,24,Galentine’s Day,0,0
+qwen,all,101,200,25,realest,0,0
+qwen,all,101,200,26,sliving,0,0
+qwen,all,101,200,27,smexy,0,0
+qwen,all,101,200,28,smize,0,0
+qwen,all,101,200,29,quirkyalone,0,0
+qwen,all,101,200,30,brigading,0,0
+qwen,all,101,200,31,coronaversary,0,0
+qwen,all,101,200,32,edgelord,0,0
+qwen,all,101,200,33,feminazi,0,0
+qwen,all,101,200,34,headdesk,0,0
+qwen,all,101,200,35,maskne,0,0
+qwen,all,101,200,36,demotional,0,0
+qwen,all,101,200,37,selfiecide,0,0
+qwen,all,101,200,38,unalive,0,0
+qwen,all,101,200,39,whitesplain,0,0
+qwen,all,101,200,40,alpha,0,0
+qwen,all,101,200,41,drip,0,0
+qwen,all,101,200,42,G.O.A.T.,0,0
+qwen,all,101,200,43,juice,0,0
+qwen,all,101,200,44,pick six,0,0
+qwen,all,101,200,45,woke,0,0
+qwen,all,101,200,46,going platinum,0,0
+qwen,all,101,200,47,hugs and kisses,0,0
+qwen,all,101,200,48,Praise the Sun,0,0
+qwen,all,101,200,49,relationship goals,0,0
+qwen,all,101,200,50,an hero,0,0
+qwen,all,101,200,51,beta,0,0
+qwen,all,101,200,52,brick wall,0,0
+qwen,all,101,200,53,mid,0,0
+qwen,all,101,200,54,shook,0,0
+qwen,all,101,200,55,snowflake,0,0
+qwen,all,101,200,56,sportsball,0,0
+qwen,all,101,200,57,this guy,0,0
+qwen,all,101,200,58,too much sauce,0,0
+qwen,all,101,200,59,washed,0,0
+qwen,all,1,200,0,cool beans,0,0
+qwen,all,1,200,1,badd,1,1
+qwen,all,1,200,2,baller,0,0
+qwen,all,1,200,3,chef’s kiss,122,3
+qwen,all,1,200,4,picture perfect,15,2
+qwen,all,1,200,5,power couple,5,1
+qwen,all,1,200,6,rainbow baby,12,1
+qwen,all,1,200,7,spooning,0,0
+qwen,all,1,200,8,tendies,0,0
+qwen,all,1,200,9,word up,0,0
+qwen,all,1,200,10,almond mom,0,0
+qwen,all,1,200,11,awkward turtle,0,0
+qwen,all,1,200,12,butterface,0,0
+qwen,all,1,200,13,concern troll,0,0
+qwen,all,1,200,14,hamster angle,1,1
+qwen,all,1,200,15,problem child,0,0
+qwen,all,1,200,16,problematic fave,0,0
+qwen,all,1,200,17,sadfishing,0,0
+qwen,all,1,200,18,shadow banning,0,0
+qwen,all,1,200,19,throwing shade,0,0
+qwen,all,1,200,20,adorkable,1,1
+qwen,all,1,200,21,dayt,0,0
+qwen,all,1,200,22,egotastic,0,0
+qwen,all,1,200,23,Friyay,146,4
+qwen,all,1,200,24,Galentine’s Day,0,0
+qwen,all,1,200,25,realest,0,0
+qwen,all,1,200,26,sliving,1,1
+qwen,all,1,200,27,smexy,0,0
+qwen,all,1,200,28,smize,0,0
+qwen,all,1,200,29,quirkyalone,0,0
+qwen,all,1,200,30,brigading,0,0
+qwen,all,1,200,31,coronaversary,1,1
+qwen,all,1,200,32,edgelord,0,0
+qwen,all,1,200,33,feminazi,0,0
+qwen,all,1,200,34,headdesk,0,0
+qwen,all,1,200,35,maskne,0,0
+qwen,all,1,200,36,demotional,0,0
+qwen,all,1,200,37,selfiecide,0,0
+qwen,all,1,200,38,unalive,0,0
+qwen,all,1,200,39,whitesplain,0,0
+qwen,all,1,200,40,alpha,0,0
+qwen,all,1,200,41,drip,0,0
+qwen,all,1,200,42,G.O.A.T.,0,0
+qwen,all,1,200,43,juice,4,1
+qwen,all,1,200,44,pick six,0,0
+qwen,all,1,200,45,woke,1,1
+qwen,all,1,200,46,going platinum,0,0
+qwen,all,1,200,47,hugs and kisses,0,0
+qwen,all,1,200,48,Praise the Sun,0,0
+qwen,all,1,200,49,relationship goals,0,0
+qwen,all,1,200,50,an hero,0,0
+qwen,all,1,200,51,beta,0,0
+qwen,all,1,200,52,brick wall,36,1
+qwen,all,1,200,53,mid,0,0
+qwen,all,1,200,54,shook,0,0
+qwen,all,1,200,55,snowflake,0,0
+qwen,all,1,200,56,sportsball,0,0
+qwen,all,1,200,57,this guy,0,0
+qwen,all,1,200,58,too much sauce,0,0
+qwen,all,1,200,59,washed,0,0
+qwen,source,1,100,0,cool beans,0,0
+qwen,source,1,100,1,badd,0,0
+qwen,source,1,100,2,baller,0,0
+qwen,source,1,100,3,chef’s kiss,42,1
+qwen,source,1,100,4,picture perfect,0,0
+qwen,source,1,100,5,power couple,0,0
+qwen,source,1,100,6,rainbow baby,0,0
+qwen,source,1,100,7,spooning,0,0
+qwen,source,1,100,8,tendies,0,0
+qwen,source,1,100,9,word up,0,0
+qwen,source,1,100,10,almond mom,0,0
+qwen,source,1,100,11,awkward turtle,0,0
+qwen,source,1,100,12,butterface,0,0
+qwen,source,1,100,13,concern troll,0,0
+qwen,source,1,100,14,hamster angle,0,0
+qwen,source,1,100,15,problem child,0,0
+qwen,source,1,100,16,problematic fave,0,0
+qwen,source,1,100,17,sadfishing,0,0
+qwen,source,1,100,18,shadow banning,0,0
+qwen,source,1,100,19,throwing shade,0,0
+qwen,source,1,100,20,adorkable,0,0
+qwen,source,1,100,21,dayt,0,0
+qwen,source,1,100,22,egotastic,0,0
+qwen,source,1,100,23,Friyay,77,1
+qwen,source,1,100,24,Galentine’s Day,0,0
+qwen,source,1,100,25,realest,0,0
+qwen,source,1,100,26,sliving,1,1
+qwen,source,1,100,27,smexy,0,0
+qwen,source,1,100,28,smize,0,0
+qwen,source,1,100,29,quirkyalone,0,0
+qwen,source,1,100,30,brigading,0,0
+qwen,source,1,100,31,coronaversary,0,0
+qwen,source,1,100,32,edgelord,0,0
+qwen,source,1,100,33,feminazi,0,0
+qwen,source,1,100,34,headdesk,0,0
+qwen,source,1,100,35,maskne,0,0
+qwen,source,1,100,36,demotional,0,0
+qwen,source,1,100,37,selfiecide,0,0
+qwen,source,1,100,38,unalive,0,0
+qwen,source,1,100,39,whitesplain,0,0
+qwen,source,1,100,40,alpha,0,0
+qwen,source,1,100,41,drip,0,0
+qwen,source,1,100,42,G.O.A.T.,0,0
+qwen,source,1,100,43,juice,0,0
+qwen,source,1,100,44,pick six,0,0
+qwen,source,1,100,45,woke,0,0
+qwen,source,1,100,46,going platinum,0,0
+qwen,source,1,100,47,hugs and kisses,0,0
+qwen,source,1,100,48,Praise the Sun,0,0
+qwen,source,1,100,49,relationship goals,0,0
+qwen,source,1,100,50,an hero,0,0
+qwen,source,1,100,51,beta,0,0
+qwen,source,1,100,52,brick wall,0,0
+qwen,source,1,100,53,mid,0,0
+qwen,source,1,100,54,shook,0,0
+qwen,source,1,100,55,snowflake,0,0
+qwen,source,1,100,56,sportsball,0,0
+qwen,source,1,100,57,this guy,0,0
+qwen,source,1,100,58,too much sauce,0,0
+qwen,source,1,100,59,washed,0,0
+qwen,source,101,200,0,cool beans,0,0
+qwen,source,101,200,1,badd,0,0
+qwen,source,101,200,2,baller,0,0
+qwen,source,101,200,3,chef’s kiss,77,1
+qwen,source,101,200,4,picture perfect,14,1
+qwen,source,101,200,5,power couple,5,1
+qwen,source,101,200,6,rainbow baby,12,1
+qwen,source,101,200,7,spooning,0,0
+qwen,source,101,200,8,tendies,0,0
+qwen,source,101,200,9,word up,0,0
+qwen,source,101,200,10,almond mom,0,0
+qwen,source,101,200,11,awkward turtle,0,0
+qwen,source,101,200,12,butterface,0,0
+qwen,source,101,200,13,concern troll,0,0
+qwen,source,101,200,14,hamster angle,0,0
+qwen,source,101,200,15,problem child,0,0
+qwen,source,101,200,16,problematic fave,0,0
+qwen,source,101,200,17,sadfishing,0,0
+qwen,source,101,200,18,shadow banning,0,0
+qwen,source,101,200,19,throwing shade,0,0
+qwen,source,101,200,20,adorkable,0,0
+qwen,source,101,200,21,dayt,0,0
+qwen,source,101,200,22,egotastic,0,0
+qwen,source,101,200,23,Friyay,47,1
+qwen,source,101,200,24,Galentine’s Day,0,0
+qwen,source,101,200,25,realest,0,0
+qwen,source,101,200,26,sliving,0,0
+qwen,source,101,200,27,smexy,0,0
+qwen,source,101,200,28,smize,0,0
+qwen,source,101,200,29,quirkyalone,0,0
+qwen,source,101,200,30,brigading,0,0
+qwen,source,101,200,31,coronaversary,0,0
+qwen,source,101,200,32,edgelord,0,0
+qwen,source,101,200,33,feminazi,0,0
+qwen,source,101,200,34,headdesk,0,0
+qwen,source,101,200,35,maskne,0,0
+qwen,source,101,200,36,demotional,0,0
+qwen,source,101,200,37,selfiecide,0,0
+qwen,source,101,200,38,unalive,0,0
+qwen,source,101,200,39,whitesplain,0,0
+qwen,source,101,200,40,alpha,0,0
+qwen,source,101,200,41,drip,0,0
+qwen,source,101,200,42,G.O.A.T.,0,0
+qwen,source,101,200,43,juice,0,0
+qwen,source,101,200,44,pick six,0,0
+qwen,source,101,200,45,woke,0,0
+qwen,source,101,200,46,going platinum,0,0
+qwen,source,101,200,47,hugs and kisses,0,0
+qwen,source,101,200,48,Praise the Sun,0,0
+qwen,source,101,200,49,relationship goals,0,0
+qwen,source,101,200,50,an hero,0,0
+qwen,source,101,200,51,beta,0,0
+qwen,source,101,200,52,brick wall,0,0
+qwen,source,101,200,53,mid,0,0
+qwen,source,101,200,54,shook,0,0
+qwen,source,101,200,55,snowflake,0,0
+qwen,source,101,200,56,sportsball,0,0
+qwen,source,101,200,57,this guy,0,0
+qwen,source,101,200,58,too much sauce,0,0
+qwen,source,101,200,59,washed,0,0
+qwen,source,1,200,0,cool beans,0,0
+qwen,source,1,200,1,badd,0,0
+qwen,source,1,200,2,baller,0,0
+qwen,source,1,200,3,chef’s kiss,119,1
+qwen,source,1,200,4,picture perfect,14,1
+qwen,source,1,200,5,power couple,5,1
+qwen,source,1,200,6,rainbow baby,12,1
+qwen,source,1,200,7,spooning,0,0
+qwen,source,1,200,8,tendies,0,0
+qwen,source,1,200,9,word up,0,0
+qwen,source,1,200,10,almond mom,0,0
+qwen,source,1,200,11,awkward turtle,0,0
+qwen,source,1,200,12,butterface,0,0
+qwen,source,1,200,13,concern troll,0,0
+qwen,source,1,200,14,hamster angle,0,0
+qwen,source,1,200,15,problem child,0,0
+qwen,source,1,200,16,problematic fave,0,0
+qwen,source,1,200,17,sadfishing,0,0
+qwen,source,1,200,18,shadow banning,0,0
+qwen,source,1,200,19,throwing shade,0,0
+qwen,source,1,200,20,adorkable,0,0
+qwen,source,1,200,21,dayt,0,0
+qwen,source,1,200,22,egotastic,0,0
+qwen,source,1,200,23,Friyay,124,1
+qwen,source,1,200,24,Galentine’s Day,0,0
+qwen,source,1,200,25,realest,0,0
+qwen,source,1,200,26,sliving,1,1
+qwen,source,1,200,27,smexy,0,0
+qwen,source,1,200,28,smize,0,0
+qwen,source,1,200,29,quirkyalone,0,0
+qwen,source,1,200,30,brigading,0,0
+qwen,source,1,200,31,coronaversary,0,0
+qwen,source,1,200,32,edgelord,0,0
+qwen,source,1,200,33,feminazi,0,0
+qwen,source,1,200,34,headdesk,0,0
+qwen,source,1,200,35,maskne,0,0
+qwen,source,1,200,36,demotional,0,0
+qwen,source,1,200,37,selfiecide,0,0
+qwen,source,1,200,38,unalive,0,0
+qwen,source,1,200,39,whitesplain,0,0
+qwen,source,1,200,40,alpha,0,0
+qwen,source,1,200,41,drip,0,0
+qwen,source,1,200,42,G.O.A.T.,0,0
+qwen,source,1,200,43,juice,0,0
+qwen,source,1,200,44,pick six,0,0
+qwen,source,1,200,45,woke,0,0
+qwen,source,1,200,46,going platinum,0,0
+qwen,source,1,200,47,hugs and kisses,0,0
+qwen,source,1,200,48,Praise the Sun,0,0
+qwen,source,1,200,49,relationship goals,0,0
+qwen,source,1,200,50,an hero,0,0
+qwen,source,1,200,51,beta,0,0
+qwen,source,1,200,52,brick wall,0,0
+qwen,source,1,200,53,mid,0,0
+qwen,source,1,200,54,shook,0,0
+qwen,source,1,200,55,snowflake,0,0
+qwen,source,1,200,56,sportsball,0,0
+qwen,source,1,200,57,this guy,0,0
+qwen,source,1,200,58,too much sauce,0,0
+qwen,source,1,200,59,washed,0,0
+qwen,nonseed,1,100,0,cool beans,0,0
+qwen,nonseed,1,100,1,badd,1,1
+qwen,nonseed,1,100,2,baller,0,0
+qwen,nonseed,1,100,3,chef’s kiss,1,1
+qwen,nonseed,1,100,4,picture perfect,1,1
+qwen,nonseed,1,100,5,power couple,0,0
+qwen,nonseed,1,100,6,rainbow baby,0,0
+qwen,nonseed,1,100,7,spooning,0,0
+qwen,nonseed,1,100,8,tendies,0,0
+qwen,nonseed,1,100,9,word up,0,0
+qwen,nonseed,1,100,10,almond mom,0,0
+qwen,nonseed,1,100,11,awkward turtle,0,0
+qwen,nonseed,1,100,12,butterface,0,0
+qwen,nonseed,1,100,13,concern troll,0,0
+qwen,nonseed,1,100,14,hamster angle,0,0
+qwen,nonseed,1,100,15,problem child,0,0
+qwen,nonseed,1,100,16,problematic fave,0,0
+qwen,nonseed,1,100,17,sadfishing,0,0
+qwen,nonseed,1,100,18,shadow banning,0,0
+qwen,nonseed,1,100,19,throwing shade,0,0
+qwen,nonseed,1,100,20,adorkable,1,1
+qwen,nonseed,1,100,21,dayt,0,0
+qwen,nonseed,1,100,22,egotastic,0,0
+qwen,nonseed,1,100,23,Friyay,2,1
+qwen,nonseed,1,100,24,Galentine’s Day,0,0
+qwen,nonseed,1,100,25,realest,0,0
+qwen,nonseed,1,100,26,sliving,0,0
+qwen,nonseed,1,100,27,smexy,0,0
+qwen,nonseed,1,100,28,smize,0,0
+qwen,nonseed,1,100,29,quirkyalone,0,0
+qwen,nonseed,1,100,30,brigading,0,0
+qwen,nonseed,1,100,31,coronaversary,1,1
+qwen,nonseed,1,100,32,edgelord,0,0
+qwen,nonseed,1,100,33,feminazi,0,0
+qwen,nonseed,1,100,34,headdesk,0,0
+qwen,nonseed,1,100,35,maskne,0,0
+qwen,nonseed,1,100,36,demotional,0,0
+qwen,nonseed,1,100,37,selfiecide,0,0
+qwen,nonseed,1,100,38,unalive,0,0
+qwen,nonseed,1,100,39,whitesplain,0,0
+qwen,nonseed,1,100,40,alpha,0,0
+qwen,nonseed,1,100,41,drip,0,0
+qwen,nonseed,1,100,42,G.O.A.T.,0,0
+qwen,nonseed,1,100,43,juice,4,1
+qwen,nonseed,1,100,44,pick six,0,0
+qwen,nonseed,1,100,45,woke,1,1
+qwen,nonseed,1,100,46,going platinum,0,0
+qwen,nonseed,1,100,47,hugs and kisses,0,0
+qwen,nonseed,1,100,48,Praise the Sun,0,0
+qwen,nonseed,1,100,49,relationship goals,0,0
+qwen,nonseed,1,100,50,an hero,0,0
+qwen,nonseed,1,100,51,beta,0,0
+qwen,nonseed,1,100,52,brick wall,36,1
+qwen,nonseed,1,100,53,mid,0,0
+qwen,nonseed,1,100,54,shook,0,0
+qwen,nonseed,1,100,55,snowflake,0,0
+qwen,nonseed,1,100,56,sportsball,0,0
+qwen,nonseed,1,100,57,this guy,0,0
+qwen,nonseed,1,100,58,too much sauce,0,0
+qwen,nonseed,1,100,59,washed,0,0
+qwen,nonseed,101,200,0,cool beans,0,0
+qwen,nonseed,101,200,1,badd,0,0
+qwen,nonseed,101,200,2,baller,0,0
+qwen,nonseed,101,200,3,chef’s kiss,2,2
+qwen,nonseed,101,200,4,picture perfect,0,0
+qwen,nonseed,101,200,5,power couple,0,0
+qwen,nonseed,101,200,6,rainbow baby,0,0
+qwen,nonseed,101,200,7,spooning,0,0
+qwen,nonseed,101,200,8,tendies,0,0
+qwen,nonseed,101,200,9,word up,0,0
+qwen,nonseed,101,200,10,almond mom,0,0
+qwen,nonseed,101,200,11,awkward turtle,0,0
+qwen,nonseed,101,200,12,butterface,0,0
+qwen,nonseed,101,200,13,concern troll,0,0
+qwen,nonseed,101,200,14,hamster angle,1,1
+qwen,nonseed,101,200,15,problem child,0,0
+qwen,nonseed,101,200,16,problematic fave,0,0
+qwen,nonseed,101,200,17,sadfishing,0,0
+qwen,nonseed,101,200,18,shadow banning,0,0
+qwen,nonseed,101,200,19,throwing shade,0,0
+qwen,nonseed,101,200,20,adorkable,0,0
+qwen,nonseed,101,200,21,dayt,0,0
+qwen,nonseed,101,200,22,egotastic,0,0
+qwen,nonseed,101,200,23,Friyay,20,3
+qwen,nonseed,101,200,24,Galentine’s Day,0,0
+qwen,nonseed,101,200,25,realest,0,0
+qwen,nonseed,101,200,26,sliving,0,0
+qwen,nonseed,101,200,27,smexy,0,0
+qwen,nonseed,101,200,28,smize,0,0
+qwen,nonseed,101,200,29,quirkyalone,0,0
+qwen,nonseed,101,200,30,brigading,0,0
+qwen,nonseed,101,200,31,coronaversary,0,0
+qwen,nonseed,101,200,32,edgelord,0,0
+qwen,nonseed,101,200,33,feminazi,0,0
+qwen,nonseed,101,200,34,headdesk,0,0
+qwen,nonseed,101,200,35,maskne,0,0
+qwen,nonseed,101,200,36,demotional,0,0
+qwen,nonseed,101,200,37,selfiecide,0,0
+qwen,nonseed,101,200,38,unalive,0,0
+qwen,nonseed,101,200,39,whitesplain,0,0
+qwen,nonseed,101,200,40,alpha,0,0
+qwen,nonseed,101,200,41,drip,0,0
+qwen,nonseed,101,200,42,G.O.A.T.,0,0
+qwen,nonseed,101,200,43,juice,0,0
+qwen,nonseed,101,200,44,pick six,0,0
+qwen,nonseed,101,200,45,woke,0,0
+qwen,nonseed,101,200,46,going platinum,0,0
+qwen,nonseed,101,200,47,hugs and kisses,0,0
+qwen,nonseed,101,200,48,Praise the Sun,0,0
+qwen,nonseed,101,200,49,relationship goals,0,0
+qwen,nonseed,101,200,50,an hero,0,0
+qwen,nonseed,101,200,51,beta,0,0
+qwen,nonseed,101,200,52,brick wall,0,0
+qwen,nonseed,101,200,53,mid,0,0
+qwen,nonseed,101,200,54,shook,0,0
+qwen,nonseed,101,200,55,snowflake,0,0
+qwen,nonseed,101,200,56,sportsball,0,0
+qwen,nonseed,101,200,57,this guy,0,0
+qwen,nonseed,101,200,58,too much sauce,0,0
+qwen,nonseed,101,200,59,washed,0,0
+qwen,nonseed,1,200,0,cool beans,0,0
+qwen,nonseed,1,200,1,badd,1,1
+qwen,nonseed,1,200,2,baller,0,0
+qwen,nonseed,1,200,3,chef’s kiss,3,2
+qwen,nonseed,1,200,4,picture perfect,1,1
+qwen,nonseed,1,200,5,power couple,0,0
+qwen,nonseed,1,200,6,rainbow baby,0,0
+qwen,nonseed,1,200,7,spooning,0,0
+qwen,nonseed,1,200,8,tendies,0,0
+qwen,nonseed,1,200,9,word up,0,0
+qwen,nonseed,1,200,10,almond mom,0,0
+qwen,nonseed,1,200,11,awkward turtle,0,0
+qwen,nonseed,1,200,12,butterface,0,0
+qwen,nonseed,1,200,13,concern troll,0,0
+qwen,nonseed,1,200,14,hamster angle,1,1
+qwen,nonseed,1,200,15,problem child,0,0
+qwen,nonseed,1,200,16,problematic fave,0,0
+qwen,nonseed,1,200,17,sadfishing,0,0
+qwen,nonseed,1,200,18,shadow banning,0,0
+qwen,nonseed,1,200,19,throwing shade,0,0
+qwen,nonseed,1,200,20,adorkable,1,1
+qwen,nonseed,1,200,21,dayt,0,0
+qwen,nonseed,1,200,22,egotastic,0,0
+qwen,nonseed,1,200,23,Friyay,22,3
+qwen,nonseed,1,200,24,Galentine’s Day,0,0
+qwen,nonseed,1,200,25,realest,0,0
+qwen,nonseed,1,200,26,sliving,0,0
+qwen,nonseed,1,200,27,smexy,0,0
+qwen,nonseed,1,200,28,smize,0,0
+qwen,nonseed,1,200,29,quirkyalone,0,0
+qwen,nonseed,1,200,30,brigading,0,0
+qwen,nonseed,1,200,31,coronaversary,1,1
+qwen,nonseed,1,200,32,edgelord,0,0
+qwen,nonseed,1,200,33,feminazi,0,0
+qwen,nonseed,1,200,34,headdesk,0,0
+qwen,nonseed,1,200,35,maskne,0,0
+qwen,nonseed,1,200,36,demotional,0,0
+qwen,nonseed,1,200,37,selfiecide,0,0
+qwen,nonseed,1,200,38,unalive,0,0
+qwen,nonseed,1,200,39,whitesplain,0,0
+qwen,nonseed,1,200,40,alpha,0,0
+qwen,nonseed,1,200,41,drip,0,0
+qwen,nonseed,1,200,42,G.O.A.T.,0,0
+qwen,nonseed,1,200,43,juice,4,1
+qwen,nonseed,1,200,44,pick six,0,0
+qwen,nonseed,1,200,45,woke,1,1
+qwen,nonseed,1,200,46,going platinum,0,0
+qwen,nonseed,1,200,47,hugs and kisses,0,0
+qwen,nonseed,1,200,48,Praise the Sun,0,0
+qwen,nonseed,1,200,49,relationship goals,0,0
+qwen,nonseed,1,200,50,an hero,0,0
+qwen,nonseed,1,200,51,beta,0,0
+qwen,nonseed,1,200,52,brick wall,36,1
+qwen,nonseed,1,200,53,mid,0,0
+qwen,nonseed,1,200,54,shook,0,0
+qwen,nonseed,1,200,55,snowflake,0,0
+qwen,nonseed,1,200,56,sportsball,0,0
+qwen,nonseed,1,200,57,this guy,0,0
+qwen,nonseed,1,200,58,too much sauce,0,0
+qwen,nonseed,1,200,59,washed,0,0
+gemma,all,1,100,0,cool beans,0,0
+gemma,all,1,100,1,badd,0,0
+gemma,all,1,100,2,baller,4,2
+gemma,all,1,100,3,chef’s kiss,4,1
+gemma,all,1,100,4,picture perfect,5,1
+gemma,all,1,100,5,power couple,0,0
+gemma,all,1,100,6,rainbow baby,1,1
+gemma,all,1,100,7,spooning,0,0
+gemma,all,1,100,8,tendies,1,1
+gemma,all,1,100,9,word up,3,1
+gemma,all,1,100,10,almond mom,37,3
+gemma,all,1,100,11,awkward turtle,0,0
+gemma,all,1,100,12,butterface,1,1
+gemma,all,1,100,13,concern troll,0,0
+gemma,all,1,100,14,hamster angle,0,0
+gemma,all,1,100,15,problem child,1,1
+gemma,all,1,100,16,problematic fave,0,0
+gemma,all,1,100,17,sadfishing,0,0
+gemma,all,1,100,18,shadow banning,0,0
+gemma,all,1,100,19,throwing shade,0,0
+gemma,all,1,100,20,adorkable,0,0
+gemma,all,1,100,21,dayt,9,1
+gemma,all,1,100,22,egotastic,0,0
+gemma,all,1,100,23,Friyay,8,1
+gemma,all,1,100,24,Galentine’s Day,12,1
+gemma,all,1,100,25,realest,0,0
+gemma,all,1,100,26,sliving,22,2
+gemma,all,1,100,27,smexy,0,0
+gemma,all,1,100,28,smize,0,0
+gemma,all,1,100,29,quirkyalone,0,0
+gemma,all,1,100,30,brigading,1,1
+gemma,all,1,100,31,coronaversary,0,0
+gemma,all,1,100,32,edgelord,0,0
+gemma,all,1,100,33,feminazi,0,0
+gemma,all,1,100,34,headdesk,0,0
+gemma,all,1,100,35,maskne,0,0
+gemma,all,1,100,36,demotional,5,3
+gemma,all,1,100,37,selfiecide,2,1
+gemma,all,1,100,38,unalive,0,0
+gemma,all,1,100,39,whitesplain,0,0
+gemma,all,1,100,40,alpha,1,1
+gemma,all,1,100,41,drip,0,0
+gemma,all,1,100,42,G.O.A.T.,0,0
+gemma,all,1,100,43,juice,0,0
+gemma,all,1,100,44,pick six,0,0
+gemma,all,1,100,45,woke,3,1
+gemma,all,1,100,46,going platinum,1,1
+gemma,all,1,100,47,hugs and kisses,2,1
+gemma,all,1,100,48,Praise the Sun,0,0
+gemma,all,1,100,49,relationship goals,0,0
+gemma,all,1,100,50,an hero,0,0
+gemma,all,1,100,51,beta,0,0
+gemma,all,1,100,52,brick wall,0,0
+gemma,all,1,100,53,mid,1,1
+gemma,all,1,100,54,shook,43,1
+gemma,all,1,100,55,snowflake,0,0
+gemma,all,1,100,56,sportsball,0,0
+gemma,all,1,100,57,this guy,1,1
+gemma,all,1,100,58,too much sauce,2,1
+gemma,all,1,100,59,washed,0,0
+gemma,all,101,200,0,cool beans,1,1
+gemma,all,101,200,1,badd,3,1
+gemma,all,101,200,2,baller,0,0
+gemma,all,101,200,3,chef’s kiss,1,1
+gemma,all,101,200,4,picture perfect,3,1
+gemma,all,101,200,5,power couple,0,0
+gemma,all,101,200,6,rainbow baby,0,0
+gemma,all,101,200,7,spooning,0,0
+gemma,all,101,200,8,tendies,0,0
+gemma,all,101,200,9,word up,2,1
+gemma,all,101,200,10,almond mom,46,2
+gemma,all,101,200,11,awkward turtle,0,0
+gemma,all,101,200,12,butterface,0,0
+gemma,all,101,200,13,concern troll,0,0
+gemma,all,101,200,14,hamster angle,0,0
+gemma,all,101,200,15,problem child,0,0
+gemma,all,101,200,16,problematic fave,0,0
+gemma,all,101,200,17,sadfishing,0,0
+gemma,all,101,200,18,shadow banning,0,0
+gemma,all,101,200,19,throwing shade,0,0
+gemma,all,101,200,20,adorkable,0,0
+gemma,all,101,200,21,dayt,3,1
+gemma,all,101,200,22,egotastic,0,0
+gemma,all,101,200,23,Friyay,0,0
+gemma,all,101,200,24,Galentine’s Day,12,1
+gemma,all,101,200,25,realest,1,1
+gemma,all,101,200,26,sliving,5,1
+gemma,all,101,200,27,smexy,2,1
+gemma,all,101,200,28,smize,0,0
+gemma,all,101,200,29,quirkyalone,0,0
+gemma,all,101,200,30,brigading,0,0
+gemma,all,101,200,31,coronaversary,0,0
+gemma,all,101,200,32,edgelord,0,0
+gemma,all,101,200,33,feminazi,2,1
+gemma,all,101,200,34,headdesk,0,0
+gemma,all,101,200,35,maskne,0,0
+gemma,all,101,200,36,demotional,12,2
+gemma,all,101,200,37,selfiecide,0,0
+gemma,all,101,200,38,unalive,0,0
+gemma,all,101,200,39,whitesplain,0,0
+gemma,all,101,200,40,alpha,0,0
+gemma,all,101,200,41,drip,0,0
+gemma,all,101,200,42,G.O.A.T.,0,0
+gemma,all,101,200,43,juice,13,2
+gemma,all,101,200,44,pick six,0,0
+gemma,all,101,200,45,woke,1,1
+gemma,all,101,200,46,going platinum,0,0
+gemma,all,101,200,47,hugs and kisses,0,0
+gemma,all,101,200,48,Praise the Sun,0,0
+gemma,all,101,200,49,relationship goals,0,0
+gemma,all,101,200,50,an hero,1,1
+gemma,all,101,200,51,beta,0,0
+gemma,all,101,200,52,brick wall,0,0
+gemma,all,101,200,53,mid,0,0
+gemma,all,101,200,54,shook,46,2
+gemma,all,101,200,55,snowflake,0,0
+gemma,all,101,200,56,sportsball,0,0
+gemma,all,101,200,57,this guy,0,0
+gemma,all,101,200,58,too much sauce,0,0
+gemma,all,101,200,59,washed,0,0
+gemma,all,1,200,0,cool beans,1,1
+gemma,all,1,200,1,badd,3,1
+gemma,all,1,200,2,baller,4,2
+gemma,all,1,200,3,chef’s kiss,5,1
+gemma,all,1,200,4,picture perfect,8,1
+gemma,all,1,200,5,power couple,0,0
+gemma,all,1,200,6,rainbow baby,1,1
+gemma,all,1,200,7,spooning,0,0
+gemma,all,1,200,8,tendies,1,1
+gemma,all,1,200,9,word up,5,1
+gemma,all,1,200,10,almond mom,83,3
+gemma,all,1,200,11,awkward turtle,0,0
+gemma,all,1,200,12,butterface,1,1
+gemma,all,1,200,13,concern troll,0,0
+gemma,all,1,200,14,hamster angle,0,0
+gemma,all,1,200,15,problem child,1,1
+gemma,all,1,200,16,problematic fave,0,0
+gemma,all,1,200,17,sadfishing,0,0
+gemma,all,1,200,18,shadow banning,0,0
+gemma,all,1,200,19,throwing shade,0,0
+gemma,all,1,200,20,adorkable,0,0
+gemma,all,1,200,21,dayt,12,1
+gemma,all,1,200,22,egotastic,0,0
+gemma,all,1,200,23,Friyay,8,1
+gemma,all,1,200,24,Galentine’s Day,24,1
+gemma,all,1,200,25,realest,1,1
+gemma,all,1,200,26,sliving,27,2
+gemma,all,1,200,27,smexy,2,1
+gemma,all,1,200,28,smize,0,0
+gemma,all,1,200,29,quirkyalone,0,0
+gemma,all,1,200,30,brigading,1,1
+gemma,all,1,200,31,coronaversary,0,0
+gemma,all,1,200,32,edgelord,0,0
+gemma,all,1,200,33,feminazi,2,1
+gemma,all,1,200,34,headdesk,0,0
+gemma,all,1,200,35,maskne,0,0
+gemma,all,1,200,36,demotional,17,4
+gemma,all,1,200,37,selfiecide,2,1
+gemma,all,1,200,38,unalive,0,0
+gemma,all,1,200,39,whitesplain,0,0
+gemma,all,1,200,40,alpha,1,1
+gemma,all,1,200,41,drip,0,0
+gemma,all,1,200,42,G.O.A.T.,0,0
+gemma,all,1,200,43,juice,13,2
+gemma,all,1,200,44,pick six,0,0
+gemma,all,1,200,45,woke,4,1
+gemma,all,1,200,46,going platinum,1,1
+gemma,all,1,200,47,hugs and kisses,2,1
+gemma,all,1,200,48,Praise the Sun,0,0
+gemma,all,1,200,49,relationship goals,0,0
+gemma,all,1,200,50,an hero,1,1
+gemma,all,1,200,51,beta,0,0
+gemma,all,1,200,52,brick wall,0,0
+gemma,all,1,200,53,mid,1,1
+gemma,all,1,200,54,shook,89,2
+gemma,all,1,200,55,snowflake,0,0
+gemma,all,1,200,56,sportsball,0,0
+gemma,all,1,200,57,this guy,1,1
+gemma,all,1,200,58,too much sauce,2,1
+gemma,all,1,200,59,washed,0,0
+gemma,source,1,100,0,cool beans,0,0
+gemma,source,1,100,1,badd,0,0
+gemma,source,1,100,2,baller,3,1
+gemma,source,1,100,3,chef’s kiss,4,1
+gemma,source,1,100,4,picture perfect,5,1
+gemma,source,1,100,5,power couple,0,0
+gemma,source,1,100,6,rainbow baby,1,1
+gemma,source,1,100,7,spooning,0,0
+gemma,source,1,100,8,tendies,1,1
+gemma,source,1,100,9,word up,3,1
+gemma,source,1,100,10,almond mom,1,1
+gemma,source,1,100,11,awkward turtle,0,0
+gemma,source,1,100,12,butterface,0,0
+gemma,source,1,100,13,concern troll,0,0
+gemma,source,1,100,14,hamster angle,0,0
+gemma,source,1,100,15,problem child,1,1
+gemma,source,1,100,16,problematic fave,0,0
+gemma,source,1,100,17,sadfishing,0,0
+gemma,source,1,100,18,shadow banning,0,0
+gemma,source,1,100,19,throwing shade,0,0
+gemma,source,1,100,20,adorkable,0,0
+gemma,source,1,100,21,dayt,9,1
+gemma,source,1,100,22,egotastic,0,0
+gemma,source,1,100,23,Friyay,8,1
+gemma,source,1,100,24,Galentine’s Day,12,1
+gemma,source,1,100,25,realest,0,0
+gemma,source,1,100,26,sliving,19,1
+gemma,source,1,100,27,smexy,0,0
+gemma,source,1,100,28,smize,0,0
+gemma,source,1,100,29,quirkyalone,0,0
+gemma,source,1,100,30,brigading,0,0
+gemma,source,1,100,31,coronaversary,0,0
+gemma,source,1,100,32,edgelord,0,0
+gemma,source,1,100,33,feminazi,0,0
+gemma,source,1,100,34,headdesk,0,0
+gemma,source,1,100,35,maskne,0,0
+gemma,source,1,100,36,demotional,0,0
+gemma,source,1,100,37,selfiecide,2,1
+gemma,source,1,100,38,unalive,0,0
+gemma,source,1,100,39,whitesplain,0,0
+gemma,source,1,100,40,alpha,1,1
+gemma,source,1,100,41,drip,0,0
+gemma,source,1,100,42,G.O.A.T.,0,0
+gemma,source,1,100,43,juice,0,0
+gemma,source,1,100,44,pick six,0,0
+gemma,source,1,100,45,woke,3,1
+gemma,source,1,100,46,going platinum,1,1
+gemma,source,1,100,47,hugs and kisses,2,1
+gemma,source,1,100,48,Praise the Sun,0,0
+gemma,source,1,100,49,relationship goals,0,0
+gemma,source,1,100,50,an hero,0,0
+gemma,source,1,100,51,beta,0,0
+gemma,source,1,100,52,brick wall,0,0
+gemma,source,1,100,53,mid,1,1
+gemma,source,1,100,54,shook,0,0
+gemma,source,1,100,55,snowflake,0,0
+gemma,source,1,100,56,sportsball,0,0
+gemma,source,1,100,57,this guy,1,1
+gemma,source,1,100,58,too much sauce,2,1
+gemma,source,1,100,59,washed,0,0
+gemma,source,101,200,0,cool beans,0,0
+gemma,source,101,200,1,badd,3,1
+gemma,source,101,200,2,baller,0,0
+gemma,source,101,200,3,chef’s kiss,1,1
+gemma,source,101,200,4,picture perfect,3,1
+gemma,source,101,200,5,power couple,0,0
+gemma,source,101,200,6,rainbow baby,0,0
+gemma,source,101,200,7,spooning,0,0
+gemma,source,101,200,8,tendies,0,0
+gemma,source,101,200,9,word up,2,1
+gemma,source,101,200,10,almond mom,0,0
+gemma,source,101,200,11,awkward turtle,0,0
+gemma,source,101,200,12,butterface,0,0
+gemma,source,101,200,13,concern troll,0,0
+gemma,source,101,200,14,hamster angle,0,0
+gemma,source,101,200,15,problem child,0,0
+gemma,source,101,200,16,problematic fave,0,0
+gemma,source,101,200,17,sadfishing,0,0
+gemma,source,101,200,18,shadow banning,0,0
+gemma,source,101,200,19,throwing shade,0,0
+gemma,source,101,200,20,adorkable,0,0
+gemma,source,101,200,21,dayt,3,1
+gemma,source,101,200,22,egotastic,0,0
+gemma,source,101,200,23,Friyay,0,0
+gemma,source,101,200,24,Galentine’s Day,12,1
+gemma,source,101,200,25,realest,1,1
+gemma,source,101,200,26,sliving,5,1
+gemma,source,101,200,27,smexy,2,1
+gemma,source,101,200,28,smize,0,0
+gemma,source,101,200,29,quirkyalone,0,0
+gemma,source,101,200,30,brigading,0,0
+gemma,source,101,200,31,coronaversary,0,0
+gemma,source,101,200,32,edgelord,0,0
+gemma,source,101,200,33,feminazi,0,0
+gemma,source,101,200,34,headdesk,0,0
+gemma,source,101,200,35,maskne,0,0
+gemma,source,101,200,36,demotional,9,1
+gemma,source,101,200,37,selfiecide,0,0
+gemma,source,101,200,38,unalive,0,0
+gemma,source,101,200,39,whitesplain,0,0
+gemma,source,101,200,40,alpha,0,0
+gemma,source,101,200,41,drip,0,0
+gemma,source,101,200,42,G.O.A.T.,0,0
+gemma,source,101,200,43,juice,0,0
+gemma,source,101,200,44,pick six,0,0
+gemma,source,101,200,45,woke,1,1
+gemma,source,101,200,46,going platinum,0,0
+gemma,source,101,200,47,hugs and kisses,0,0
+gemma,source,101,200,48,Praise the Sun,0,0
+gemma,source,101,200,49,relationship goals,0,0
+gemma,source,101,200,50,an hero,0,0
+gemma,source,101,200,51,beta,0,0
+gemma,source,101,200,52,brick wall,0,0
+gemma,source,101,200,53,mid,0,0
+gemma,source,101,200,54,shook,0,0
+gemma,source,101,200,55,snowflake,0,0
+gemma,source,101,200,56,sportsball,0,0
+gemma,source,101,200,57,this guy,0,0
+gemma,source,101,200,58,too much sauce,0,0
+gemma,source,101,200,59,washed,0,0
+gemma,source,1,200,0,cool beans,0,0
+gemma,source,1,200,1,badd,3,1
+gemma,source,1,200,2,baller,3,1
+gemma,source,1,200,3,chef’s kiss,5,1
+gemma,source,1,200,4,picture perfect,8,1
+gemma,source,1,200,5,power couple,0,0
+gemma,source,1,200,6,rainbow baby,1,1
+gemma,source,1,200,7,spooning,0,0
+gemma,source,1,200,8,tendies,1,1
+gemma,source,1,200,9,word up,5,1
+gemma,source,1,200,10,almond mom,1,1
+gemma,source,1,200,11,awkward turtle,0,0
+gemma,source,1,200,12,butterface,0,0
+gemma,source,1,200,13,concern troll,0,0
+gemma,source,1,200,14,hamster angle,0,0
+gemma,source,1,200,15,problem child,1,1
+gemma,source,1,200,16,problematic fave,0,0
+gemma,source,1,200,17,sadfishing,0,0
+gemma,source,1,200,18,shadow banning,0,0
+gemma,source,1,200,19,throwing shade,0,0
+gemma,source,1,200,20,adorkable,0,0
+gemma,source,1,200,21,dayt,12,1
+gemma,source,1,200,22,egotastic,0,0
+gemma,source,1,200,23,Friyay,8,1
+gemma,source,1,200,24,Galentine’s Day,24,1
+gemma,source,1,200,25,realest,1,1
+gemma,source,1,200,26,sliving,24,1
+gemma,source,1,200,27,smexy,2,1
+gemma,source,1,200,28,smize,0,0
+gemma,source,1,200,29,quirkyalone,0,0
+gemma,source,1,200,30,brigading,0,0
+gemma,source,1,200,31,coronaversary,0,0
+gemma,source,1,200,32,edgelord,0,0
+gemma,source,1,200,33,feminazi,0,0
+gemma,source,1,200,34,headdesk,0,0
+gemma,source,1,200,35,maskne,0,0
+gemma,source,1,200,36,demotional,9,1
+gemma,source,1,200,37,selfiecide,2,1
+gemma,source,1,200,38,unalive,0,0
+gemma,source,1,200,39,whitesplain,0,0
+gemma,source,1,200,40,alpha,1,1
+gemma,source,1,200,41,drip,0,0
+gemma,source,1,200,42,G.O.A.T.,0,0
+gemma,source,1,200,43,juice,0,0
+gemma,source,1,200,44,pick six,0,0
+gemma,source,1,200,45,woke,4,1
+gemma,source,1,200,46,going platinum,1,1
+gemma,source,1,200,47,hugs and kisses,2,1
+gemma,source,1,200,48,Praise the Sun,0,0
+gemma,source,1,200,49,relationship goals,0,0
+gemma,source,1,200,50,an hero,0,0
+gemma,source,1,200,51,beta,0,0
+gemma,source,1,200,52,brick wall,0,0
+gemma,source,1,200,53,mid,1,1
+gemma,source,1,200,54,shook,0,0
+gemma,source,1,200,55,snowflake,0,0
+gemma,source,1,200,56,sportsball,0,0
+gemma,source,1,200,57,this guy,1,1
+gemma,source,1,200,58,too much sauce,2,1
+gemma,source,1,200,59,washed,0,0
+gemma,nonseed,1,100,0,cool beans,0,0
+gemma,nonseed,1,100,1,badd,0,0
+gemma,nonseed,1,100,2,baller,1,1
+gemma,nonseed,1,100,3,chef’s kiss,0,0
+gemma,nonseed,1,100,4,picture perfect,0,0
+gemma,nonseed,1,100,5,power couple,0,0
+gemma,nonseed,1,100,6,rainbow baby,0,0
+gemma,nonseed,1,100,7,spooning,0,0
+gemma,nonseed,1,100,8,tendies,0,0
+gemma,nonseed,1,100,9,word up,0,0
+gemma,nonseed,1,100,10,almond mom,36,2
+gemma,nonseed,1,100,11,awkward turtle,0,0
+gemma,nonseed,1,100,12,butterface,1,1
+gemma,nonseed,1,100,13,concern troll,0,0
+gemma,nonseed,1,100,14,hamster angle,0,0
+gemma,nonseed,1,100,15,problem child,0,0
+gemma,nonseed,1,100,16,problematic fave,0,0
+gemma,nonseed,1,100,17,sadfishing,0,0
+gemma,nonseed,1,100,18,shadow banning,0,0
+gemma,nonseed,1,100,19,throwing shade,0,0
+gemma,nonseed,1,100,20,adorkable,0,0
+gemma,nonseed,1,100,21,dayt,0,0
+gemma,nonseed,1,100,22,egotastic,0,0
+gemma,nonseed,1,100,23,Friyay,0,0
+gemma,nonseed,1,100,24,Galentine’s Day,0,0
+gemma,nonseed,1,100,25,realest,0,0
+gemma,nonseed,1,100,26,sliving,3,1
+gemma,nonseed,1,100,27,smexy,0,0
+gemma,nonseed,1,100,28,smize,0,0
+gemma,nonseed,1,100,29,quirkyalone,0,0
+gemma,nonseed,1,100,30,brigading,1,1
+gemma,nonseed,1,100,31,coronaversary,0,0
+gemma,nonseed,1,100,32,edgelord,0,0
+gemma,nonseed,1,100,33,feminazi,0,0
+gemma,nonseed,1,100,34,headdesk,0,0
+gemma,nonseed,1,100,35,maskne,0,0
+gemma,nonseed,1,100,36,demotional,5,3
+gemma,nonseed,1,100,37,selfiecide,0,0
+gemma,nonseed,1,100,38,unalive,0,0
+gemma,nonseed,1,100,39,whitesplain,0,0
+gemma,nonseed,1,100,40,alpha,0,0
+gemma,nonseed,1,100,41,drip,0,0
+gemma,nonseed,1,100,42,G.O.A.T.,0,0
+gemma,nonseed,1,100,43,juice,0,0
+gemma,nonseed,1,100,44,pick six,0,0
+gemma,nonseed,1,100,45,woke,0,0
+gemma,nonseed,1,100,46,going platinum,0,0
+gemma,nonseed,1,100,47,hugs and kisses,0,0
+gemma,nonseed,1,100,48,Praise the Sun,0,0
+gemma,nonseed,1,100,49,relationship goals,0,0
+gemma,nonseed,1,100,50,an hero,0,0
+gemma,nonseed,1,100,51,beta,0,0
+gemma,nonseed,1,100,52,brick wall,0,0
+gemma,nonseed,1,100,53,mid,0,0
+gemma,nonseed,1,100,54,shook,43,1
+gemma,nonseed,1,100,55,snowflake,0,0
+gemma,nonseed,1,100,56,sportsball,0,0
+gemma,nonseed,1,100,57,this guy,0,0
+gemma,nonseed,1,100,58,too much sauce,0,0
+gemma,nonseed,1,100,59,washed,0,0
+gemma,nonseed,101,200,0,cool beans,1,1
+gemma,nonseed,101,200,1,badd,0,0
+gemma,nonseed,101,200,2,baller,0,0
+gemma,nonseed,101,200,3,chef’s kiss,0,0
+gemma,nonseed,101,200,4,picture perfect,0,0
+gemma,nonseed,101,200,5,power couple,0,0
+gemma,nonseed,101,200,6,rainbow baby,0,0
+gemma,nonseed,101,200,7,spooning,0,0
+gemma,nonseed,101,200,8,tendies,0,0
+gemma,nonseed,101,200,9,word up,0,0
+gemma,nonseed,101,200,10,almond mom,46,2
+gemma,nonseed,101,200,11,awkward turtle,0,0
+gemma,nonseed,101,200,12,butterface,0,0
+gemma,nonseed,101,200,13,concern troll,0,0
+gemma,nonseed,101,200,14,hamster angle,0,0
+gemma,nonseed,101,200,15,problem child,0,0
+gemma,nonseed,101,200,16,problematic fave,0,0
+gemma,nonseed,101,200,17,sadfishing,0,0
+gemma,nonseed,101,200,18,shadow banning,0,0
+gemma,nonseed,101,200,19,throwing shade,0,0
+gemma,nonseed,101,200,20,adorkable,0,0
+gemma,nonseed,101,200,21,dayt,0,0
+gemma,nonseed,101,200,22,egotastic,0,0
+gemma,nonseed,101,200,23,Friyay,0,0
+gemma,nonseed,101,200,24,Galentine’s Day,0,0
+gemma,nonseed,101,200,25,realest,0,0
+gemma,nonseed,101,200,26,sliving,0,0
+gemma,nonseed,101,200,27,smexy,0,0
+gemma,nonseed,101,200,28,smize,0,0
+gemma,nonseed,101,200,29,quirkyalone,0,0
+gemma,nonseed,101,200,30,brigading,0,0
+gemma,nonseed,101,200,31,coronaversary,0,0
+gemma,nonseed,101,200,32,edgelord,0,0
+gemma,nonseed,101,200,33,feminazi,2,1
+gemma,nonseed,101,200,34,headdesk,0,0
+gemma,nonseed,101,200,35,maskne,0,0
+gemma,nonseed,101,200,36,demotional,3,1
+gemma,nonseed,101,200,37,selfiecide,0,0
+gemma,nonseed,101,200,38,unalive,0,0
+gemma,nonseed,101,200,39,whitesplain,0,0
+gemma,nonseed,101,200,40,alpha,0,0
+gemma,nonseed,101,200,41,drip,0,0
+gemma,nonseed,101,200,42,G.O.A.T.,0,0
+gemma,nonseed,101,200,43,juice,13,2
+gemma,nonseed,101,200,44,pick six,0,0
+gemma,nonseed,101,200,45,woke,0,0
+gemma,nonseed,101,200,46,going platinum,0,0
+gemma,nonseed,101,200,47,hugs and kisses,0,0
+gemma,nonseed,101,200,48,Praise the Sun,0,0
+gemma,nonseed,101,200,49,relationship goals,0,0
+gemma,nonseed,101,200,50,an hero,1,1
+gemma,nonseed,101,200,51,beta,0,0
+gemma,nonseed,101,200,52,brick wall,0,0
+gemma,nonseed,101,200,53,mid,0,0
+gemma,nonseed,101,200,54,shook,46,2
+gemma,nonseed,101,200,55,snowflake,0,0
+gemma,nonseed,101,200,56,sportsball,0,0
+gemma,nonseed,101,200,57,this guy,0,0
+gemma,nonseed,101,200,58,too much sauce,0,0
+gemma,nonseed,101,200,59,washed,0,0
+gemma,nonseed,1,200,0,cool beans,1,1
+gemma,nonseed,1,200,1,badd,0,0
+gemma,nonseed,1,200,2,baller,1,1
+gemma,nonseed,1,200,3,chef’s kiss,0,0
+gemma,nonseed,1,200,4,picture perfect,0,0
+gemma,nonseed,1,200,5,power couple,0,0
+gemma,nonseed,1,200,6,rainbow baby,0,0
+gemma,nonseed,1,200,7,spooning,0,0
+gemma,nonseed,1,200,8,tendies,0,0
+gemma,nonseed,1,200,9,word up,0,0
+gemma,nonseed,1,200,10,almond mom,82,2
+gemma,nonseed,1,200,11,awkward turtle,0,0
+gemma,nonseed,1,200,12,butterface,1,1
+gemma,nonseed,1,200,13,concern troll,0,0
+gemma,nonseed,1,200,14,hamster angle,0,0
+gemma,nonseed,1,200,15,problem child,0,0
+gemma,nonseed,1,200,16,problematic fave,0,0
+gemma,nonseed,1,200,17,sadfishing,0,0
+gemma,nonseed,1,200,18,shadow banning,0,0
+gemma,nonseed,1,200,19,throwing shade,0,0
+gemma,nonseed,1,200,20,adorkable,0,0
+gemma,nonseed,1,200,21,dayt,0,0
+gemma,nonseed,1,200,22,egotastic,0,0
+gemma,nonseed,1,200,23,Friyay,0,0
+gemma,nonseed,1,200,24,Galentine’s Day,0,0
+gemma,nonseed,1,200,25,realest,0,0
+gemma,nonseed,1,200,26,sliving,3,1
+gemma,nonseed,1,200,27,smexy,0,0
+gemma,nonseed,1,200,28,smize,0,0
+gemma,nonseed,1,200,29,quirkyalone,0,0
+gemma,nonseed,1,200,30,brigading,1,1
+gemma,nonseed,1,200,31,coronaversary,0,0
+gemma,nonseed,1,200,32,edgelord,0,0
+gemma,nonseed,1,200,33,feminazi,2,1
+gemma,nonseed,1,200,34,headdesk,0,0
+gemma,nonseed,1,200,35,maskne,0,0
+gemma,nonseed,1,200,36,demotional,8,3
+gemma,nonseed,1,200,37,selfiecide,0,0
+gemma,nonseed,1,200,38,unalive,0,0
+gemma,nonseed,1,200,39,whitesplain,0,0
+gemma,nonseed,1,200,40,alpha,0,0
+gemma,nonseed,1,200,41,drip,0,0
+gemma,nonseed,1,200,42,G.O.A.T.,0,0
+gemma,nonseed,1,200,43,juice,13,2
+gemma,nonseed,1,200,44,pick six,0,0
+gemma,nonseed,1,200,45,woke,0,0
+gemma,nonseed,1,200,46,going platinum,0,0
+gemma,nonseed,1,200,47,hugs and kisses,0,0
+gemma,nonseed,1,200,48,Praise the Sun,0,0
+gemma,nonseed,1,200,49,relationship goals,0,0
+gemma,nonseed,1,200,50,an hero,1,1
+gemma,nonseed,1,200,51,beta,0,0
+gemma,nonseed,1,200,52,brick wall,0,0
+gemma,nonseed,1,200,53,mid,0,0
+gemma,nonseed,1,200,54,shook,89,2
+gemma,nonseed,1,200,55,snowflake,0,0
+gemma,nonseed,1,200,56,sportsball,0,0
+gemma,nonseed,1,200,57,this guy,0,0
+gemma,nonseed,1,200,58,too much sauce,0,0
+gemma,nonseed,1,200,59,washed,0,0
+mistral,all,1,100,0,cool beans,0,0
+mistral,all,1,100,1,badd,3,1
+mistral,all,1,100,2,baller,13,3
+mistral,all,1,100,3,chef’s kiss,15,1
+mistral,all,1,100,4,picture perfect,2,2
+mistral,all,1,100,5,power couple,3,1
+mistral,all,1,100,6,rainbow baby,2,1
+mistral,all,1,100,7,spooning,2,1
+mistral,all,1,100,8,tendies,1,1
+mistral,all,1,100,9,word up,0,0
+mistral,all,1,100,10,almond mom,6,2
+mistral,all,1,100,11,awkward turtle,1,1
+mistral,all,1,100,12,butterface,1,1
+mistral,all,1,100,13,concern troll,0,0
+mistral,all,1,100,14,hamster angle,0,0
+mistral,all,1,100,15,problem child,0,0
+mistral,all,1,100,16,problematic fave,0,0
+mistral,all,1,100,17,sadfishing,0,0
+mistral,all,1,100,18,shadow banning,1,1
+mistral,all,1,100,19,throwing shade,0,0
+mistral,all,1,100,20,adorkable,4,1
+mistral,all,1,100,21,dayt,11,2
+mistral,all,1,100,22,egotastic,0,0
+mistral,all,1,100,23,Friyay,6,3
+mistral,all,1,100,24,Galentine’s Day,21,3
+mistral,all,1,100,25,realest,1,1
+mistral,all,1,100,26,sliving,3,1
+mistral,all,1,100,27,smexy,2,1
+mistral,all,1,100,28,smize,0,0
+mistral,all,1,100,29,quirkyalone,2,1
+mistral,all,1,100,30,brigading,1,1
+mistral,all,1,100,31,coronaversary,3,2
+mistral,all,1,100,32,edgelord,0,0
+mistral,all,1,100,33,feminazi,0,0
+mistral,all,1,100,34,headdesk,0,0
+mistral,all,1,100,35,maskne,3,1
+mistral,all,1,100,36,demotional,1,1
+mistral,all,1,100,37,selfiecide,0,0
+mistral,all,1,100,38,unalive,1,1
+mistral,all,1,100,39,whitesplain,0,0
+mistral,all,1,100,40,alpha,17,5
+mistral,all,1,100,41,drip,0,0
+mistral,all,1,100,42,G.O.A.T.,3,2
+mistral,all,1,100,43,juice,0,0
+mistral,all,1,100,44,pick six,6,2
+mistral,all,1,100,45,woke,1,1
+mistral,all,1,100,46,going platinum,0,0
+mistral,all,1,100,47,hugs and kisses,0,0
+mistral,all,1,100,48,Praise the Sun,0,0
+mistral,all,1,100,49,relationship goals,1,1
+mistral,all,1,100,50,an hero,21,1
+mistral,all,1,100,51,beta,5,2
+mistral,all,1,100,52,brick wall,0,0
+mistral,all,1,100,53,mid,0,0
+mistral,all,1,100,54,shook,5,1
+mistral,all,1,100,55,snowflake,0,0
+mistral,all,1,100,56,sportsball,0,0
+mistral,all,1,100,57,this guy,0,0
+mistral,all,1,100,58,too much sauce,7,2
+mistral,all,1,100,59,washed,0,0
+mistral,all,101,200,0,cool beans,0,0
+mistral,all,101,200,1,badd,1,1
+mistral,all,101,200,2,baller,0,0
+mistral,all,101,200,3,chef’s kiss,9,2
+mistral,all,101,200,4,picture perfect,0,0
+mistral,all,101,200,5,power couple,6,1
+mistral,all,101,200,6,rainbow baby,0,0
+mistral,all,101,200,7,spooning,1,1
+mistral,all,101,200,8,tendies,0,0
+mistral,all,101,200,9,word up,0,0
+mistral,all,101,200,10,almond mom,3,1
+mistral,all,101,200,11,awkward turtle,0,0
+mistral,all,101,200,12,butterface,0,0
+mistral,all,101,200,13,concern troll,0,0
+mistral,all,101,200,14,hamster angle,4,2
+mistral,all,101,200,15,problem child,0,0
+mistral,all,101,200,16,problematic fave,0,0
+mistral,all,101,200,17,sadfishing,0,0
+mistral,all,101,200,18,shadow banning,0,0
+mistral,all,101,200,19,throwing shade,0,0
+mistral,all,101,200,20,adorkable,0,0
+mistral,all,101,200,21,dayt,6,2
+mistral,all,101,200,22,egotastic,0,0
+mistral,all,101,200,23,Friyay,1,1
+mistral,all,101,200,24,Galentine’s Day,1,1
+mistral,all,101,200,25,realest,1,1
+mistral,all,101,200,26,sliving,0,0
+mistral,all,101,200,27,smexy,0,0
+mistral,all,101,200,28,smize,0,0
+mistral,all,101,200,29,quirkyalone,0,0
+mistral,all,101,200,30,brigading,0,0
+mistral,all,101,200,31,coronaversary,2,2
+mistral,all,101,200,32,edgelord,0,0
+mistral,all,101,200,33,feminazi,0,0
+mistral,all,101,200,34,headdesk,0,0
+mistral,all,101,200,35,maskne,3,1
+mistral,all,101,200,36,demotional,0,0
+mistral,all,101,200,37,selfiecide,0,0
+mistral,all,101,200,38,unalive,0,0
+mistral,all,101,200,39,whitesplain,0,0
+mistral,all,101,200,40,alpha,5,4
+mistral,all,101,200,41,drip,0,0
+mistral,all,101,200,42,G.O.A.T.,0,0
+mistral,all,101,200,43,juice,0,0
+mistral,all,101,200,44,pick six,4,2
+mistral,all,101,200,45,woke,0,0
+mistral,all,101,200,46,going platinum,0,0
+mistral,all,101,200,47,hugs and kisses,0,0
+mistral,all,101,200,48,Praise the Sun,0,0
+mistral,all,101,200,49,relationship goals,0,0
+mistral,all,101,200,50,an hero,7,3
+mistral,all,101,200,51,beta,12,3
+mistral,all,101,200,52,brick wall,0,0
+mistral,all,101,200,53,mid,0,0
+mistral,all,101,200,54,shook,0,0
+mistral,all,101,200,55,snowflake,0,0
+mistral,all,101,200,56,sportsball,1,1
+mistral,all,101,200,57,this guy,0,0
+mistral,all,101,200,58,too much sauce,0,0
+mistral,all,101,200,59,washed,0,0
+mistral,all,1,200,0,cool beans,0,0
+mistral,all,1,200,1,badd,4,1
+mistral,all,1,200,2,baller,13,3
+mistral,all,1,200,3,chef’s kiss,24,2
+mistral,all,1,200,4,picture perfect,2,2
+mistral,all,1,200,5,power couple,9,1
+mistral,all,1,200,6,rainbow baby,2,1
+mistral,all,1,200,7,spooning,3,1
+mistral,all,1,200,8,tendies,1,1
+mistral,all,1,200,9,word up,0,0
+mistral,all,1,200,10,almond mom,9,2
+mistral,all,1,200,11,awkward turtle,1,1
+mistral,all,1,200,12,butterface,1,1
+mistral,all,1,200,13,concern troll,0,0
+mistral,all,1,200,14,hamster angle,4,2
+mistral,all,1,200,15,problem child,0,0
+mistral,all,1,200,16,problematic fave,0,0
+mistral,all,1,200,17,sadfishing,0,0
+mistral,all,1,200,18,shadow banning,1,1
+mistral,all,1,200,19,throwing shade,0,0
+mistral,all,1,200,20,adorkable,4,1
+mistral,all,1,200,21,dayt,17,3
+mistral,all,1,200,22,egotastic,0,0
+mistral,all,1,200,23,Friyay,7,3
+mistral,all,1,200,24,Galentine’s Day,22,3
+mistral,all,1,200,25,realest,2,1
+mistral,all,1,200,26,sliving,3,1
+mistral,all,1,200,27,smexy,2,1
+mistral,all,1,200,28,smize,0,0
+mistral,all,1,200,29,quirkyalone,2,1
+mistral,all,1,200,30,brigading,1,1
+mistral,all,1,200,31,coronaversary,5,3
+mistral,all,1,200,32,edgelord,0,0
+mistral,all,1,200,33,feminazi,0,0
+mistral,all,1,200,34,headdesk,0,0
+mistral,all,1,200,35,maskne,6,2
+mistral,all,1,200,36,demotional,1,1
+mistral,all,1,200,37,selfiecide,0,0
+mistral,all,1,200,38,unalive,1,1
+mistral,all,1,200,39,whitesplain,0,0
+mistral,all,1,200,40,alpha,22,8
+mistral,all,1,200,41,drip,0,0
+mistral,all,1,200,42,G.O.A.T.,3,2
+mistral,all,1,200,43,juice,0,0
+mistral,all,1,200,44,pick six,10,4
+mistral,all,1,200,45,woke,1,1
+mistral,all,1,200,46,going platinum,0,0
+mistral,all,1,200,47,hugs and kisses,0,0
+mistral,all,1,200,48,Praise the Sun,0,0
+mistral,all,1,200,49,relationship goals,1,1
+mistral,all,1,200,50,an hero,28,4
+mistral,all,1,200,51,beta,17,5
+mistral,all,1,200,52,brick wall,0,0
+mistral,all,1,200,53,mid,0,0
+mistral,all,1,200,54,shook,5,1
+mistral,all,1,200,55,snowflake,0,0
+mistral,all,1,200,56,sportsball,1,1
+mistral,all,1,200,57,this guy,0,0
+mistral,all,1,200,58,too much sauce,7,2
+mistral,all,1,200,59,washed,0,0
+mistral,source,1,100,0,cool beans,0,0
+mistral,source,1,100,1,badd,3,1
+mistral,source,1,100,2,baller,9,1
+mistral,source,1,100,3,chef’s kiss,15,1
+mistral,source,1,100,4,picture perfect,1,1
+mistral,source,1,100,5,power couple,3,1
+mistral,source,1,100,6,rainbow baby,2,1
+mistral,source,1,100,7,spooning,2,1
+mistral,source,1,100,8,tendies,1,1
+mistral,source,1,100,9,word up,0,0
+mistral,source,1,100,10,almond mom,2,1
+mistral,source,1,100,11,awkward turtle,1,1
+mistral,source,1,100,12,butterface,1,1
+mistral,source,1,100,13,concern troll,0,0
+mistral,source,1,100,14,hamster angle,0,0
+mistral,source,1,100,15,problem child,0,0
+mistral,source,1,100,16,problematic fave,0,0
+mistral,source,1,100,17,sadfishing,0,0
+mistral,source,1,100,18,shadow banning,0,0
+mistral,source,1,100,19,throwing shade,0,0
+mistral,source,1,100,20,adorkable,4,1
+mistral,source,1,100,21,dayt,10,1
+mistral,source,1,100,22,egotastic,0,0
+mistral,source,1,100,23,Friyay,3,1
+mistral,source,1,100,24,Galentine’s Day,9,1
+mistral,source,1,100,25,realest,1,1
+mistral,source,1,100,26,sliving,3,1
+mistral,source,1,100,27,smexy,2,1
+mistral,source,1,100,28,smize,0,0
+mistral,source,1,100,29,quirkyalone,2,1
+mistral,source,1,100,30,brigading,0,0
+mistral,source,1,100,31,coronaversary,2,1
+mistral,source,1,100,32,edgelord,0,0
+mistral,source,1,100,33,feminazi,0,0
+mistral,source,1,100,34,headdesk,0,0
+mistral,source,1,100,35,maskne,0,0
+mistral,source,1,100,36,demotional,0,0
+mistral,source,1,100,37,selfiecide,0,0
+mistral,source,1,100,38,unalive,1,1
+mistral,source,1,100,39,whitesplain,0,0
+mistral,source,1,100,40,alpha,0,0
+mistral,source,1,100,41,drip,0,0
+mistral,source,1,100,42,G.O.A.T.,1,1
+mistral,source,1,100,43,juice,0,0
+mistral,source,1,100,44,pick six,0,0
+mistral,source,1,100,45,woke,1,1
+mistral,source,1,100,46,going platinum,0,0
+mistral,source,1,100,47,hugs and kisses,0,0
+mistral,source,1,100,48,Praise the Sun,0,0
+mistral,source,1,100,49,relationship goals,1,1
+mistral,source,1,100,50,an hero,0,0
+mistral,source,1,100,51,beta,0,0
+mistral,source,1,100,52,brick wall,0,0
+mistral,source,1,100,53,mid,0,0
+mistral,source,1,100,54,shook,0,0
+mistral,source,1,100,55,snowflake,0,0
+mistral,source,1,100,56,sportsball,0,0
+mistral,source,1,100,57,this guy,0,0
+mistral,source,1,100,58,too much sauce,0,0
+mistral,source,1,100,59,washed,0,0
+mistral,source,101,200,0,cool beans,0,0
+mistral,source,101,200,1,badd,1,1
+mistral,source,101,200,2,baller,0,0
+mistral,source,101,200,3,chef’s kiss,8,1
+mistral,source,101,200,4,picture perfect,0,0
+mistral,source,101,200,5,power couple,6,1
+mistral,source,101,200,6,rainbow baby,0,0
+mistral,source,101,200,7,spooning,1,1
+mistral,source,101,200,8,tendies,0,0
+mistral,source,101,200,9,word up,0,0
+mistral,source,101,200,10,almond mom,3,1
+mistral,source,101,200,11,awkward turtle,0,0
+mistral,source,101,200,12,butterface,0,0
+mistral,source,101,200,13,concern troll,0,0
+mistral,source,101,200,14,hamster angle,0,0
+mistral,source,101,200,15,problem child,0,0
+mistral,source,101,200,16,problematic fave,0,0
+mistral,source,101,200,17,sadfishing,0,0
+mistral,source,101,200,18,shadow banning,0,0
+mistral,source,101,200,19,throwing shade,0,0
+mistral,source,101,200,20,adorkable,0,0
+mistral,source,101,200,21,dayt,5,1
+mistral,source,101,200,22,egotastic,0,0
+mistral,source,101,200,23,Friyay,1,1
+mistral,source,101,200,24,Galentine’s Day,0,0
+mistral,source,101,200,25,realest,1,1
+mistral,source,101,200,26,sliving,0,0
+mistral,source,101,200,27,smexy,0,0
+mistral,source,101,200,28,smize,0,0
+mistral,source,101,200,29,quirkyalone,0,0
+mistral,source,101,200,30,brigading,0,0
+mistral,source,101,200,31,coronaversary,0,0
+mistral,source,101,200,32,edgelord,0,0
+mistral,source,101,200,33,feminazi,0,0
+mistral,source,101,200,34,headdesk,0,0
+mistral,source,101,200,35,maskne,0,0
+mistral,source,101,200,36,demotional,0,0
+mistral,source,101,200,37,selfiecide,0,0
+mistral,source,101,200,38,unalive,0,0
+mistral,source,101,200,39,whitesplain,0,0
+mistral,source,101,200,40,alpha,0,0
+mistral,source,101,200,41,drip,0,0
+mistral,source,101,200,42,G.O.A.T.,0,0
+mistral,source,101,200,43,juice,0,0
+mistral,source,101,200,44,pick six,0,0
+mistral,source,101,200,45,woke,0,0
+mistral,source,101,200,46,going platinum,0,0
+mistral,source,101,200,47,hugs and kisses,0,0
+mistral,source,101,200,48,Praise the Sun,0,0
+mistral,source,101,200,49,relationship goals,0,0
+mistral,source,101,200,50,an hero,1,1
+mistral,source,101,200,51,beta,0,0
+mistral,source,101,200,52,brick wall,0,0
+mistral,source,101,200,53,mid,0,0
+mistral,source,101,200,54,shook,0,0
+mistral,source,101,200,55,snowflake,0,0
+mistral,source,101,200,56,sportsball,0,0
+mistral,source,101,200,57,this guy,0,0
+mistral,source,101,200,58,too much sauce,0,0
+mistral,source,101,200,59,washed,0,0
+mistral,source,1,200,0,cool beans,0,0
+mistral,source,1,200,1,badd,4,1
+mistral,source,1,200,2,baller,9,1
+mistral,source,1,200,3,chef’s kiss,23,1
+mistral,source,1,200,4,picture perfect,1,1
+mistral,source,1,200,5,power couple,9,1
+mistral,source,1,200,6,rainbow baby,2,1
+mistral,source,1,200,7,spooning,3,1
+mistral,source,1,200,8,tendies,1,1
+mistral,source,1,200,9,word up,0,0
+mistral,source,1,200,10,almond mom,5,1
+mistral,source,1,200,11,awkward turtle,1,1
+mistral,source,1,200,12,butterface,1,1
+mistral,source,1,200,13,concern troll,0,0
+mistral,source,1,200,14,hamster angle,0,0
+mistral,source,1,200,15,problem child,0,0
+mistral,source,1,200,16,problematic fave,0,0
+mistral,source,1,200,17,sadfishing,0,0
+mistral,source,1,200,18,shadow banning,0,0
+mistral,source,1,200,19,throwing shade,0,0
+mistral,source,1,200,20,adorkable,4,1
+mistral,source,1,200,21,dayt,15,1
+mistral,source,1,200,22,egotastic,0,0
+mistral,source,1,200,23,Friyay,4,1
+mistral,source,1,200,24,Galentine’s Day,9,1
+mistral,source,1,200,25,realest,2,1
+mistral,source,1,200,26,sliving,3,1
+mistral,source,1,200,27,smexy,2,1
+mistral,source,1,200,28,smize,0,0
+mistral,source,1,200,29,quirkyalone,2,1
+mistral,source,1,200,30,brigading,0,0
+mistral,source,1,200,31,coronaversary,2,1
+mistral,source,1,200,32,edgelord,0,0
+mistral,source,1,200,33,feminazi,0,0
+mistral,source,1,200,34,headdesk,0,0
+mistral,source,1,200,35,maskne,0,0
+mistral,source,1,200,36,demotional,0,0
+mistral,source,1,200,37,selfiecide,0,0
+mistral,source,1,200,38,unalive,1,1
+mistral,source,1,200,39,whitesplain,0,0
+mistral,source,1,200,40,alpha,0,0
+mistral,source,1,200,41,drip,0,0
+mistral,source,1,200,42,G.O.A.T.,1,1
+mistral,source,1,200,43,juice,0,0
+mistral,source,1,200,44,pick six,0,0
+mistral,source,1,200,45,woke,1,1
+mistral,source,1,200,46,going platinum,0,0
+mistral,source,1,200,47,hugs and kisses,0,0
+mistral,source,1,200,48,Praise the Sun,0,0
+mistral,source,1,200,49,relationship goals,1,1
+mistral,source,1,200,50,an hero,1,1
+mistral,source,1,200,51,beta,0,0
+mistral,source,1,200,52,brick wall,0,0
+mistral,source,1,200,53,mid,0,0
+mistral,source,1,200,54,shook,0,0
+mistral,source,1,200,55,snowflake,0,0
+mistral,source,1,200,56,sportsball,0,0
+mistral,source,1,200,57,this guy,0,0
+mistral,source,1,200,58,too much sauce,0,0
+mistral,source,1,200,59,washed,0,0
+mistral,nonseed,1,100,0,cool beans,0,0
+mistral,nonseed,1,100,1,badd,0,0
+mistral,nonseed,1,100,2,baller,4,2
+mistral,nonseed,1,100,3,chef’s kiss,0,0
+mistral,nonseed,1,100,4,picture perfect,1,1
+mistral,nonseed,1,100,5,power couple,0,0
+mistral,nonseed,1,100,6,rainbow baby,0,0
+mistral,nonseed,1,100,7,spooning,0,0
+mistral,nonseed,1,100,8,tendies,0,0
+mistral,nonseed,1,100,9,word up,0,0
+mistral,nonseed,1,100,10,almond mom,4,1
+mistral,nonseed,1,100,11,awkward turtle,0,0
+mistral,nonseed,1,100,12,butterface,0,0
+mistral,nonseed,1,100,13,concern troll,0,0
+mistral,nonseed,1,100,14,hamster angle,0,0
+mistral,nonseed,1,100,15,problem child,0,0
+mistral,nonseed,1,100,16,problematic fave,0,0
+mistral,nonseed,1,100,17,sadfishing,0,0
+mistral,nonseed,1,100,18,shadow banning,1,1
+mistral,nonseed,1,100,19,throwing shade,0,0
+mistral,nonseed,1,100,20,adorkable,0,0
+mistral,nonseed,1,100,21,dayt,1,1
+mistral,nonseed,1,100,22,egotastic,0,0
+mistral,nonseed,1,100,23,Friyay,3,2
+mistral,nonseed,1,100,24,Galentine’s Day,12,2
+mistral,nonseed,1,100,25,realest,0,0
+mistral,nonseed,1,100,26,sliving,0,0
+mistral,nonseed,1,100,27,smexy,0,0
+mistral,nonseed,1,100,28,smize,0,0
+mistral,nonseed,1,100,29,quirkyalone,0,0
+mistral,nonseed,1,100,30,brigading,1,1
+mistral,nonseed,1,100,31,coronaversary,1,1
+mistral,nonseed,1,100,32,edgelord,0,0
+mistral,nonseed,1,100,33,feminazi,0,0
+mistral,nonseed,1,100,34,headdesk,0,0
+mistral,nonseed,1,100,35,maskne,3,1
+mistral,nonseed,1,100,36,demotional,1,1
+mistral,nonseed,1,100,37,selfiecide,0,0
+mistral,nonseed,1,100,38,unalive,0,0
+mistral,nonseed,1,100,39,whitesplain,0,0
+mistral,nonseed,1,100,40,alpha,17,5
+mistral,nonseed,1,100,41,drip,0,0
+mistral,nonseed,1,100,42,G.O.A.T.,2,1
+mistral,nonseed,1,100,43,juice,0,0
+mistral,nonseed,1,100,44,pick six,6,2
+mistral,nonseed,1,100,45,woke,0,0
+mistral,nonseed,1,100,46,going platinum,0,0
+mistral,nonseed,1,100,47,hugs and kisses,0,0
+mistral,nonseed,1,100,48,Praise the Sun,0,0
+mistral,nonseed,1,100,49,relationship goals,0,0
+mistral,nonseed,1,100,50,an hero,21,1
+mistral,nonseed,1,100,51,beta,5,2
+mistral,nonseed,1,100,52,brick wall,0,0
+mistral,nonseed,1,100,53,mid,0,0
+mistral,nonseed,1,100,54,shook,5,1
+mistral,nonseed,1,100,55,snowflake,0,0
+mistral,nonseed,1,100,56,sportsball,0,0
+mistral,nonseed,1,100,57,this guy,0,0
+mistral,nonseed,1,100,58,too much sauce,7,2
+mistral,nonseed,1,100,59,washed,0,0
+mistral,nonseed,101,200,0,cool beans,0,0
+mistral,nonseed,101,200,1,badd,0,0
+mistral,nonseed,101,200,2,baller,0,0
+mistral,nonseed,101,200,3,chef’s kiss,1,1
+mistral,nonseed,101,200,4,picture perfect,0,0
+mistral,nonseed,101,200,5,power couple,0,0
+mistral,nonseed,101,200,6,rainbow baby,0,0
+mistral,nonseed,101,200,7,spooning,0,0
+mistral,nonseed,101,200,8,tendies,0,0
+mistral,nonseed,101,200,9,word up,0,0
+mistral,nonseed,101,200,10,almond mom,0,0
+mistral,nonseed,101,200,11,awkward turtle,0,0
+mistral,nonseed,101,200,12,butterface,0,0
+mistral,nonseed,101,200,13,concern troll,0,0
+mistral,nonseed,101,200,14,hamster angle,4,2
+mistral,nonseed,101,200,15,problem child,0,0
+mistral,nonseed,101,200,16,problematic fave,0,0
+mistral,nonseed,101,200,17,sadfishing,0,0
+mistral,nonseed,101,200,18,shadow banning,0,0
+mistral,nonseed,101,200,19,throwing shade,0,0
+mistral,nonseed,101,200,20,adorkable,0,0
+mistral,nonseed,101,200,21,dayt,1,1
+mistral,nonseed,101,200,22,egotastic,0,0
+mistral,nonseed,101,200,23,Friyay,0,0
+mistral,nonseed,101,200,24,Galentine’s Day,1,1
+mistral,nonseed,101,200,25,realest,0,0
+mistral,nonseed,101,200,26,sliving,0,0
+mistral,nonseed,101,200,27,smexy,0,0
+mistral,nonseed,101,200,28,smize,0,0
+mistral,nonseed,101,200,29,quirkyalone,0,0
+mistral,nonseed,101,200,30,brigading,0,0
+mistral,nonseed,101,200,31,coronaversary,2,2
+mistral,nonseed,101,200,32,edgelord,0,0
+mistral,nonseed,101,200,33,feminazi,0,0
+mistral,nonseed,101,200,34,headdesk,0,0
+mistral,nonseed,101,200,35,maskne,3,1
+mistral,nonseed,101,200,36,demotional,0,0
+mistral,nonseed,101,200,37,selfiecide,0,0
+mistral,nonseed,101,200,38,unalive,0,0
+mistral,nonseed,101,200,39,whitesplain,0,0
+mistral,nonseed,101,200,40,alpha,5,4
+mistral,nonseed,101,200,41,drip,0,0
+mistral,nonseed,101,200,42,G.O.A.T.,0,0
+mistral,nonseed,101,200,43,juice,0,0
+mistral,nonseed,101,200,44,pick six,4,2
+mistral,nonseed,101,200,45,woke,0,0
+mistral,nonseed,101,200,46,going platinum,0,0
+mistral,nonseed,101,200,47,hugs and kisses,0,0
+mistral,nonseed,101,200,48,Praise the Sun,0,0
+mistral,nonseed,101,200,49,relationship goals,0,0
+mistral,nonseed,101,200,50,an hero,6,2
+mistral,nonseed,101,200,51,beta,12,3
+mistral,nonseed,101,200,52,brick wall,0,0
+mistral,nonseed,101,200,53,mid,0,0
+mistral,nonseed,101,200,54,shook,0,0
+mistral,nonseed,101,200,55,snowflake,0,0
+mistral,nonseed,101,200,56,sportsball,1,1
+mistral,nonseed,101,200,57,this guy,0,0
+mistral,nonseed,101,200,58,too much sauce,0,0
+mistral,nonseed,101,200,59,washed,0,0
+mistral,nonseed,1,200,0,cool beans,0,0
+mistral,nonseed,1,200,1,badd,0,0
+mistral,nonseed,1,200,2,baller,4,2
+mistral,nonseed,1,200,3,chef’s kiss,1,1
+mistral,nonseed,1,200,4,picture perfect,1,1
+mistral,nonseed,1,200,5,power couple,0,0
+mistral,nonseed,1,200,6,rainbow baby,0,0
+mistral,nonseed,1,200,7,spooning,0,0
+mistral,nonseed,1,200,8,tendies,0,0
+mistral,nonseed,1,200,9,word up,0,0
+mistral,nonseed,1,200,10,almond mom,4,1
+mistral,nonseed,1,200,11,awkward turtle,0,0
+mistral,nonseed,1,200,12,butterface,0,0
+mistral,nonseed,1,200,13,concern troll,0,0
+mistral,nonseed,1,200,14,hamster angle,4,2
+mistral,nonseed,1,200,15,problem child,0,0
+mistral,nonseed,1,200,16,problematic fave,0,0
+mistral,nonseed,1,200,17,sadfishing,0,0
+mistral,nonseed,1,200,18,shadow banning,1,1
+mistral,nonseed,1,200,19,throwing shade,0,0
+mistral,nonseed,1,200,20,adorkable,0,0
+mistral,nonseed,1,200,21,dayt,2,2
+mistral,nonseed,1,200,22,egotastic,0,0
+mistral,nonseed,1,200,23,Friyay,3,2
+mistral,nonseed,1,200,24,Galentine’s Day,13,2
+mistral,nonseed,1,200,25,realest,0,0
+mistral,nonseed,1,200,26,sliving,0,0
+mistral,nonseed,1,200,27,smexy,0,0
+mistral,nonseed,1,200,28,smize,0,0
+mistral,nonseed,1,200,29,quirkyalone,0,0
+mistral,nonseed,1,200,30,brigading,1,1
+mistral,nonseed,1,200,31,coronaversary,3,2
+mistral,nonseed,1,200,32,edgelord,0,0
+mistral,nonseed,1,200,33,feminazi,0,0
+mistral,nonseed,1,200,34,headdesk,0,0
+mistral,nonseed,1,200,35,maskne,6,2
+mistral,nonseed,1,200,36,demotional,1,1
+mistral,nonseed,1,200,37,selfiecide,0,0
+mistral,nonseed,1,200,38,unalive,0,0
+mistral,nonseed,1,200,39,whitesplain,0,0
+mistral,nonseed,1,200,40,alpha,22,8
+mistral,nonseed,1,200,41,drip,0,0
+mistral,nonseed,1,200,42,G.O.A.T.,2,1
+mistral,nonseed,1,200,43,juice,0,0
+mistral,nonseed,1,200,44,pick six,10,4
+mistral,nonseed,1,200,45,woke,0,0
+mistral,nonseed,1,200,46,going platinum,0,0
+mistral,nonseed,1,200,47,hugs and kisses,0,0
+mistral,nonseed,1,200,48,Praise the Sun,0,0
+mistral,nonseed,1,200,49,relationship goals,0,0
+mistral,nonseed,1,200,50,an hero,27,3
+mistral,nonseed,1,200,51,beta,17,5
+mistral,nonseed,1,200,52,brick wall,0,0
+mistral,nonseed,1,200,53,mid,0,0
+mistral,nonseed,1,200,54,shook,5,1
+mistral,nonseed,1,200,55,snowflake,0,0
+mistral,nonseed,1,200,56,sportsball,1,1
+mistral,nonseed,1,200,57,this guy,0,0
+mistral,nonseed,1,200,58,too much sauce,7,2
+mistral,nonseed,1,200,59,washed,0,0

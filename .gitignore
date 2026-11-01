@@ -1,0 +1,16 @@
+# Curated public release only. Original working data and manuscript drafts stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/research/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/.env
+**/.env.*
+**/.venv/
+**/*.safetensors
+**/*.gguf
+**/*.pem
+**/*.key

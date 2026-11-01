@@ -1,0 +1,23 @@
+{
+  "scope": "AI-assisted source-consistency and structural item review; not independent human validation",
+  "tested_terms": 45,
+  "unique_questions": 135,
+  "checks": [
+    "Meaning targets paraphrase provided definitions",
+    "Definition distractors omit other headwords and contain5\u201325words",
+    "Scenario correct options differ from supplied examples",
+    "Literal-homonym distractors are explicitly distinguished by question instructions",
+    "Four distinct options per item",
+    "All135 first-use cases retained including2without recorded prior exposure",
+    "Answer labels balanced within model",
+    "Matched initial/use questions have identical order and seed",
+    "All questions branch from separate copies without feedback"
+  ],
+  "instrument_limits": [
+    "Unrelated definition distractors may make recognition easy",
+    "Scenario distractor difficulty is not equated to definition task difficulty",
+    "No human ambiguity or difficulty calibration",
+    "Available use context can contain source definitions",
+    "Only45of60terms tested due use-conditioned selection"
+  ]
+}

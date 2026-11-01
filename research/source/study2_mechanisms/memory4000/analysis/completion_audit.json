@@ -1,0 +1,59 @@
+{
+  "time": "2026-11-01T21:44:37.785283+09:00",
+  "all_four_fresh100cycle_runs_verified": true,
+  "pilots_excluded": true,
+  "checks": [
+    {
+      "model": "llama",
+      "stage": "main",
+      "cycles": 100,
+      "completed_calls": 2181,
+      "failed_calls": 0,
+      "summary_calls": 30,
+      "seconds": 8150.617643313482,
+      "max_prompt_tokens": 3204,
+      "baseline_feed_and4000_trigger_and500cap_verified": true,
+      "calls_sha256": "56cb15dfc75af8965fff52efacff087eabde521325cf160ff6d52502a58461d0",
+      "checkpoint_sha256": "3a93cceef5cbce78f6a2ba6c170cf03a279cf841a54053ec401f3d45d2ba7c13"
+    },
+    {
+      "model": "qwen",
+      "stage": "main",
+      "cycles": 100,
+      "completed_calls": 2096,
+      "failed_calls": 0,
+      "summary_calls": 19,
+      "seconds": 11020.64787233062,
+      "max_prompt_tokens": 3553,
+      "baseline_feed_and4000_trigger_and500cap_verified": true,
+      "calls_sha256": "554fcb06e109d38bf601489f04d1b4dd40c0f4e141887abe1551c6b03ea7c902",
+      "checkpoint_sha256": "571d2b756e572dece363ddf6f23c3afd5cef2d4f47ff9a886f084f70a0fc506c"
+    },
+    {
+      "model": "gemma",
+      "stage": "main",
+      "cycles": 100,
+      "completed_calls": 2126,
+      "failed_calls": 0,
+      "summary_calls": 19,
+      "seconds": 10422.795574201271,
+      "max_prompt_tokens": 3339,
+      "baseline_feed_and4000_trigger_and500cap_verified": true,
+      "calls_sha256": "003a72d81b7d517950c566f03fd9e010e99c736bbe58a02fd77d6d4d30e309c2",
+      "checkpoint_sha256": "6fbabcc4a566611a6d388d8e1f48876a1dc2783ed418477ed51246d77ae30732"
+    },
+    {
+      "model": "mistral",
+      "stage": "main",
+      "cycles": 100,
+      "completed_calls": 2201,
+      "failed_calls": 0,
+      "summary_calls": 34,
+      "seconds": 10212.38187435735,
+      "max_prompt_tokens": 3997,
+      "baseline_feed_and4000_trigger_and500cap_verified": true,
+      "calls_sha256": "bf30c6a59fbd052a98b1bfbbdd7f389ec118a465f8c268490949d2374563846e",
+      "checkpoint_sha256": "bba12e49152edc8ddeb047dc6abd386f417e675845349588b1c088d915e3dee9"
+    }
+  ]
+}

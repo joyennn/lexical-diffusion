@@ -1,0 +1,68 @@
+{
+  "time": "2026-10-31T10:51:22.517825+09:00",
+  "passed": true,
+  "criterion": "Technical execution only; no diffusion-direction gate.",
+  "checks": [
+    {
+      "model": "llama",
+      "stage": "pilot",
+      "cycles": 3,
+      "completed_calls": 65,
+      "failed_calls": 0,
+      "seconds": 124.79024104494601,
+      "branches": {
+        "ordinary_unread": 5,
+        "recommended_source": 2,
+        "source_baseline": 1
+      },
+      "raw_and_feed_selection_verified": true,
+      "checkpoint_sha256": "a481f2f7a8e263bde95f87d1e4e3a766b7d419d778cb5b7a9e34ed081c1774b4",
+      "calls_sha256": "c5e2e45d4bb4b2fb3bc14ade416726fc70f887e3600d88ce99f35b270476e7c0"
+    },
+    {
+      "model": "qwen",
+      "stage": "pilot",
+      "cycles": 3,
+      "completed_calls": 61,
+      "failed_calls": 0,
+      "seconds": 155.19282033480704,
+      "branches": {
+        "ordinary_unread": 1
+      },
+      "raw_and_feed_selection_verified": true,
+      "checkpoint_sha256": "e2e3d81d39b93ce73690fafe23e053c5d85f4244330fac3be6b4488a4a64d5e3",
+      "calls_sha256": "de2d9bd1e448f075851a85ab0a4fa812ce56f411838b923640271586761943b5"
+    },
+    {
+      "model": "gemma",
+      "stage": "pilot",
+      "cycles": 3,
+      "completed_calls": 65,
+      "failed_calls": 0,
+      "seconds": 164.90259628836066,
+      "branches": {
+        "ordinary_unread": 6,
+        "recommended_source": 3
+      },
+      "raw_and_feed_selection_verified": true,
+      "checkpoint_sha256": "53ec71e619d17c1645169b351ed09d584dc4cf907933ac0a722635676212586a",
+      "calls_sha256": "d5f4db2b4b77847b33b9d57dd9a3808c877e69b07f98e5ebe65686edf47c6618"
+    },
+    {
+      "model": "mistral",
+      "stage": "pilot",
+      "cycles": 3,
+      "completed_calls": 65,
+      "failed_calls": 0,
+      "seconds": 158.03674912452698,
+      "branches": {
+        "ordinary_unread": 4,
+        "recommended_source": 3,
+        "source_baseline": 1
+      },
+      "raw_and_feed_selection_verified": true,
+      "checkpoint_sha256": "abd7f27316d6e1466787b4646b5176a154c160a37f7eecf04d2b9b23248787f7",
+      "calls_sha256": "a2f560a58427257d86c00d3fc349d68e46119fb5434e005b912fd5947858390d"
+    }
+  ]
+}

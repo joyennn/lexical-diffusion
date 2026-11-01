@@ -1,0 +1,12 @@
+{
+  "model": "gemma",
+  "cycles": 200,
+  "added_cycles": 100,
+  "original100_state_and_call_prefix_preserved": true,
+  "baseline_rules_replayed": true,
+  "total_calls": 4460,
+  "new_calls": 2242,
+  "last_new_call": "2026-11-01T00:53:05.842826+09:00",
+  "checkpoint_sha256": "cc35bc7034a9fa0e56e10ce98c50483b57efff04d4cb78b9d2b0bec5739eb564",
+  "calls_sha256": "fdceb2220ac0f261ec10e41481bf70f82a13647c399ef4e1705f43aade450bcd"
+}

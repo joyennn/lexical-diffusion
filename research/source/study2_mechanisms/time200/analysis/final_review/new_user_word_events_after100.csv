@@ -1,0 +1,35 @@
+model,agent,word,first_use_cycle,first_exposure_cycle,qualifying
+llama,6,baller,114,114,True
+llama,5,sliving,120,119,True
+llama,2,mid,126,,False
+llama,1,maskne,160,156,True
+llama,2,maskne,162,161,True
+llama,4,tendies,163,163,True
+llama,6,maskne,164,164,True
+qwen,3,Friyay,112,64,True
+qwen,1,hamster angle,113,113,True
+qwen,5,chef’s kiss,198,198,True
+qwen,5,Friyay,198,198,True
+gemma,9,feminazi,114,10,True
+gemma,9,an hero,114,99,True
+gemma,5,cool beans,116,116,True
+gemma,5,juice,128,126,True
+gemma,9,shook,187,67,True
+gemma,8,juice,195,194,True
+mistral,4,alpha,101,101,True
+mistral,9,hamster angle,101,100,True
+mistral,4,beta,104,103,True
+mistral,8,beta,107,106,True
+mistral,1,hamster angle,113,113,True
+mistral,6,chef’s kiss,114,114,True
+mistral,5,dayt,116,115,True
+mistral,1,pick six,122,72,True
+mistral,1,maskne,128,127,True
+mistral,5,beta,138,138,True
+mistral,5,alpha,144,94,True
+mistral,1,coronaversary,181,32,True
+mistral,5,sportsball,189,189,True
+mistral,6,an hero,195,92,True
+mistral,8,pick six,195,111,True
+mistral,1,an hero,196,119,True
+mistral,6,alpha,200,33,True

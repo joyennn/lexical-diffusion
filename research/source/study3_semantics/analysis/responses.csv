@@ -1,0 +1,811 @@
+model,case_id,agent,term_id,word,kind,item_id,state,response,answer,correct,cycle,prior_exposure,current_incoming_contains_term,exact_source_definition_in_prefix
+llama,llama_a8_w54,8,54,shook,meaning,w54_meaning,initial,1,1,1,1,True,True,True
+llama,llama_a8_w54,8,54,shook,meaning,w54_meaning,use,1,1,1,1,True,True,True
+llama,llama_a8_w54,8,54,shook,application,w54_context1,initial,0,0,1,1,True,True,True
+llama,llama_a8_w54,8,54,shook,application,w54_context1,use,0,0,1,1,True,True,True
+llama,llama_a8_w54,8,54,shook,application,w54_context2,initial,2,2,1,1,True,True,True
+llama,llama_a8_w54,8,54,shook,application,w54_context2,use,2,2,1,1,True,True,True
+llama,llama_a5_w16,5,16,problematic fave,meaning,w16_meaning,initial,1,1,1,4,True,True,True
+llama,llama_a5_w16,5,16,problematic fave,meaning,w16_meaning,use,1,1,1,4,True,True,True
+llama,llama_a5_w16,5,16,problematic fave,application,w16_context1,initial,2,2,1,4,True,True,True
+llama,llama_a5_w16,5,16,problematic fave,application,w16_context1,use,2,2,1,4,True,True,True
+llama,llama_a5_w16,5,16,problematic fave,application,w16_context2,initial,2,3,0,4,True,True,True
+llama,llama_a5_w16,5,16,problematic fave,application,w16_context2,use,3,3,1,4,True,True,True
+llama,llama_a3_w21,3,21,dayt,meaning,w21_meaning,initial,2,2,1,5,True,False,True
+llama,llama_a3_w21,3,21,dayt,meaning,w21_meaning,use,2,2,1,5,True,False,True
+llama,llama_a3_w21,3,21,dayt,application,w21_context1,initial,2,0,0,5,True,False,True
+llama,llama_a3_w21,3,21,dayt,application,w21_context1,use,3,0,0,5,True,False,True
+llama,llama_a3_w21,3,21,dayt,application,w21_context2,initial,2,0,0,5,True,False,True
+llama,llama_a3_w21,3,21,dayt,application,w21_context2,use,2,0,0,5,True,False,True
+llama,llama_a4_w43,4,43,juice,meaning,w43_meaning,initial,0,0,1,6,True,False,True
+llama,llama_a4_w43,4,43,juice,meaning,w43_meaning,use,0,0,1,6,True,False,True
+llama,llama_a4_w43,4,43,juice,application,w43_context1,initial,3,3,1,6,True,False,True
+llama,llama_a4_w43,4,43,juice,application,w43_context1,use,3,3,1,6,True,False,True
+llama,llama_a4_w43,4,43,juice,application,w43_context2,initial,2,2,1,6,True,False,True
+llama,llama_a4_w43,4,43,juice,application,w43_context2,use,2,2,1,6,True,False,True
+llama,llama_a6_w38,6,38,unalive,meaning,w38_meaning,initial,1,1,1,6,True,True,True
+llama,llama_a6_w38,6,38,unalive,meaning,w38_meaning,use,1,1,1,6,True,True,True
+llama,llama_a6_w38,6,38,unalive,application,w38_context1,initial,2,3,0,6,True,True,True
+llama,llama_a6_w38,6,38,unalive,application,w38_context1,use,2,3,0,6,True,True,True
+llama,llama_a6_w38,6,38,unalive,application,w38_context2,initial,3,3,1,6,True,True,True
+llama,llama_a6_w38,6,38,unalive,application,w38_context2,use,3,3,1,6,True,True,True
+llama,llama_a6_w21,6,21,dayt,meaning,w21_meaning,initial,0,0,1,9,True,False,True
+llama,llama_a6_w21,6,21,dayt,meaning,w21_meaning,use,0,0,1,9,True,False,True
+llama,llama_a6_w21,6,21,dayt,application,w21_context1,initial,1,3,0,9,True,False,True
+llama,llama_a6_w21,6,21,dayt,application,w21_context1,use,3,3,1,9,True,False,True
+llama,llama_a6_w21,6,21,dayt,application,w21_context2,initial,3,1,0,9,True,False,True
+llama,llama_a6_w21,6,21,dayt,application,w21_context2,use,1,1,1,9,True,False,True
+llama,llama_a8_w24,8,24,Galentine’s Day,meaning,w24_meaning,initial,3,3,1,10,True,True,True
+llama,llama_a8_w24,8,24,Galentine’s Day,meaning,w24_meaning,use,3,3,1,10,True,True,True
+llama,llama_a8_w24,8,24,Galentine’s Day,application,w24_context1,initial,0,0,1,10,True,True,True
+llama,llama_a8_w24,8,24,Galentine’s Day,application,w24_context1,use,0,0,1,10,True,True,True
+llama,llama_a8_w24,8,24,Galentine’s Day,application,w24_context2,initial,2,0,0,10,True,True,True
+llama,llama_a8_w24,8,24,Galentine’s Day,application,w24_context2,use,1,0,0,10,True,True,True
+llama,llama_a6_w24,6,24,Galentine’s Day,meaning,w24_meaning,initial,1,1,1,15,True,False,True
+llama,llama_a6_w24,6,24,Galentine’s Day,meaning,w24_meaning,use,1,1,1,15,True,False,True
+llama,llama_a6_w24,6,24,Galentine’s Day,application,w24_context1,initial,2,2,1,15,True,False,True
+llama,llama_a6_w24,6,24,Galentine’s Day,application,w24_context1,use,2,2,1,15,True,False,True
+llama,llama_a6_w24,6,24,Galentine’s Day,application,w24_context2,initial,2,2,1,15,True,False,True
+llama,llama_a6_w24,6,24,Galentine’s Day,application,w24_context2,use,2,2,1,15,True,False,True
+llama,llama_a6_w1,6,1,badd,meaning,w1_meaning,initial,3,3,1,20,True,True,True
+llama,llama_a6_w1,6,1,badd,meaning,w1_meaning,use,3,3,1,20,True,True,True
+llama,llama_a6_w1,6,1,badd,application,w1_context1,initial,0,0,1,20,True,True,True
+llama,llama_a6_w1,6,1,badd,application,w1_context1,use,0,0,1,20,True,True,True
+llama,llama_a6_w1,6,1,badd,application,w1_context2,initial,0,0,1,20,True,True,True
+llama,llama_a6_w1,6,1,badd,application,w1_context2,use,1,0,0,20,True,True,True
+llama,llama_a4_w21,4,21,dayt,meaning,w21_meaning,initial,2,1,0,22,True,False,True
+llama,llama_a4_w21,4,21,dayt,meaning,w21_meaning,use,1,1,1,22,True,False,True
+llama,llama_a4_w21,4,21,dayt,application,w21_context1,initial,2,1,0,22,True,False,True
+llama,llama_a4_w21,4,21,dayt,application,w21_context1,use,1,1,1,22,True,False,True
+llama,llama_a4_w21,4,21,dayt,application,w21_context2,initial,2,2,1,22,True,False,True
+llama,llama_a4_w21,4,21,dayt,application,w21_context2,use,2,2,1,22,True,False,True
+llama,llama_a1_w53,1,53,mid,meaning,w53_meaning,initial,2,2,1,27,True,True,True
+llama,llama_a1_w53,1,53,mid,meaning,w53_meaning,use,2,2,1,27,True,True,True
+llama,llama_a1_w53,1,53,mid,application,w53_context1,initial,2,0,0,27,True,True,True
+llama,llama_a1_w53,1,53,mid,application,w53_context1,use,2,0,0,27,True,True,True
+llama,llama_a1_w53,1,53,mid,application,w53_context2,initial,3,3,1,27,True,True,True
+llama,llama_a1_w53,1,53,mid,application,w53_context2,use,3,3,1,27,True,True,True
+llama,llama_a2_w2,2,2,baller,meaning,w2_meaning,initial,0,0,1,30,True,False,True
+llama,llama_a2_w2,2,2,baller,meaning,w2_meaning,use,0,0,1,30,True,False,True
+llama,llama_a2_w2,2,2,baller,application,w2_context1,initial,2,3,0,30,True,False,True
+llama,llama_a2_w2,2,2,baller,application,w2_context1,use,3,3,1,30,True,False,True
+llama,llama_a2_w2,2,2,baller,application,w2_context2,initial,0,0,1,30,True,False,True
+llama,llama_a2_w2,2,2,baller,application,w2_context2,use,0,0,1,30,True,False,True
+llama,llama_a5_w35,5,35,maskne,meaning,w35_meaning,initial,0,0,1,32,True,False,False
+llama,llama_a5_w35,5,35,maskne,meaning,w35_meaning,use,0,0,1,32,True,False,False
+llama,llama_a5_w35,5,35,maskne,application,w35_context1,initial,2,2,1,32,True,False,False
+llama,llama_a5_w35,5,35,maskne,application,w35_context1,use,2,2,1,32,True,False,False
+llama,llama_a5_w35,5,35,maskne,application,w35_context2,initial,0,0,1,32,True,False,False
+llama,llama_a5_w35,5,35,maskne,application,w35_context2,use,1,0,0,32,True,False,False
+llama,llama_a8_w35,8,35,maskne,meaning,w35_meaning,initial,1,1,1,34,True,True,True
+llama,llama_a8_w35,8,35,maskne,meaning,w35_meaning,use,1,1,1,34,True,True,True
+llama,llama_a8_w35,8,35,maskne,application,w35_context1,initial,2,1,0,34,True,True,True
+llama,llama_a8_w35,8,35,maskne,application,w35_context1,use,1,1,1,34,True,True,True
+llama,llama_a8_w35,8,35,maskne,application,w35_context2,initial,1,1,1,34,True,True,True
+llama,llama_a8_w35,8,35,maskne,application,w35_context2,use,1,1,1,34,True,True,True
+llama,llama_a1_w59,1,59,washed,meaning,w59_meaning,initial,2,2,1,35,True,True,True
+llama,llama_a1_w59,1,59,washed,meaning,w59_meaning,use,2,2,1,35,True,True,True
+llama,llama_a1_w59,1,59,washed,application,w59_context1,initial,2,2,1,35,True,True,True
+llama,llama_a1_w59,1,59,washed,application,w59_context1,use,2,2,1,35,True,True,True
+llama,llama_a1_w59,1,59,washed,application,w59_context2,initial,3,3,1,35,True,True,True
+llama,llama_a1_w59,1,59,washed,application,w59_context2,use,3,3,1,35,True,True,True
+llama,llama_a6_w14,6,14,hamster angle,meaning,w14_meaning,initial,2,2,1,35,True,True,True
+llama,llama_a6_w14,6,14,hamster angle,meaning,w14_meaning,use,2,2,1,35,True,True,True
+llama,llama_a6_w14,6,14,hamster angle,application,w14_context1,initial,1,1,1,35,True,True,True
+llama,llama_a6_w14,6,14,hamster angle,application,w14_context1,use,1,1,1,35,True,True,True
+llama,llama_a6_w14,6,14,hamster angle,application,w14_context2,initial,2,2,1,35,True,True,True
+llama,llama_a6_w14,6,14,hamster angle,application,w14_context2,use,2,2,1,35,True,True,True
+llama,llama_a6_w29,6,29,quirkyalone,meaning,w29_meaning,initial,1,1,1,41,True,True,True
+llama,llama_a6_w29,6,29,quirkyalone,meaning,w29_meaning,use,1,1,1,41,True,True,True
+llama,llama_a6_w29,6,29,quirkyalone,application,w29_context1,initial,2,2,1,41,True,True,True
+llama,llama_a6_w29,6,29,quirkyalone,application,w29_context1,use,2,2,1,41,True,True,True
+llama,llama_a6_w29,6,29,quirkyalone,application,w29_context2,initial,0,0,1,41,True,True,True
+llama,llama_a6_w29,6,29,quirkyalone,application,w29_context2,use,2,0,0,41,True,True,True
+llama,llama_a1_w35,1,35,maskne,meaning,w35_meaning,initial,3,3,1,44,True,True,True
+llama,llama_a1_w35,1,35,maskne,meaning,w35_meaning,use,3,3,1,44,True,True,True
+llama,llama_a1_w35,1,35,maskne,application,w35_context1,initial,2,1,0,44,True,True,True
+llama,llama_a1_w35,1,35,maskne,application,w35_context1,use,1,1,1,44,True,True,True
+llama,llama_a1_w35,1,35,maskne,application,w35_context2,initial,3,3,1,44,True,True,True
+llama,llama_a1_w35,1,35,maskne,application,w35_context2,use,2,3,0,44,True,True,True
+llama,llama_a5_w27,5,27,smexy,meaning,w27_meaning,initial,1,1,1,44,True,False,False
+llama,llama_a5_w27,5,27,smexy,meaning,w27_meaning,use,1,1,1,44,True,False,False
+llama,llama_a5_w27,5,27,smexy,application,w27_context1,initial,2,0,0,44,True,False,False
+llama,llama_a5_w27,5,27,smexy,application,w27_context1,use,2,0,0,44,True,False,False
+llama,llama_a5_w27,5,27,smexy,application,w27_context2,initial,2,1,0,44,True,False,False
+llama,llama_a5_w27,5,27,smexy,application,w27_context2,use,2,1,0,44,True,False,False
+llama,llama_a5_w21,5,21,dayt,meaning,w21_meaning,initial,2,3,0,47,True,True,True
+llama,llama_a5_w21,5,21,dayt,meaning,w21_meaning,use,3,3,1,47,True,True,True
+llama,llama_a5_w21,5,21,dayt,application,w21_context1,initial,2,0,0,47,True,True,True
+llama,llama_a5_w21,5,21,dayt,application,w21_context1,use,2,0,0,47,True,True,True
+llama,llama_a5_w21,5,21,dayt,application,w21_context2,initial,1,0,0,47,True,True,True
+llama,llama_a5_w21,5,21,dayt,application,w21_context2,use,2,0,0,47,True,True,True
+llama,llama_a6_w45,6,45,woke,meaning,w45_meaning,initial,3,3,1,48,True,False,False
+llama,llama_a6_w45,6,45,woke,meaning,w45_meaning,use,3,3,1,48,True,False,False
+llama,llama_a6_w45,6,45,woke,application,w45_context1,initial,0,0,1,48,True,False,False
+llama,llama_a6_w45,6,45,woke,application,w45_context1,use,0,0,1,48,True,False,False
+llama,llama_a6_w45,6,45,woke,application,w45_context2,initial,3,3,1,48,True,False,False
+llama,llama_a6_w45,6,45,woke,application,w45_context2,use,3,3,1,48,True,False,False
+llama,llama_a4_w34,4,34,headdesk,meaning,w34_meaning,initial,2,2,1,56,True,False,True
+llama,llama_a4_w34,4,34,headdesk,meaning,w34_meaning,use,2,2,1,56,True,False,True
+llama,llama_a4_w34,4,34,headdesk,application,w34_context1,initial,3,3,1,56,True,False,True
+llama,llama_a4_w34,4,34,headdesk,application,w34_context1,use,3,3,1,56,True,False,True
+llama,llama_a4_w34,4,34,headdesk,application,w34_context2,initial,1,1,1,56,True,False,True
+llama,llama_a4_w34,4,34,headdesk,application,w34_context2,use,2,1,0,56,True,False,True
+llama,llama_a4_w35,4,35,maskne,meaning,w35_meaning,initial,1,1,1,57,True,False,False
+llama,llama_a4_w35,4,35,maskne,meaning,w35_meaning,use,1,1,1,57,True,False,False
+llama,llama_a4_w35,4,35,maskne,application,w35_context1,initial,1,1,1,57,True,False,False
+llama,llama_a4_w35,4,35,maskne,application,w35_context1,use,1,1,1,57,True,False,False
+llama,llama_a4_w35,4,35,maskne,application,w35_context2,initial,3,3,1,57,True,False,False
+llama,llama_a4_w35,4,35,maskne,application,w35_context2,use,3,3,1,57,True,False,False
+llama,llama_a4_w24,4,24,Galentine’s Day,meaning,w24_meaning,initial,1,1,1,58,True,True,True
+llama,llama_a4_w24,4,24,Galentine’s Day,meaning,w24_meaning,use,1,1,1,58,True,True,True
+llama,llama_a4_w24,4,24,Galentine’s Day,application,w24_context1,initial,0,0,1,58,True,True,True
+llama,llama_a4_w24,4,24,Galentine’s Day,application,w24_context1,use,0,0,1,58,True,True,True
+llama,llama_a4_w24,4,24,Galentine’s Day,application,w24_context2,initial,1,1,1,58,True,True,True
+llama,llama_a4_w24,4,24,Galentine’s Day,application,w24_context2,use,1,1,1,58,True,True,True
+llama,llama_a5_w43,5,43,juice,meaning,w43_meaning,initial,2,2,1,59,True,False,False
+llama,llama_a5_w43,5,43,juice,meaning,w43_meaning,use,2,2,1,59,True,False,False
+llama,llama_a5_w43,5,43,juice,application,w43_context1,initial,2,2,1,59,True,False,False
+llama,llama_a5_w43,5,43,juice,application,w43_context1,use,2,2,1,59,True,False,False
+llama,llama_a5_w43,5,43,juice,application,w43_context2,initial,3,3,1,59,True,False,False
+llama,llama_a5_w43,5,43,juice,application,w43_context2,use,3,3,1,59,True,False,False
+llama,llama_a9_w24,9,24,Galentine’s Day,meaning,w24_meaning,initial,1,1,1,62,True,True,True
+llama,llama_a9_w24,9,24,Galentine’s Day,meaning,w24_meaning,use,1,1,1,62,True,True,True
+llama,llama_a9_w24,9,24,Galentine’s Day,application,w24_context1,initial,2,2,1,62,True,True,True
+llama,llama_a9_w24,9,24,Galentine’s Day,application,w24_context1,use,2,2,1,62,True,True,True
+llama,llama_a9_w24,9,24,Galentine’s Day,application,w24_context2,initial,1,0,0,62,True,True,True
+llama,llama_a9_w24,9,24,Galentine’s Day,application,w24_context2,use,1,0,0,62,True,True,True
+llama,llama_a1_w56,1,56,sportsball,meaning,w56_meaning,initial,2,2,1,66,True,True,True
+llama,llama_a1_w56,1,56,sportsball,meaning,w56_meaning,use,2,2,1,66,True,True,True
+llama,llama_a1_w56,1,56,sportsball,application,w56_context1,initial,3,3,1,66,True,True,True
+llama,llama_a1_w56,1,56,sportsball,application,w56_context1,use,3,3,1,66,True,True,True
+llama,llama_a1_w56,1,56,sportsball,application,w56_context2,initial,0,0,1,66,True,True,True
+llama,llama_a1_w56,1,56,sportsball,application,w56_context2,use,0,0,1,66,True,True,True
+llama,llama_a5_w3,5,3,chef’s kiss,meaning,w3_meaning,initial,2,2,1,84,True,False,True
+llama,llama_a5_w3,5,3,chef’s kiss,meaning,w3_meaning,use,2,2,1,84,True,False,True
+llama,llama_a5_w3,5,3,chef’s kiss,application,w3_context1,initial,1,1,1,84,True,False,True
+llama,llama_a5_w3,5,3,chef’s kiss,application,w3_context1,use,1,1,1,84,True,False,True
+llama,llama_a5_w3,5,3,chef’s kiss,application,w3_context2,initial,2,3,0,84,True,False,True
+llama,llama_a5_w3,5,3,chef’s kiss,application,w3_context2,use,3,3,1,84,True,False,True
+llama,llama_a9_w43,9,43,juice,meaning,w43_meaning,initial,2,2,1,88,True,True,True
+llama,llama_a9_w43,9,43,juice,meaning,w43_meaning,use,2,2,1,88,True,True,True
+llama,llama_a9_w43,9,43,juice,application,w43_context1,initial,2,2,1,88,True,True,True
+llama,llama_a9_w43,9,43,juice,application,w43_context1,use,2,2,1,88,True,True,True
+llama,llama_a9_w43,9,43,juice,application,w43_context2,initial,3,3,1,88,True,True,True
+llama,llama_a9_w43,9,43,juice,application,w43_context2,use,3,3,1,88,True,True,True
+qwen,qwen_a1_w57,1,57,this guy,meaning,w57_meaning,initial,2,3,0,2,True,True,True
+qwen,qwen_a1_w57,1,57,this guy,meaning,w57_meaning,use,3,3,1,2,True,True,True
+qwen,qwen_a1_w57,1,57,this guy,application,w57_context1,initial,2,0,0,2,True,True,True
+qwen,qwen_a1_w57,1,57,this guy,application,w57_context1,use,0,0,1,2,True,True,True
+qwen,qwen_a1_w57,1,57,this guy,application,w57_context2,initial,2,2,1,2,True,True,True
+qwen,qwen_a1_w57,1,57,this guy,application,w57_context2,use,2,2,1,2,True,True,True
+qwen,qwen_a5_w35,5,35,maskne,meaning,w35_meaning,initial,0,0,1,8,True,False,False
+qwen,qwen_a5_w35,5,35,maskne,meaning,w35_meaning,use,0,0,1,8,True,False,False
+qwen,qwen_a5_w35,5,35,maskne,application,w35_context1,initial,2,1,0,8,True,False,False
+qwen,qwen_a5_w35,5,35,maskne,application,w35_context1,use,2,1,0,8,True,False,False
+qwen,qwen_a5_w35,5,35,maskne,application,w35_context2,initial,1,1,1,8,True,False,False
+qwen,qwen_a5_w35,5,35,maskne,application,w35_context2,use,2,1,0,8,True,False,False
+qwen,qwen_a1_w27,1,27,smexy,meaning,w27_meaning,initial,2,3,0,11,True,True,True
+qwen,qwen_a1_w27,1,27,smexy,meaning,w27_meaning,use,3,3,1,11,True,True,True
+qwen,qwen_a1_w27,1,27,smexy,application,w27_context1,initial,2,3,0,11,True,True,True
+qwen,qwen_a1_w27,1,27,smexy,application,w27_context1,use,3,3,1,11,True,True,True
+qwen,qwen_a1_w27,1,27,smexy,application,w27_context2,initial,2,0,0,11,True,True,True
+qwen,qwen_a1_w27,1,27,smexy,application,w27_context2,use,0,0,1,11,True,True,True
+qwen,qwen_a1_w11,1,11,awkward turtle,meaning,w11_meaning,initial,3,3,1,17,True,True,True
+qwen,qwen_a1_w11,1,11,awkward turtle,meaning,w11_meaning,use,3,3,1,17,True,True,True
+qwen,qwen_a1_w11,1,11,awkward turtle,application,w11_context1,initial,2,1,0,17,True,True,True
+qwen,qwen_a1_w11,1,11,awkward turtle,application,w11_context1,use,1,1,1,17,True,True,True
+qwen,qwen_a1_w11,1,11,awkward turtle,application,w11_context2,initial,2,1,0,17,True,True,True
+qwen,qwen_a1_w11,1,11,awkward turtle,application,w11_context2,use,2,1,0,17,True,True,True
+qwen,qwen_a1_w31,1,31,coronaversary,meaning,w31_meaning,initial,1,1,1,19,True,True,True
+qwen,qwen_a1_w31,1,31,coronaversary,meaning,w31_meaning,use,1,1,1,19,True,True,True
+qwen,qwen_a1_w31,1,31,coronaversary,application,w31_context1,initial,2,1,0,19,True,True,True
+qwen,qwen_a1_w31,1,31,coronaversary,application,w31_context1,use,1,1,1,19,True,True,True
+qwen,qwen_a1_w31,1,31,coronaversary,application,w31_context2,initial,2,2,1,19,True,True,True
+qwen,qwen_a1_w31,1,31,coronaversary,application,w31_context2,use,2,2,1,19,True,True,True
+qwen,qwen_a1_w12,1,12,butterface,meaning,w12_meaning,initial,2,2,1,21,True,True,True
+qwen,qwen_a1_w12,1,12,butterface,meaning,w12_meaning,use,2,2,1,21,True,True,True
+qwen,qwen_a1_w12,1,12,butterface,application,w12_context1,initial,2,3,0,21,True,True,True
+qwen,qwen_a1_w12,1,12,butterface,application,w12_context1,use,3,3,1,21,True,True,True
+qwen,qwen_a1_w12,1,12,butterface,application,w12_context2,initial,2,2,1,21,True,True,True
+qwen,qwen_a1_w12,1,12,butterface,application,w12_context2,use,2,2,1,21,True,True,True
+qwen,qwen_a3_w52,3,52,brick wall,meaning,w52_meaning,initial,3,3,1,21,True,False,False
+qwen,qwen_a3_w52,3,52,brick wall,meaning,w52_meaning,use,3,3,1,21,True,False,False
+qwen,qwen_a3_w52,3,52,brick wall,application,w52_context1,initial,2,0,0,21,True,False,False
+qwen,qwen_a3_w52,3,52,brick wall,application,w52_context1,use,2,0,0,21,True,False,False
+qwen,qwen_a3_w52,3,52,brick wall,application,w52_context2,initial,2,2,1,21,True,False,False
+qwen,qwen_a3_w52,3,52,brick wall,application,w52_context2,use,2,2,1,21,True,False,False
+qwen,qwen_a5_w23,5,23,Friyay,meaning,w23_meaning,initial,2,2,1,26,True,True,False
+qwen,qwen_a5_w23,5,23,Friyay,meaning,w23_meaning,use,2,2,1,26,True,True,False
+qwen,qwen_a5_w23,5,23,Friyay,application,w23_context1,initial,3,3,1,26,True,True,False
+qwen,qwen_a5_w23,5,23,Friyay,application,w23_context1,use,3,3,1,26,True,True,False
+qwen,qwen_a5_w23,5,23,Friyay,application,w23_context2,initial,2,2,1,26,True,True,False
+qwen,qwen_a5_w23,5,23,Friyay,application,w23_context2,use,2,2,1,26,True,True,False
+qwen,qwen_a1_w35,1,35,maskne,meaning,w35_meaning,initial,3,3,1,47,True,False,False
+qwen,qwen_a1_w35,1,35,maskne,meaning,w35_meaning,use,3,3,1,47,True,False,False
+qwen,qwen_a1_w35,1,35,maskne,application,w35_context1,initial,2,2,1,47,True,False,False
+qwen,qwen_a1_w35,1,35,maskne,application,w35_context1,use,2,2,1,47,True,False,False
+qwen,qwen_a1_w35,1,35,maskne,application,w35_context2,initial,2,0,0,47,True,False,False
+qwen,qwen_a1_w35,1,35,maskne,application,w35_context2,use,2,0,0,47,True,False,False
+qwen,qwen_a3_w11,3,11,awkward turtle,meaning,w11_meaning,initial,1,1,1,48,True,True,False
+qwen,qwen_a3_w11,3,11,awkward turtle,meaning,w11_meaning,use,1,1,1,48,True,True,False
+qwen,qwen_a3_w11,3,11,awkward turtle,application,w11_context1,initial,2,0,0,48,True,True,False
+qwen,qwen_a3_w11,3,11,awkward turtle,application,w11_context1,use,2,0,0,48,True,True,False
+qwen,qwen_a3_w11,3,11,awkward turtle,application,w11_context2,initial,2,1,0,48,True,True,False
+qwen,qwen_a3_w11,3,11,awkward turtle,application,w11_context2,use,2,1,0,48,True,True,False
+qwen,qwen_a3_w26,3,26,sliving,meaning,w26_meaning,initial,2,1,0,51,True,False,True
+qwen,qwen_a3_w26,3,26,sliving,meaning,w26_meaning,use,1,1,1,51,True,False,True
+qwen,qwen_a3_w26,3,26,sliving,application,w26_context1,initial,2,2,1,51,True,False,True
+qwen,qwen_a3_w26,3,26,sliving,application,w26_context1,use,2,2,1,51,True,False,True
+qwen,qwen_a3_w26,3,26,sliving,application,w26_context2,initial,2,0,0,51,True,False,True
+qwen,qwen_a3_w26,3,26,sliving,application,w26_context2,use,0,0,1,51,True,False,True
+qwen,qwen_a1_w52,1,52,brick wall,meaning,w52_meaning,initial,0,0,1,54,True,True,True
+qwen,qwen_a1_w52,1,52,brick wall,meaning,w52_meaning,use,0,0,1,54,True,True,True
+qwen,qwen_a1_w52,1,52,brick wall,application,w52_context1,initial,3,3,1,54,True,True,True
+qwen,qwen_a1_w52,1,52,brick wall,application,w52_context1,use,3,3,1,54,True,True,True
+qwen,qwen_a1_w52,1,52,brick wall,application,w52_context2,initial,3,3,1,54,True,True,True
+qwen,qwen_a1_w52,1,52,brick wall,application,w52_context2,use,3,3,1,54,True,True,True
+qwen,qwen_a5_w27,5,27,smexy,meaning,w27_meaning,initial,3,3,1,73,True,True,True
+qwen,qwen_a5_w27,5,27,smexy,meaning,w27_meaning,use,3,3,1,73,True,True,True
+qwen,qwen_a5_w27,5,27,smexy,application,w27_context1,initial,2,1,0,73,True,True,True
+qwen,qwen_a5_w27,5,27,smexy,application,w27_context1,use,1,1,1,73,True,True,True
+qwen,qwen_a5_w27,5,27,smexy,application,w27_context2,initial,1,1,1,73,True,True,True
+qwen,qwen_a5_w27,5,27,smexy,application,w27_context2,use,1,1,1,73,True,True,True
+qwen,qwen_a1_w23,1,23,Friyay,meaning,w23_meaning,initial,1,1,1,75,True,False,False
+qwen,qwen_a1_w23,1,23,Friyay,meaning,w23_meaning,use,1,1,1,75,True,False,False
+qwen,qwen_a1_w23,1,23,Friyay,application,w23_context1,initial,2,0,0,75,True,False,False
+qwen,qwen_a1_w23,1,23,Friyay,application,w23_context1,use,0,0,1,75,True,False,False
+qwen,qwen_a1_w23,1,23,Friyay,application,w23_context2,initial,2,2,1,75,True,False,False
+qwen,qwen_a1_w23,1,23,Friyay,application,w23_context2,use,2,2,1,75,True,False,False
+qwen,qwen_a1_w5,1,5,power couple,meaning,w5_meaning,initial,2,2,1,77,True,True,True
+qwen,qwen_a1_w5,1,5,power couple,meaning,w5_meaning,use,2,2,1,77,True,True,True
+qwen,qwen_a1_w5,1,5,power couple,application,w5_context1,initial,2,2,1,77,True,True,True
+qwen,qwen_a1_w5,1,5,power couple,application,w5_context1,use,2,2,1,77,True,True,True
+qwen,qwen_a1_w5,1,5,power couple,application,w5_context2,initial,3,3,1,77,True,True,True
+qwen,qwen_a1_w5,1,5,power couple,application,w5_context2,use,3,3,1,77,True,True,True
+qwen,qwen_a1_w0,1,0,cool beans,meaning,w0_meaning,initial,2,2,1,84,True,True,True
+qwen,qwen_a1_w0,1,0,cool beans,meaning,w0_meaning,use,2,2,1,84,True,True,True
+qwen,qwen_a1_w0,1,0,cool beans,application,w0_context1,initial,2,1,0,84,True,True,True
+qwen,qwen_a1_w0,1,0,cool beans,application,w0_context1,use,1,1,1,84,True,True,True
+qwen,qwen_a1_w0,1,0,cool beans,application,w0_context2,initial,2,0,0,84,True,True,True
+qwen,qwen_a1_w0,1,0,cool beans,application,w0_context2,use,0,0,1,84,True,True,True
+qwen,qwen_a3_w42,3,42,G.O.A.T.,meaning,w42_meaning,initial,0,0,1,97,True,True,True
+qwen,qwen_a3_w42,3,42,G.O.A.T.,meaning,w42_meaning,use,0,0,1,97,True,True,True
+qwen,qwen_a3_w42,3,42,G.O.A.T.,application,w42_context1,initial,2,0,0,97,True,True,True
+qwen,qwen_a3_w42,3,42,G.O.A.T.,application,w42_context1,use,0,0,1,97,True,True,True
+qwen,qwen_a3_w42,3,42,G.O.A.T.,application,w42_context2,initial,2,0,0,97,True,True,True
+qwen,qwen_a3_w42,3,42,G.O.A.T.,application,w42_context2,use,0,0,1,97,True,True,True
+gemma,gemma_a8_w54,8,54,shook,meaning,w54_meaning,initial,0,0,1,2,True,False,True
+gemma,gemma_a8_w54,8,54,shook,meaning,w54_meaning,use,0,0,1,2,True,False,True
+gemma,gemma_a8_w54,8,54,shook,application,w54_context1,initial,0,0,1,2,True,False,True
+gemma,gemma_a8_w54,8,54,shook,application,w54_context1,use,0,0,1,2,True,False,True
+gemma,gemma_a8_w54,8,54,shook,application,w54_context2,initial,3,3,1,2,True,False,True
+gemma,gemma_a8_w54,8,54,shook,application,w54_context2,use,3,3,1,2,True,False,True
+gemma,gemma_a1_w57,1,57,this guy,meaning,w57_meaning,initial,2,2,1,4,True,False,True
+gemma,gemma_a1_w57,1,57,this guy,meaning,w57_meaning,use,2,2,1,4,True,False,True
+gemma,gemma_a1_w57,1,57,this guy,application,w57_context1,initial,0,0,1,4,True,False,True
+gemma,gemma_a1_w57,1,57,this guy,application,w57_context1,use,0,0,1,4,True,False,True
+gemma,gemma_a1_w57,1,57,this guy,application,w57_context2,initial,0,0,1,4,True,False,True
+gemma,gemma_a1_w57,1,57,this guy,application,w57_context2,use,0,0,1,4,True,False,True
+gemma,gemma_a5_w8,5,8,tendies,meaning,w8_meaning,initial,1,1,1,8,True,False,False
+gemma,gemma_a5_w8,5,8,tendies,meaning,w8_meaning,use,1,1,1,8,True,False,False
+gemma,gemma_a5_w8,5,8,tendies,application,w8_context1,initial,3,3,1,8,True,False,False
+gemma,gemma_a5_w8,5,8,tendies,application,w8_context1,use,3,3,1,8,True,False,False
+gemma,gemma_a5_w8,5,8,tendies,application,w8_context2,initial,3,3,1,8,True,False,False
+gemma,gemma_a5_w8,5,8,tendies,application,w8_context2,use,3,3,1,8,True,False,False
+gemma,gemma_a5_w35,5,35,maskne,meaning,w35_meaning,initial,0,0,1,8,True,False,False
+gemma,gemma_a5_w35,5,35,maskne,meaning,w35_meaning,use,0,0,1,8,True,False,False
+gemma,gemma_a5_w35,5,35,maskne,application,w35_context1,initial,1,1,1,8,True,False,False
+gemma,gemma_a5_w35,5,35,maskne,application,w35_context1,use,1,1,1,8,True,False,False
+gemma,gemma_a5_w35,5,35,maskne,application,w35_context2,initial,0,0,1,8,True,False,False
+gemma,gemma_a5_w35,5,35,maskne,application,w35_context2,use,0,0,1,8,True,False,False
+gemma,gemma_a8_w12,8,12,butterface,meaning,w12_meaning,initial,2,2,1,11,True,False,False
+gemma,gemma_a8_w12,8,12,butterface,meaning,w12_meaning,use,2,2,1,11,True,False,False
+gemma,gemma_a8_w12,8,12,butterface,application,w12_context1,initial,1,1,1,11,True,False,False
+gemma,gemma_a8_w12,8,12,butterface,application,w12_context1,use,1,1,1,11,True,False,False
+gemma,gemma_a8_w12,8,12,butterface,application,w12_context2,initial,2,2,1,11,True,False,False
+gemma,gemma_a8_w12,8,12,butterface,application,w12_context2,use,2,2,1,11,True,False,False
+gemma,gemma_a2_w40,2,40,alpha,meaning,w40_meaning,initial,1,1,1,17,True,False,False
+gemma,gemma_a2_w40,2,40,alpha,meaning,w40_meaning,use,1,1,1,17,True,False,False
+gemma,gemma_a2_w40,2,40,alpha,application,w40_context1,initial,1,1,1,17,True,False,False
+gemma,gemma_a2_w40,2,40,alpha,application,w40_context1,use,1,1,1,17,True,False,False
+gemma,gemma_a2_w40,2,40,alpha,application,w40_context2,initial,0,0,1,17,True,False,False
+gemma,gemma_a2_w40,2,40,alpha,application,w40_context2,use,0,0,1,17,True,False,False
+gemma,gemma_a2_w51,2,51,beta,meaning,w51_meaning,initial,2,2,1,17,True,False,True
+gemma,gemma_a2_w51,2,51,beta,meaning,w51_meaning,use,2,2,1,17,True,False,True
+gemma,gemma_a2_w51,2,51,beta,application,w51_context1,initial,3,3,1,17,True,False,True
+gemma,gemma_a2_w51,2,51,beta,application,w51_context1,use,3,3,1,17,True,False,True
+gemma,gemma_a2_w51,2,51,beta,application,w51_context2,initial,2,2,1,17,True,False,True
+gemma,gemma_a2_w51,2,51,beta,application,w51_context2,use,2,2,1,17,True,False,True
+gemma,gemma_a8_w40,8,40,alpha,meaning,w40_meaning,initial,0,0,1,20,True,False,False
+gemma,gemma_a8_w40,8,40,alpha,meaning,w40_meaning,use,0,0,1,20,True,False,False
+gemma,gemma_a8_w40,8,40,alpha,application,w40_context1,initial,0,0,1,20,True,False,False
+gemma,gemma_a8_w40,8,40,alpha,application,w40_context1,use,0,0,1,20,True,False,False
+gemma,gemma_a8_w40,8,40,alpha,application,w40_context2,initial,2,2,1,20,True,False,False
+gemma,gemma_a8_w40,8,40,alpha,application,w40_context2,use,2,2,1,20,True,False,False
+gemma,gemma_a8_w52,8,52,brick wall,meaning,w52_meaning,initial,2,2,1,20,True,False,False
+gemma,gemma_a8_w52,8,52,brick wall,meaning,w52_meaning,use,2,2,1,20,True,False,False
+gemma,gemma_a8_w52,8,52,brick wall,application,w52_context1,initial,0,0,1,20,True,False,False
+gemma,gemma_a8_w52,8,52,brick wall,application,w52_context1,use,0,0,1,20,True,False,False
+gemma,gemma_a8_w52,8,52,brick wall,application,w52_context2,initial,3,3,1,20,True,False,False
+gemma,gemma_a8_w52,8,52,brick wall,application,w52_context2,use,3,3,1,20,True,False,False
+gemma,gemma_a4_w21,4,21,dayt,meaning,w21_meaning,initial,0,0,1,21,True,False,True
+gemma,gemma_a4_w21,4,21,dayt,meaning,w21_meaning,use,0,0,1,21,True,False,True
+gemma,gemma_a4_w21,4,21,dayt,application,w21_context1,initial,2,2,1,21,True,False,True
+gemma,gemma_a4_w21,4,21,dayt,application,w21_context1,use,2,2,1,21,True,False,True
+gemma,gemma_a4_w21,4,21,dayt,application,w21_context2,initial,1,1,1,21,True,False,True
+gemma,gemma_a4_w21,4,21,dayt,application,w21_context2,use,1,1,1,21,True,False,True
+gemma,gemma_a4_w16,4,16,problematic fave,meaning,w16_meaning,initial,3,3,1,27,True,False,False
+gemma,gemma_a4_w16,4,16,problematic fave,meaning,w16_meaning,use,3,3,1,27,True,False,False
+gemma,gemma_a4_w16,4,16,problematic fave,application,w16_context1,initial,3,3,1,27,True,False,False
+gemma,gemma_a4_w16,4,16,problematic fave,application,w16_context1,use,3,3,1,27,True,False,False
+gemma,gemma_a4_w16,4,16,problematic fave,application,w16_context2,initial,2,2,1,27,True,False,False
+gemma,gemma_a4_w16,4,16,problematic fave,application,w16_context2,use,2,2,1,27,True,False,False
+gemma,gemma_a5_w33,5,33,feminazi,meaning,w33_meaning,initial,2,2,1,27,True,False,True
+gemma,gemma_a5_w33,5,33,feminazi,meaning,w33_meaning,use,2,2,1,27,True,False,True
+gemma,gemma_a5_w33,5,33,feminazi,application,w33_context1,initial,0,0,1,27,True,False,True
+gemma,gemma_a5_w33,5,33,feminazi,application,w33_context1,use,0,0,1,27,True,False,True
+gemma,gemma_a5_w33,5,33,feminazi,application,w33_context2,initial,3,3,1,27,True,False,True
+gemma,gemma_a5_w33,5,33,feminazi,application,w33_context2,use,3,3,1,27,True,False,True
+gemma,gemma_a4_w49,4,49,relationship goals,meaning,w49_meaning,initial,1,1,1,28,True,True,True
+gemma,gemma_a4_w49,4,49,relationship goals,meaning,w49_meaning,use,1,1,1,28,True,True,True
+gemma,gemma_a4_w49,4,49,relationship goals,application,w49_context1,initial,3,3,1,28,True,True,True
+gemma,gemma_a4_w49,4,49,relationship goals,application,w49_context1,use,3,3,1,28,True,True,True
+gemma,gemma_a4_w49,4,49,relationship goals,application,w49_context2,initial,2,2,1,28,True,True,True
+gemma,gemma_a4_w49,4,49,relationship goals,application,w49_context2,use,2,2,1,28,True,True,True
+gemma,gemma_a4_w27,4,27,smexy,meaning,w27_meaning,initial,3,3,1,33,True,False,True
+gemma,gemma_a4_w27,4,27,smexy,meaning,w27_meaning,use,3,3,1,33,True,False,True
+gemma,gemma_a4_w27,4,27,smexy,application,w27_context1,initial,0,0,1,33,True,False,True
+gemma,gemma_a4_w27,4,27,smexy,application,w27_context1,use,0,0,1,33,True,False,True
+gemma,gemma_a4_w27,4,27,smexy,application,w27_context2,initial,3,3,1,33,True,False,True
+gemma,gemma_a4_w27,4,27,smexy,application,w27_context2,use,3,3,1,33,True,False,True
+gemma,gemma_a5_w16,5,16,problematic fave,meaning,w16_meaning,initial,1,1,1,34,True,False,False
+gemma,gemma_a5_w16,5,16,problematic fave,meaning,w16_meaning,use,1,1,1,34,True,False,False
+gemma,gemma_a5_w16,5,16,problematic fave,application,w16_context1,initial,2,2,1,34,True,False,False
+gemma,gemma_a5_w16,5,16,problematic fave,application,w16_context1,use,2,2,1,34,True,False,False
+gemma,gemma_a5_w16,5,16,problematic fave,application,w16_context2,initial,3,3,1,34,True,False,False
+gemma,gemma_a5_w16,5,16,problematic fave,application,w16_context2,use,3,3,1,34,True,False,False
+gemma,gemma_a8_w53,8,53,mid,meaning,w53_meaning,initial,0,0,1,43,True,False,True
+gemma,gemma_a8_w53,8,53,mid,meaning,w53_meaning,use,0,0,1,43,True,False,True
+gemma,gemma_a8_w53,8,53,mid,application,w53_context1,initial,1,1,1,43,True,False,True
+gemma,gemma_a8_w53,8,53,mid,application,w53_context1,use,1,1,1,43,True,False,True
+gemma,gemma_a8_w53,8,53,mid,application,w53_context2,initial,1,1,1,43,True,False,True
+gemma,gemma_a8_w53,8,53,mid,application,w53_context2,use,1,1,1,43,True,False,True
+gemma,gemma_a5_w41,5,41,drip,meaning,w41_meaning,initial,1,1,1,44,True,False,False
+gemma,gemma_a5_w41,5,41,drip,meaning,w41_meaning,use,1,1,1,44,True,False,False
+gemma,gemma_a5_w41,5,41,drip,application,w41_context1,initial,0,0,1,44,True,False,False
+gemma,gemma_a5_w41,5,41,drip,application,w41_context1,use,0,0,1,44,True,False,False
+gemma,gemma_a5_w41,5,41,drip,application,w41_context2,initial,0,0,1,44,True,False,False
+gemma,gemma_a5_w41,5,41,drip,application,w41_context2,use,0,0,1,44,True,False,False
+gemma,gemma_a5_w3,5,3,chef’s kiss,meaning,w3_meaning,initial,0,0,1,46,True,False,False
+gemma,gemma_a5_w3,5,3,chef’s kiss,meaning,w3_meaning,use,0,0,1,46,True,False,False
+gemma,gemma_a5_w3,5,3,chef’s kiss,application,w3_context1,initial,0,0,1,46,True,False,False
+gemma,gemma_a5_w3,5,3,chef’s kiss,application,w3_context1,use,0,0,1,46,True,False,False
+gemma,gemma_a5_w3,5,3,chef’s kiss,application,w3_context2,initial,1,1,1,46,True,False,False
+gemma,gemma_a5_w3,5,3,chef’s kiss,application,w3_context2,use,1,1,1,46,True,False,False
+gemma,gemma_a1_w53,1,53,mid,meaning,w53_meaning,initial,0,0,1,48,True,True,False
+gemma,gemma_a1_w53,1,53,mid,meaning,w53_meaning,use,0,0,1,48,True,True,False
+gemma,gemma_a1_w53,1,53,mid,application,w53_context1,initial,2,2,1,48,True,True,False
+gemma,gemma_a1_w53,1,53,mid,application,w53_context1,use,2,2,1,48,True,True,False
+gemma,gemma_a1_w53,1,53,mid,application,w53_context2,initial,1,1,1,48,True,True,False
+gemma,gemma_a1_w53,1,53,mid,application,w53_context2,use,1,1,1,48,True,True,False
+gemma,gemma_a5_w37,5,37,selfiecide,meaning,w37_meaning,initial,0,0,1,49,True,False,False
+gemma,gemma_a5_w37,5,37,selfiecide,meaning,w37_meaning,use,0,0,1,49,True,False,False
+gemma,gemma_a5_w37,5,37,selfiecide,application,w37_context1,initial,1,1,1,49,True,False,False
+gemma,gemma_a5_w37,5,37,selfiecide,application,w37_context1,use,1,1,1,49,True,False,False
+gemma,gemma_a5_w37,5,37,selfiecide,application,w37_context2,initial,0,1,0,49,True,False,False
+gemma,gemma_a5_w37,5,37,selfiecide,application,w37_context2,use,0,1,0,49,True,False,False
+gemma,gemma_a8_w8,8,8,tendies,meaning,w8_meaning,initial,2,2,1,54,True,False,False
+gemma,gemma_a8_w8,8,8,tendies,meaning,w8_meaning,use,2,2,1,54,True,False,False
+gemma,gemma_a8_w8,8,8,tendies,application,w8_context1,initial,3,3,1,54,True,False,False
+gemma,gemma_a8_w8,8,8,tendies,application,w8_context1,use,3,3,1,54,True,False,False
+gemma,gemma_a8_w8,8,8,tendies,application,w8_context2,initial,1,1,1,54,True,False,False
+gemma,gemma_a8_w8,8,8,tendies,application,w8_context2,use,1,1,1,54,True,False,False
+gemma,gemma_a8_w22,8,22,egotastic,meaning,w22_meaning,initial,1,1,1,54,True,False,True
+gemma,gemma_a8_w22,8,22,egotastic,meaning,w22_meaning,use,1,1,1,54,True,False,True
+gemma,gemma_a8_w22,8,22,egotastic,application,w22_context1,initial,1,1,1,54,True,False,True
+gemma,gemma_a8_w22,8,22,egotastic,application,w22_context1,use,1,1,1,54,True,False,True
+gemma,gemma_a8_w22,8,22,egotastic,application,w22_context2,initial,1,1,1,54,True,False,True
+gemma,gemma_a8_w22,8,22,egotastic,application,w22_context2,use,1,1,1,54,True,False,True
+gemma,gemma_a8_w21,8,21,dayt,meaning,w21_meaning,initial,2,2,1,55,True,True,False
+gemma,gemma_a8_w21,8,21,dayt,meaning,w21_meaning,use,2,2,1,55,True,True,False
+gemma,gemma_a8_w21,8,21,dayt,application,w21_context1,initial,3,3,1,55,True,True,False
+gemma,gemma_a8_w21,8,21,dayt,application,w21_context1,use,3,3,1,55,True,True,False
+gemma,gemma_a8_w21,8,21,dayt,application,w21_context2,initial,3,3,1,55,True,True,False
+gemma,gemma_a8_w21,8,21,dayt,application,w21_context2,use,3,3,1,55,True,True,False
+gemma,gemma_a5_w43,5,43,juice,meaning,w43_meaning,initial,1,1,1,57,True,True,True
+gemma,gemma_a5_w43,5,43,juice,meaning,w43_meaning,use,1,1,1,57,True,True,True
+gemma,gemma_a5_w43,5,43,juice,application,w43_context1,initial,3,3,1,57,True,True,True
+gemma,gemma_a5_w43,5,43,juice,application,w43_context1,use,3,3,1,57,True,True,True
+gemma,gemma_a5_w43,5,43,juice,application,w43_context2,initial,3,3,1,57,True,True,True
+gemma,gemma_a5_w43,5,43,juice,application,w43_context2,use,3,3,1,57,True,True,True
+gemma,gemma_a8_w38,8,38,unalive,meaning,w38_meaning,initial,2,2,1,57,True,False,False
+gemma,gemma_a8_w38,8,38,unalive,meaning,w38_meaning,use,2,2,1,57,True,False,False
+gemma,gemma_a8_w38,8,38,unalive,application,w38_context1,initial,3,3,1,57,True,False,False
+gemma,gemma_a8_w38,8,38,unalive,application,w38_context1,use,3,3,1,57,True,False,False
+gemma,gemma_a8_w38,8,38,unalive,application,w38_context2,initial,2,2,1,57,True,False,False
+gemma,gemma_a8_w38,8,38,unalive,application,w38_context2,use,2,2,1,57,True,False,False
+gemma,gemma_a5_w26,5,26,sliving,meaning,w26_meaning,initial,1,1,1,70,True,True,True
+gemma,gemma_a5_w26,5,26,sliving,meaning,w26_meaning,use,1,1,1,70,True,True,True
+gemma,gemma_a5_w26,5,26,sliving,application,w26_context1,initial,3,3,1,70,True,True,True
+gemma,gemma_a5_w26,5,26,sliving,application,w26_context1,use,3,3,1,70,True,True,True
+gemma,gemma_a5_w26,5,26,sliving,application,w26_context2,initial,2,2,1,70,True,True,True
+gemma,gemma_a5_w26,5,26,sliving,application,w26_context2,use,2,2,1,70,True,True,True
+gemma,gemma_a5_w54,5,54,shook,meaning,w54_meaning,initial,3,3,1,75,True,False,False
+gemma,gemma_a5_w54,5,54,shook,meaning,w54_meaning,use,3,3,1,75,True,False,False
+gemma,gemma_a5_w54,5,54,shook,application,w54_context1,initial,0,0,1,75,True,False,False
+gemma,gemma_a5_w54,5,54,shook,application,w54_context1,use,0,0,1,75,True,False,False
+gemma,gemma_a5_w54,5,54,shook,application,w54_context2,initial,2,2,1,75,True,False,False
+gemma,gemma_a5_w54,5,54,shook,application,w54_context2,use,2,2,1,75,True,False,False
+gemma,gemma_a5_w27,5,27,smexy,meaning,w27_meaning,initial,0,0,1,77,True,False,False
+gemma,gemma_a5_w27,5,27,smexy,meaning,w27_meaning,use,0,0,1,77,True,False,False
+gemma,gemma_a5_w27,5,27,smexy,application,w27_context1,initial,2,2,1,77,True,False,False
+gemma,gemma_a5_w27,5,27,smexy,application,w27_context1,use,2,2,1,77,True,False,False
+gemma,gemma_a5_w27,5,27,smexy,application,w27_context2,initial,1,1,1,77,True,False,False
+gemma,gemma_a5_w27,5,27,smexy,application,w27_context2,use,1,1,1,77,True,False,False
+gemma,gemma_a4_w48,4,48,Praise the Sun,meaning,w48_meaning,initial,1,1,1,81,True,False,False
+gemma,gemma_a4_w48,4,48,Praise the Sun,meaning,w48_meaning,use,1,1,1,81,True,False,False
+gemma,gemma_a4_w48,4,48,Praise the Sun,application,w48_context1,initial,1,1,1,81,True,False,False
+gemma,gemma_a4_w48,4,48,Praise the Sun,application,w48_context1,use,1,1,1,81,True,False,False
+gemma,gemma_a4_w48,4,48,Praise the Sun,application,w48_context2,initial,2,2,1,81,True,False,False
+gemma,gemma_a4_w48,4,48,Praise the Sun,application,w48_context2,use,2,2,1,81,True,False,False
+gemma,gemma_a8_w56,8,56,sportsball,meaning,w56_meaning,initial,2,2,1,82,True,False,True
+gemma,gemma_a8_w56,8,56,sportsball,meaning,w56_meaning,use,2,2,1,82,True,False,True
+gemma,gemma_a8_w56,8,56,sportsball,application,w56_context1,initial,1,1,1,82,True,False,True
+gemma,gemma_a8_w56,8,56,sportsball,application,w56_context1,use,1,1,1,82,True,False,True
+gemma,gemma_a8_w56,8,56,sportsball,application,w56_context2,initial,3,3,1,82,True,False,True
+gemma,gemma_a8_w56,8,56,sportsball,application,w56_context2,use,3,3,1,82,True,False,True
+gemma,gemma_a6_w36,6,36,demotional,meaning,w36_meaning,initial,0,0,1,83,True,False,False
+gemma,gemma_a6_w36,6,36,demotional,meaning,w36_meaning,use,0,0,1,83,True,False,False
+gemma,gemma_a6_w36,6,36,demotional,application,w36_context1,initial,2,0,0,83,True,False,False
+gemma,gemma_a6_w36,6,36,demotional,application,w36_context1,use,2,0,0,83,True,False,False
+gemma,gemma_a6_w36,6,36,demotional,application,w36_context2,initial,0,3,0,83,True,False,False
+gemma,gemma_a6_w36,6,36,demotional,application,w36_context2,use,3,3,1,83,True,False,False
+gemma,gemma_a8_w42,8,42,G.O.A.T.,meaning,w42_meaning,initial,2,2,1,85,True,True,True
+gemma,gemma_a8_w42,8,42,G.O.A.T.,meaning,w42_meaning,use,2,2,1,85,True,True,True
+gemma,gemma_a8_w42,8,42,G.O.A.T.,application,w42_context1,initial,1,1,1,85,True,True,True
+gemma,gemma_a8_w42,8,42,G.O.A.T.,application,w42_context1,use,1,1,1,85,True,True,True
+gemma,gemma_a8_w42,8,42,G.O.A.T.,application,w42_context2,initial,2,2,1,85,True,True,True
+gemma,gemma_a8_w42,8,42,G.O.A.T.,application,w42_context2,use,2,2,1,85,True,True,True
+gemma,gemma_a5_w50,5,50,an hero,meaning,w50_meaning,initial,3,3,1,87,True,False,False
+gemma,gemma_a5_w50,5,50,an hero,meaning,w50_meaning,use,3,3,1,87,True,False,False
+gemma,gemma_a5_w50,5,50,an hero,application,w50_context1,initial,0,0,1,87,True,False,False
+gemma,gemma_a5_w50,5,50,an hero,application,w50_context1,use,0,0,1,87,True,False,False
+gemma,gemma_a5_w50,5,50,an hero,application,w50_context2,initial,3,3,1,87,True,False,False
+gemma,gemma_a5_w50,5,50,an hero,application,w50_context2,use,3,3,1,87,True,False,False
+gemma,gemma_a9_w43,9,43,juice,meaning,w43_meaning,initial,0,0,1,88,True,True,True
+gemma,gemma_a9_w43,9,43,juice,meaning,w43_meaning,use,0,0,1,88,True,True,True
+gemma,gemma_a9_w43,9,43,juice,application,w43_context1,initial,2,2,1,88,True,True,True
+gemma,gemma_a9_w43,9,43,juice,application,w43_context1,use,2,2,1,88,True,True,True
+gemma,gemma_a9_w43,9,43,juice,application,w43_context2,initial,3,3,1,88,True,True,True
+gemma,gemma_a9_w43,9,43,juice,application,w43_context2,use,3,3,1,88,True,True,True
+mistral,mistral_a8_w54,8,54,shook,meaning,w54_meaning,initial,3,3,1,2,True,False,True
+mistral,mistral_a8_w54,8,54,shook,meaning,w54_meaning,use,3,3,1,2,True,False,True
+mistral,mistral_a8_w54,8,54,shook,application,w54_context1,initial,0,0,1,2,True,False,True
+mistral,mistral_a8_w54,8,54,shook,application,w54_context1,use,1,0,0,2,True,False,True
+mistral,mistral_a8_w54,8,54,shook,application,w54_context2,initial,0,0,1,2,True,False,True
+mistral,mistral_a8_w54,8,54,shook,application,w54_context2,use,0,0,1,2,True,False,True
+mistral,mistral_a6_w36,6,36,demotional,meaning,w36_meaning,initial,1,1,1,3,True,True,True
+mistral,mistral_a6_w36,6,36,demotional,meaning,w36_meaning,use,1,1,1,3,True,True,True
+mistral,mistral_a6_w36,6,36,demotional,application,w36_context1,initial,2,2,1,3,True,True,True
+mistral,mistral_a6_w36,6,36,demotional,application,w36_context1,use,2,2,1,3,True,True,True
+mistral,mistral_a6_w36,6,36,demotional,application,w36_context2,initial,0,0,1,3,True,True,True
+mistral,mistral_a6_w36,6,36,demotional,application,w36_context2,use,0,0,1,3,True,True,True
+mistral,mistral_a3_w21,3,21,dayt,meaning,w21_meaning,initial,3,0,0,5,True,False,True
+mistral,mistral_a3_w21,3,21,dayt,meaning,w21_meaning,use,0,0,1,5,True,False,True
+mistral,mistral_a3_w21,3,21,dayt,application,w21_context1,initial,1,3,0,5,True,False,True
+mistral,mistral_a3_w21,3,21,dayt,application,w21_context1,use,3,3,1,5,True,False,True
+mistral,mistral_a3_w21,3,21,dayt,application,w21_context2,initial,1,1,1,5,True,False,True
+mistral,mistral_a3_w21,3,21,dayt,application,w21_context2,use,1,1,1,5,True,False,True
+mistral,mistral_a5_w16,5,16,problematic fave,meaning,w16_meaning,initial,1,1,1,5,True,False,False
+mistral,mistral_a5_w16,5,16,problematic fave,meaning,w16_meaning,use,1,1,1,5,True,False,False
+mistral,mistral_a5_w16,5,16,problematic fave,application,w16_context1,initial,1,1,1,5,True,False,False
+mistral,mistral_a5_w16,5,16,problematic fave,application,w16_context1,use,1,1,1,5,True,False,False
+mistral,mistral_a5_w16,5,16,problematic fave,application,w16_context2,initial,3,3,1,5,True,False,False
+mistral,mistral_a5_w16,5,16,problematic fave,application,w16_context2,use,3,3,1,5,True,False,False
+mistral,mistral_a4_w10,4,10,almond mom,meaning,w10_meaning,initial,1,1,1,6,True,False,False
+mistral,mistral_a4_w10,4,10,almond mom,meaning,w10_meaning,use,1,1,1,6,True,False,False
+mistral,mistral_a4_w10,4,10,almond mom,application,w10_context1,initial,1,2,0,6,True,False,False
+mistral,mistral_a4_w10,4,10,almond mom,application,w10_context1,use,2,2,1,6,True,False,False
+mistral,mistral_a4_w10,4,10,almond mom,application,w10_context2,initial,1,2,0,6,True,False,False
+mistral,mistral_a4_w10,4,10,almond mom,application,w10_context2,use,2,2,1,6,True,False,False
+mistral,mistral_a4_w44,4,44,pick six,meaning,w44_meaning,initial,3,0,0,7,True,False,False
+mistral,mistral_a4_w44,4,44,pick six,meaning,w44_meaning,use,0,0,1,7,True,False,False
+mistral,mistral_a4_w44,4,44,pick six,application,w44_context1,initial,3,3,1,7,True,False,False
+mistral,mistral_a4_w44,4,44,pick six,application,w44_context1,use,3,3,1,7,True,False,False
+mistral,mistral_a4_w44,4,44,pick six,application,w44_context2,initial,1,1,1,7,True,False,False
+mistral,mistral_a4_w44,4,44,pick six,application,w44_context2,use,1,1,1,7,True,False,False
+mistral,mistral_a3_w2,3,2,baller,meaning,w2_meaning,initial,3,3,1,10,True,False,False
+mistral,mistral_a3_w2,3,2,baller,meaning,w2_meaning,use,3,3,1,10,True,False,False
+mistral,mistral_a3_w2,3,2,baller,application,w2_context1,initial,2,2,1,10,True,False,False
+mistral,mistral_a3_w2,3,2,baller,application,w2_context1,use,2,2,1,10,True,False,False
+mistral,mistral_a3_w2,3,2,baller,application,w2_context2,initial,3,3,1,10,True,False,False
+mistral,mistral_a3_w2,3,2,baller,application,w2_context2,use,3,3,1,10,True,False,False
+mistral,mistral_a6_w46,6,46,going platinum,meaning,w46_meaning,initial,2,2,1,11,True,False,False
+mistral,mistral_a6_w46,6,46,going platinum,meaning,w46_meaning,use,2,2,1,11,True,False,False
+mistral,mistral_a6_w46,6,46,going platinum,application,w46_context1,initial,3,3,1,11,True,False,False
+mistral,mistral_a6_w46,6,46,going platinum,application,w46_context1,use,3,3,1,11,True,False,False
+mistral,mistral_a6_w46,6,46,going platinum,application,w46_context2,initial,1,1,1,11,True,False,False
+mistral,mistral_a6_w46,6,46,going platinum,application,w46_context2,use,1,1,1,11,True,False,False
+mistral,mistral_a1_w32,1,32,edgelord,meaning,w32_meaning,initial,2,2,1,12,True,True,True
+mistral,mistral_a1_w32,1,32,edgelord,meaning,w32_meaning,use,2,2,1,12,True,True,True
+mistral,mistral_a1_w32,1,32,edgelord,application,w32_context1,initial,0,0,1,12,True,True,True
+mistral,mistral_a1_w32,1,32,edgelord,application,w32_context1,use,0,0,1,12,True,True,True
+mistral,mistral_a1_w32,1,32,edgelord,application,w32_context2,initial,1,1,1,12,True,True,True
+mistral,mistral_a1_w32,1,32,edgelord,application,w32_context2,use,1,1,1,12,True,True,True
+mistral,mistral_a5_w8,5,8,tendies,meaning,w8_meaning,initial,3,0,0,13,True,False,False
+mistral,mistral_a5_w8,5,8,tendies,meaning,w8_meaning,use,0,0,1,13,True,False,False
+mistral,mistral_a5_w8,5,8,tendies,application,w8_context1,initial,3,3,1,13,True,False,False
+mistral,mistral_a5_w8,5,8,tendies,application,w8_context1,use,3,3,1,13,True,False,False
+mistral,mistral_a5_w8,5,8,tendies,application,w8_context2,initial,1,1,1,13,True,False,False
+mistral,mistral_a5_w8,5,8,tendies,application,w8_context2,use,1,1,1,13,True,False,False
+mistral,mistral_a6_w24,6,24,Galentine’s Day,meaning,w24_meaning,initial,2,2,1,16,True,False,False
+mistral,mistral_a6_w24,6,24,Galentine’s Day,meaning,w24_meaning,use,2,2,1,16,True,False,False
+mistral,mistral_a6_w24,6,24,Galentine’s Day,application,w24_context1,initial,2,2,1,16,True,False,False
+mistral,mistral_a6_w24,6,24,Galentine’s Day,application,w24_context1,use,2,2,1,16,True,False,False
+mistral,mistral_a6_w24,6,24,Galentine’s Day,application,w24_context2,initial,2,2,1,16,True,False,False
+mistral,mistral_a6_w24,6,24,Galentine’s Day,application,w24_context2,use,2,2,1,16,True,False,False
+mistral,mistral_a5_w44,5,44,pick six,meaning,w44_meaning,initial,3,3,1,17,True,True,True
+mistral,mistral_a5_w44,5,44,pick six,meaning,w44_meaning,use,3,3,1,17,True,True,True
+mistral,mistral_a5_w44,5,44,pick six,application,w44_context1,initial,3,0,0,17,True,True,True
+mistral,mistral_a5_w44,5,44,pick six,application,w44_context1,use,0,0,1,17,True,True,True
+mistral,mistral_a5_w44,5,44,pick six,application,w44_context2,initial,3,2,0,17,True,True,True
+mistral,mistral_a5_w44,5,44,pick six,application,w44_context2,use,2,2,1,17,True,True,True
+mistral,mistral_a1_w1,1,1,badd,meaning,w1_meaning,initial,1,1,1,18,True,True,True
+mistral,mistral_a1_w1,1,1,badd,meaning,w1_meaning,use,1,1,1,18,True,True,True
+mistral,mistral_a1_w1,1,1,badd,application,w1_context1,initial,1,1,1,18,True,True,True
+mistral,mistral_a1_w1,1,1,badd,application,w1_context1,use,1,1,1,18,True,True,True
+mistral,mistral_a1_w1,1,1,badd,application,w1_context2,initial,3,3,1,18,True,True,True
+mistral,mistral_a1_w1,1,1,badd,application,w1_context2,use,3,3,1,18,True,True,True
+mistral,mistral_a5_w5,5,5,power couple,meaning,w5_meaning,initial,3,3,1,18,False,False,False
+mistral,mistral_a5_w5,5,5,power couple,meaning,w5_meaning,use,3,3,1,18,False,False,False
+mistral,mistral_a5_w5,5,5,power couple,application,w5_context1,initial,3,3,1,18,False,False,False
+mistral,mistral_a5_w5,5,5,power couple,application,w5_context1,use,3,3,1,18,False,False,False
+mistral,mistral_a5_w5,5,5,power couple,application,w5_context2,initial,3,0,0,18,False,False,False
+mistral,mistral_a5_w5,5,5,power couple,application,w5_context2,use,3,0,0,18,False,False,False
+mistral,mistral_a3_w15,3,15,problem child,meaning,w15_meaning,initial,0,0,1,19,True,False,False
+mistral,mistral_a3_w15,3,15,problem child,meaning,w15_meaning,use,0,0,1,19,True,False,False
+mistral,mistral_a3_w15,3,15,problem child,application,w15_context1,initial,3,2,0,19,True,False,False
+mistral,mistral_a3_w15,3,15,problem child,application,w15_context1,use,2,2,1,19,True,False,False
+mistral,mistral_a3_w15,3,15,problem child,application,w15_context2,initial,3,3,1,19,True,False,False
+mistral,mistral_a3_w15,3,15,problem child,application,w15_context2,use,3,3,1,19,True,False,False
+mistral,mistral_a8_w52,8,52,brick wall,meaning,w52_meaning,initial,0,0,1,19,True,False,False
+mistral,mistral_a8_w52,8,52,brick wall,meaning,w52_meaning,use,0,0,1,19,True,False,False
+mistral,mistral_a8_w52,8,52,brick wall,application,w52_context1,initial,3,3,1,19,True,False,False
+mistral,mistral_a8_w52,8,52,brick wall,application,w52_context1,use,3,3,1,19,True,False,False
+mistral,mistral_a8_w52,8,52,brick wall,application,w52_context2,initial,3,3,1,19,True,False,False
+mistral,mistral_a8_w52,8,52,brick wall,application,w52_context2,use,3,3,1,19,True,False,False
+mistral,mistral_a1_w31,1,31,coronaversary,meaning,w31_meaning,initial,3,3,1,20,True,False,False
+mistral,mistral_a1_w31,1,31,coronaversary,meaning,w31_meaning,use,3,3,1,20,True,False,False
+mistral,mistral_a1_w31,1,31,coronaversary,application,w31_context1,initial,2,2,1,20,True,False,False
+mistral,mistral_a1_w31,1,31,coronaversary,application,w31_context1,use,2,2,1,20,True,False,False
+mistral,mistral_a1_w31,1,31,coronaversary,application,w31_context2,initial,3,0,0,20,True,False,False
+mistral,mistral_a1_w31,1,31,coronaversary,application,w31_context2,use,3,0,0,20,True,False,False
+mistral,mistral_a6_w52,6,52,brick wall,meaning,w52_meaning,initial,2,2,1,23,True,False,False
+mistral,mistral_a6_w52,6,52,brick wall,meaning,w52_meaning,use,2,2,1,23,True,False,False
+mistral,mistral_a6_w52,6,52,brick wall,application,w52_context1,initial,3,3,1,23,True,False,False
+mistral,mistral_a6_w52,6,52,brick wall,application,w52_context1,use,3,3,1,23,True,False,False
+mistral,mistral_a6_w52,6,52,brick wall,application,w52_context2,initial,3,3,1,23,True,False,False
+mistral,mistral_a6_w52,6,52,brick wall,application,w52_context2,use,3,3,1,23,True,False,False
+mistral,mistral_a3_w24,3,24,Galentine’s Day,meaning,w24_meaning,initial,2,2,1,26,True,False,False
+mistral,mistral_a3_w24,3,24,Galentine’s Day,meaning,w24_meaning,use,2,2,1,26,True,False,False
+mistral,mistral_a3_w24,3,24,Galentine’s Day,application,w24_context1,initial,0,0,1,26,True,False,False
+mistral,mistral_a3_w24,3,24,Galentine’s Day,application,w24_context1,use,0,0,1,26,True,False,False
+mistral,mistral_a3_w24,3,24,Galentine’s Day,application,w24_context2,initial,2,2,1,26,True,False,False
+mistral,mistral_a3_w24,3,24,Galentine’s Day,application,w24_context2,use,2,2,1,26,True,False,False
+mistral,mistral_a3_w35,3,35,maskne,meaning,w35_meaning,initial,1,1,1,26,True,False,False
+mistral,mistral_a3_w35,3,35,maskne,meaning,w35_meaning,use,1,1,1,26,True,False,False
+mistral,mistral_a3_w35,3,35,maskne,application,w35_context1,initial,3,3,1,26,True,False,False
+mistral,mistral_a3_w35,3,35,maskne,application,w35_context1,use,3,3,1,26,True,False,False
+mistral,mistral_a3_w35,3,35,maskne,application,w35_context2,initial,3,0,0,26,True,False,False
+mistral,mistral_a3_w35,3,35,maskne,application,w35_context2,use,0,0,1,26,True,False,False
+mistral,mistral_a5_w35,5,35,maskne,meaning,w35_meaning,initial,2,2,1,32,True,False,False
+mistral,mistral_a5_w35,5,35,maskne,meaning,w35_meaning,use,2,2,1,32,True,False,False
+mistral,mistral_a5_w35,5,35,maskne,application,w35_context1,initial,3,3,1,32,True,False,False
+mistral,mistral_a5_w35,5,35,maskne,application,w35_context1,use,3,3,1,32,True,False,False
+mistral,mistral_a5_w35,5,35,maskne,application,w35_context2,initial,0,0,1,32,True,False,False
+mistral,mistral_a5_w35,5,35,maskne,application,w35_context2,use,0,0,1,32,True,False,False
+mistral,mistral_a2_w44,2,44,pick six,meaning,w44_meaning,initial,0,1,0,34,True,False,False
+mistral,mistral_a2_w44,2,44,pick six,meaning,w44_meaning,use,1,1,1,34,True,False,False
+mistral,mistral_a2_w44,2,44,pick six,application,w44_context1,initial,3,1,0,34,True,False,False
+mistral,mistral_a2_w44,2,44,pick six,application,w44_context1,use,1,1,1,34,True,False,False
+mistral,mistral_a2_w44,2,44,pick six,application,w44_context2,initial,3,1,0,34,True,False,False
+mistral,mistral_a2_w44,2,44,pick six,application,w44_context2,use,1,1,1,34,True,False,False
+mistral,mistral_a4_w37,4,37,selfiecide,meaning,w37_meaning,initial,1,1,1,39,True,False,True
+mistral,mistral_a4_w37,4,37,selfiecide,meaning,w37_meaning,use,1,1,1,39,True,False,True
+mistral,mistral_a4_w37,4,37,selfiecide,application,w37_context1,initial,3,3,1,39,True,False,True
+mistral,mistral_a4_w37,4,37,selfiecide,application,w37_context1,use,3,3,1,39,True,False,True
+mistral,mistral_a4_w37,4,37,selfiecide,application,w37_context2,initial,3,0,0,39,True,False,True
+mistral,mistral_a4_w37,4,37,selfiecide,application,w37_context2,use,1,0,0,39,True,False,True
+mistral,mistral_a6_w56,6,56,sportsball,meaning,w56_meaning,initial,1,1,1,39,True,True,True
+mistral,mistral_a6_w56,6,56,sportsball,meaning,w56_meaning,use,1,1,1,39,True,True,True
+mistral,mistral_a6_w56,6,56,sportsball,application,w56_context1,initial,2,2,1,39,True,True,True
+mistral,mistral_a6_w56,6,56,sportsball,application,w56_context1,use,2,2,1,39,True,True,True
+mistral,mistral_a6_w56,6,56,sportsball,application,w56_context2,initial,0,0,1,39,True,True,True
+mistral,mistral_a6_w56,6,56,sportsball,application,w56_context2,use,0,0,1,39,True,True,True
+mistral,mistral_a4_w3,4,3,chef’s kiss,meaning,w3_meaning,initial,3,3,1,41,True,False,False
+mistral,mistral_a4_w3,4,3,chef’s kiss,meaning,w3_meaning,use,3,3,1,41,True,False,False
+mistral,mistral_a4_w3,4,3,chef’s kiss,application,w3_context1,initial,3,3,1,41,True,False,False
+mistral,mistral_a4_w3,4,3,chef’s kiss,application,w3_context1,use,3,3,1,41,True,False,False
+mistral,mistral_a4_w3,4,3,chef’s kiss,application,w3_context2,initial,2,2,1,41,True,False,False
+mistral,mistral_a4_w3,4,3,chef’s kiss,application,w3_context2,use,2,2,1,41,True,False,False
+mistral,mistral_a4_w14,4,14,hamster angle,meaning,w14_meaning,initial,1,1,1,43,True,False,False
+mistral,mistral_a4_w14,4,14,hamster angle,meaning,w14_meaning,use,1,1,1,43,True,False,False
+mistral,mistral_a4_w14,4,14,hamster angle,application,w14_context1,initial,3,0,0,43,True,False,False
+mistral,mistral_a4_w14,4,14,hamster angle,application,w14_context1,use,1,0,0,43,True,False,False
+mistral,mistral_a4_w14,4,14,hamster angle,application,w14_context2,initial,3,3,1,43,True,False,False
+mistral,mistral_a4_w14,4,14,hamster angle,application,w14_context2,use,3,3,1,43,True,False,False
+mistral,mistral_a9_w52,9,52,brick wall,meaning,w52_meaning,initial,2,2,1,43,True,False,False
+mistral,mistral_a9_w52,9,52,brick wall,meaning,w52_meaning,use,2,2,1,43,True,False,False
+mistral,mistral_a9_w52,9,52,brick wall,application,w52_context1,initial,1,1,1,43,True,False,False
+mistral,mistral_a9_w52,9,52,brick wall,application,w52_context1,use,1,1,1,43,True,False,False
+mistral,mistral_a9_w52,9,52,brick wall,application,w52_context2,initial,0,0,1,43,True,False,False
+mistral,mistral_a9_w52,9,52,brick wall,application,w52_context2,use,0,0,1,43,True,False,False
+mistral,mistral_a1_w35,1,35,maskne,meaning,w35_meaning,initial,1,1,1,44,True,True,True
+mistral,mistral_a1_w35,1,35,maskne,meaning,w35_meaning,use,1,1,1,44,True,True,True
+mistral,mistral_a1_w35,1,35,maskne,application,w35_context1,initial,1,1,1,44,True,True,True
+mistral,mistral_a1_w35,1,35,maskne,application,w35_context1,use,1,1,1,44,True,True,True
+mistral,mistral_a1_w35,1,35,maskne,application,w35_context2,initial,2,2,1,44,True,True,True
+mistral,mistral_a1_w35,1,35,maskne,application,w35_context2,use,3,2,0,44,True,True,True
+mistral,mistral_a5_w24,5,24,Galentine’s Day,meaning,w24_meaning,initial,3,3,1,44,True,False,False
+mistral,mistral_a5_w24,5,24,Galentine’s Day,meaning,w24_meaning,use,3,3,1,44,True,False,False
+mistral,mistral_a5_w24,5,24,Galentine’s Day,application,w24_context1,initial,3,3,1,44,True,False,False
+mistral,mistral_a5_w24,5,24,Galentine’s Day,application,w24_context1,use,3,3,1,44,True,False,False
+mistral,mistral_a5_w24,5,24,Galentine’s Day,application,w24_context2,initial,0,0,1,44,True,False,False
+mistral,mistral_a5_w24,5,24,Galentine’s Day,application,w24_context2,use,1,0,0,44,True,False,False
+mistral,mistral_a6_w35,6,35,maskne,meaning,w35_meaning,initial,1,1,1,46,True,True,False
+mistral,mistral_a6_w35,6,35,maskne,meaning,w35_meaning,use,1,1,1,46,True,True,False
+mistral,mistral_a6_w35,6,35,maskne,application,w35_context1,initial,2,2,1,46,True,True,False
+mistral,mistral_a6_w35,6,35,maskne,application,w35_context1,use,2,2,1,46,True,True,False
+mistral,mistral_a6_w35,6,35,maskne,application,w35_context2,initial,2,2,1,46,True,True,False
+mistral,mistral_a6_w35,6,35,maskne,application,w35_context2,use,2,2,1,46,True,True,False
+mistral,mistral_a7_w52,7,52,brick wall,meaning,w52_meaning,initial,0,0,1,47,True,False,False
+mistral,mistral_a7_w52,7,52,brick wall,meaning,w52_meaning,use,0,0,1,47,True,False,False
+mistral,mistral_a7_w52,7,52,brick wall,application,w52_context1,initial,1,1,1,47,True,False,False
+mistral,mistral_a7_w52,7,52,brick wall,application,w52_context1,use,1,1,1,47,True,False,False
+mistral,mistral_a7_w52,7,52,brick wall,application,w52_context2,initial,0,0,1,47,True,False,False
+mistral,mistral_a7_w52,7,52,brick wall,application,w52_context2,use,0,0,1,47,True,False,False
+mistral,mistral_a1_w24,1,24,Galentine’s Day,meaning,w24_meaning,initial,2,2,1,49,True,False,False
+mistral,mistral_a1_w24,1,24,Galentine’s Day,meaning,w24_meaning,use,2,2,1,49,True,False,False
+mistral,mistral_a1_w24,1,24,Galentine’s Day,application,w24_context1,initial,1,1,1,49,True,False,False
+mistral,mistral_a1_w24,1,24,Galentine’s Day,application,w24_context1,use,1,1,1,49,True,False,False
+mistral,mistral_a1_w24,1,24,Galentine’s Day,application,w24_context2,initial,3,3,1,49,True,False,False
+mistral,mistral_a1_w24,1,24,Galentine’s Day,application,w24_context2,use,3,3,1,49,True,False,False
+mistral,mistral_a4_w52,4,52,brick wall,meaning,w52_meaning,initial,1,1,1,54,True,True,False
+mistral,mistral_a4_w52,4,52,brick wall,meaning,w52_meaning,use,1,1,1,54,True,True,False
+mistral,mistral_a4_w52,4,52,brick wall,application,w52_context1,initial,3,3,1,54,True,True,False
+mistral,mistral_a4_w52,4,52,brick wall,application,w52_context1,use,3,3,1,54,True,True,False
+mistral,mistral_a4_w52,4,52,brick wall,application,w52_context2,initial,3,3,1,54,True,True,False
+mistral,mistral_a4_w52,4,52,brick wall,application,w52_context2,use,3,3,1,54,True,True,False
+mistral,mistral_a5_w10,5,10,almond mom,meaning,w10_meaning,initial,1,1,1,56,True,False,False
+mistral,mistral_a5_w10,5,10,almond mom,meaning,w10_meaning,use,1,1,1,56,True,False,False
+mistral,mistral_a5_w10,5,10,almond mom,application,w10_context1,initial,1,0,0,56,True,False,False
+mistral,mistral_a5_w10,5,10,almond mom,application,w10_context1,use,1,0,0,56,True,False,False
+mistral,mistral_a5_w10,5,10,almond mom,application,w10_context2,initial,3,1,0,56,True,False,False
+mistral,mistral_a5_w10,5,10,almond mom,application,w10_context2,use,1,1,1,56,True,False,False
+mistral,mistral_a5_w45,5,45,woke,meaning,w45_meaning,initial,0,0,1,59,True,False,False
+mistral,mistral_a5_w45,5,45,woke,meaning,w45_meaning,use,0,0,1,59,True,False,False
+mistral,mistral_a5_w45,5,45,woke,application,w45_context1,initial,3,3,1,59,True,False,False
+mistral,mistral_a5_w45,5,45,woke,application,w45_context1,use,3,3,1,59,True,False,False
+mistral,mistral_a5_w45,5,45,woke,application,w45_context2,initial,0,0,1,59,True,False,False
+mistral,mistral_a5_w45,5,45,woke,application,w45_context2,use,0,0,1,59,True,False,False
+mistral,mistral_a4_w40,4,40,alpha,meaning,w40_meaning,initial,1,1,1,62,True,True,True
+mistral,mistral_a4_w40,4,40,alpha,meaning,w40_meaning,use,1,1,1,62,True,True,True
+mistral,mistral_a4_w40,4,40,alpha,application,w40_context1,initial,3,3,1,62,True,True,True
+mistral,mistral_a4_w40,4,40,alpha,application,w40_context1,use,3,3,1,62,True,True,True
+mistral,mistral_a4_w40,4,40,alpha,application,w40_context2,initial,0,0,1,62,True,True,True
+mistral,mistral_a4_w40,4,40,alpha,application,w40_context2,use,0,0,1,62,True,True,True
+mistral,mistral_a1_w45,1,45,woke,meaning,w45_meaning,initial,3,3,1,64,True,True,False
+mistral,mistral_a1_w45,1,45,woke,meaning,w45_meaning,use,3,3,1,64,True,True,False
+mistral,mistral_a1_w45,1,45,woke,application,w45_context1,initial,0,0,1,64,True,True,False
+mistral,mistral_a1_w45,1,45,woke,application,w45_context1,use,0,0,1,64,True,True,False
+mistral,mistral_a1_w45,1,45,woke,application,w45_context2,initial,0,0,1,64,True,True,False
+mistral,mistral_a1_w45,1,45,woke,application,w45_context2,use,0,0,1,64,True,True,False
+mistral,mistral_a4_w24,4,24,Galentine’s Day,meaning,w24_meaning,initial,0,0,1,65,True,False,False
+mistral,mistral_a4_w24,4,24,Galentine’s Day,meaning,w24_meaning,use,0,0,1,65,True,False,False
+mistral,mistral_a4_w24,4,24,Galentine’s Day,application,w24_context1,initial,1,1,1,65,True,False,False
+mistral,mistral_a4_w24,4,24,Galentine’s Day,application,w24_context1,use,1,1,1,65,True,False,False
+mistral,mistral_a4_w24,4,24,Galentine’s Day,application,w24_context2,initial,0,0,1,65,True,False,False
+mistral,mistral_a4_w24,4,24,Galentine’s Day,application,w24_context2,use,1,0,0,65,True,False,False
+mistral,mistral_a5_w23,5,23,Friyay,meaning,w23_meaning,initial,3,3,1,67,True,True,True
+mistral,mistral_a5_w23,5,23,Friyay,meaning,w23_meaning,use,3,3,1,67,True,True,True
+mistral,mistral_a5_w23,5,23,Friyay,application,w23_context1,initial,2,2,1,67,True,True,True
+mistral,mistral_a5_w23,5,23,Friyay,application,w23_context1,use,2,2,1,67,True,True,True
+mistral,mistral_a5_w23,5,23,Friyay,application,w23_context2,initial,3,3,1,67,True,True,True
+mistral,mistral_a5_w23,5,23,Friyay,application,w23_context2,use,3,3,1,67,True,True,True
+mistral,mistral_a8_w45,8,45,woke,meaning,w45_meaning,initial,0,0,1,67,True,False,False
+mistral,mistral_a8_w45,8,45,woke,meaning,w45_meaning,use,0,0,1,67,True,False,False
+mistral,mistral_a8_w45,8,45,woke,application,w45_context1,initial,0,0,1,67,True,False,False
+mistral,mistral_a8_w45,8,45,woke,application,w45_context1,use,0,0,1,67,True,False,False
+mistral,mistral_a8_w45,8,45,woke,application,w45_context2,initial,0,0,1,67,True,False,False
+mistral,mistral_a8_w45,8,45,woke,application,w45_context2,use,0,0,1,67,True,False,False
+mistral,mistral_a4_w22,4,22,egotastic,meaning,w22_meaning,initial,0,0,1,72,True,False,True
+mistral,mistral_a4_w22,4,22,egotastic,meaning,w22_meaning,use,0,0,1,72,True,False,True
+mistral,mistral_a4_w22,4,22,egotastic,application,w22_context1,initial,1,1,1,72,True,False,True
+mistral,mistral_a4_w22,4,22,egotastic,application,w22_context1,use,1,1,1,72,True,False,True
+mistral,mistral_a4_w22,4,22,egotastic,application,w22_context2,initial,2,2,1,72,True,False,True
+mistral,mistral_a4_w22,4,22,egotastic,application,w22_context2,use,2,2,1,72,True,False,True
+mistral,mistral_a1_w23,1,23,Friyay,meaning,w23_meaning,initial,0,0,1,73,True,True,True
+mistral,mistral_a1_w23,1,23,Friyay,meaning,w23_meaning,use,0,0,1,73,True,True,True
+mistral,mistral_a1_w23,1,23,Friyay,application,w23_context1,initial,2,2,1,73,True,True,True
+mistral,mistral_a1_w23,1,23,Friyay,application,w23_context1,use,2,2,1,73,True,True,True
+mistral,mistral_a1_w23,1,23,Friyay,application,w23_context2,initial,3,3,1,73,True,True,True
+mistral,mistral_a1_w23,1,23,Friyay,application,w23_context2,use,3,3,1,73,True,True,True
+mistral,mistral_a5_w27,5,27,smexy,meaning,w27_meaning,initial,1,1,1,73,True,True,True
+mistral,mistral_a5_w27,5,27,smexy,meaning,w27_meaning,use,1,1,1,73,True,True,True
+mistral,mistral_a5_w27,5,27,smexy,application,w27_context1,initial,3,3,1,73,True,True,True
+mistral,mistral_a5_w27,5,27,smexy,application,w27_context1,use,3,3,1,73,True,True,True
+mistral,mistral_a5_w27,5,27,smexy,application,w27_context2,initial,2,2,1,73,True,True,True
+mistral,mistral_a5_w27,5,27,smexy,application,w27_context2,use,2,2,1,73,True,True,True
+mistral,mistral_a8_w50,8,50,an hero,meaning,w50_meaning,initial,2,2,1,75,True,False,False
+mistral,mistral_a8_w50,8,50,an hero,meaning,w50_meaning,use,2,2,1,75,True,False,False
+mistral,mistral_a8_w50,8,50,an hero,application,w50_context1,initial,1,2,0,75,True,False,False
+mistral,mistral_a8_w50,8,50,an hero,application,w50_context1,use,2,2,1,75,True,False,False
+mistral,mistral_a8_w50,8,50,an hero,application,w50_context2,initial,1,0,0,75,True,False,False
+mistral,mistral_a8_w50,8,50,an hero,application,w50_context2,use,0,0,1,75,True,False,False
+mistral,mistral_a1_w5,1,5,power couple,meaning,w5_meaning,initial,3,3,1,78,True,False,False
+mistral,mistral_a1_w5,1,5,power couple,meaning,w5_meaning,use,3,3,1,78,True,False,False
+mistral,mistral_a1_w5,1,5,power couple,application,w5_context1,initial,3,2,0,78,True,False,False
+mistral,mistral_a1_w5,1,5,power couple,application,w5_context1,use,2,2,1,78,True,False,False
+mistral,mistral_a1_w5,1,5,power couple,application,w5_context2,initial,2,2,1,78,True,False,False
+mistral,mistral_a1_w5,1,5,power couple,application,w5_context2,use,2,2,1,78,True,False,False
+mistral,mistral_a1_w8,1,8,tendies,meaning,w8_meaning,initial,2,2,1,79,True,False,False
+mistral,mistral_a1_w8,1,8,tendies,meaning,w8_meaning,use,2,2,1,79,True,False,False
+mistral,mistral_a1_w8,1,8,tendies,application,w8_context1,initial,3,0,0,79,True,False,False
+mistral,mistral_a1_w8,1,8,tendies,application,w8_context1,use,0,0,1,79,True,False,False
+mistral,mistral_a1_w8,1,8,tendies,application,w8_context2,initial,1,0,0,79,True,False,False
+mistral,mistral_a1_w8,1,8,tendies,application,w8_context2,use,0,0,1,79,True,False,False
+mistral,mistral_a8_w36,8,36,demotional,meaning,w36_meaning,initial,1,1,1,80,True,True,True
+mistral,mistral_a8_w36,8,36,demotional,meaning,w36_meaning,use,1,1,1,80,True,True,True
+mistral,mistral_a8_w36,8,36,demotional,application,w36_context1,initial,0,0,1,80,True,True,True
+mistral,mistral_a8_w36,8,36,demotional,application,w36_context1,use,0,0,1,80,True,True,True
+mistral,mistral_a8_w36,8,36,demotional,application,w36_context2,initial,2,2,1,80,True,True,True
+mistral,mistral_a8_w36,8,36,demotional,application,w36_context2,use,2,2,1,80,True,True,True
+mistral,mistral_a1_w52,1,52,brick wall,meaning,w52_meaning,initial,2,2,1,81,True,False,False
+mistral,mistral_a1_w52,1,52,brick wall,meaning,w52_meaning,use,2,2,1,81,True,False,False
+mistral,mistral_a1_w52,1,52,brick wall,application,w52_context1,initial,3,1,0,81,True,False,False
+mistral,mistral_a1_w52,1,52,brick wall,application,w52_context1,use,1,1,1,81,True,False,False
+mistral,mistral_a1_w52,1,52,brick wall,application,w52_context2,initial,1,1,1,81,True,False,False
+mistral,mistral_a1_w52,1,52,brick wall,application,w52_context2,use,1,1,1,81,True,False,False
+mistral,mistral_a6_w26,6,26,sliving,meaning,w26_meaning,initial,1,1,1,81,True,True,True
+mistral,mistral_a6_w26,6,26,sliving,meaning,w26_meaning,use,1,1,1,81,True,True,True
+mistral,mistral_a6_w26,6,26,sliving,application,w26_context1,initial,0,0,1,81,True,True,True
+mistral,mistral_a6_w26,6,26,sliving,application,w26_context1,use,0,0,1,81,True,True,True
+mistral,mistral_a6_w26,6,26,sliving,application,w26_context2,initial,0,0,1,81,True,True,True
+mistral,mistral_a6_w26,6,26,sliving,application,w26_context2,use,0,0,1,81,True,True,True
+mistral,mistral_a6_w53,6,53,mid,meaning,w53_meaning,initial,1,1,1,85,False,False,False
+mistral,mistral_a6_w53,6,53,mid,meaning,w53_meaning,use,1,1,1,85,False,False,False
+mistral,mistral_a6_w53,6,53,mid,application,w53_context1,initial,2,2,1,85,False,False,False
+mistral,mistral_a6_w53,6,53,mid,application,w53_context1,use,2,2,1,85,False,False,False
+mistral,mistral_a6_w53,6,53,mid,application,w53_context2,initial,3,3,1,85,False,False,False
+mistral,mistral_a6_w53,6,53,mid,application,w53_context2,use,3,3,1,85,False,False,False
+mistral,mistral_a8_w56,8,56,sportsball,meaning,w56_meaning,initial,0,0,1,87,True,False,False
+mistral,mistral_a8_w56,8,56,sportsball,meaning,w56_meaning,use,0,0,1,87,True,False,False
+mistral,mistral_a8_w56,8,56,sportsball,application,w56_context1,initial,1,1,1,87,True,False,False
+mistral,mistral_a8_w56,8,56,sportsball,application,w56_context1,use,1,1,1,87,True,False,False
+mistral,mistral_a8_w56,8,56,sportsball,application,w56_context2,initial,2,2,1,87,True,False,False
+mistral,mistral_a8_w56,8,56,sportsball,application,w56_context2,use,2,2,1,87,True,False,False
+mistral,mistral_a3_w25,3,25,realest,meaning,w25_meaning,initial,2,2,1,92,True,False,False
+mistral,mistral_a3_w25,3,25,realest,meaning,w25_meaning,use,2,2,1,92,True,False,False
+mistral,mistral_a3_w25,3,25,realest,application,w25_context1,initial,2,2,1,92,True,False,False
+mistral,mistral_a3_w25,3,25,realest,application,w25_context1,use,2,2,1,92,True,False,False
+mistral,mistral_a3_w25,3,25,realest,application,w25_context2,initial,1,1,1,92,True,False,False
+mistral,mistral_a3_w25,3,25,realest,application,w25_context2,use,1,1,1,92,True,False,False
+mistral,mistral_a3_w50,3,50,an hero,meaning,w50_meaning,initial,3,3,1,96,True,False,False
+mistral,mistral_a3_w50,3,50,an hero,meaning,w50_meaning,use,3,3,1,96,True,False,False
+mistral,mistral_a3_w50,3,50,an hero,application,w50_context1,initial,3,2,0,96,True,False,False
+mistral,mistral_a3_w50,3,50,an hero,application,w50_context1,use,3,2,0,96,True,False,False
+mistral,mistral_a3_w50,3,50,an hero,application,w50_context2,initial,3,1,0,96,True,False,False
+mistral,mistral_a3_w50,3,50,an hero,application,w50_context2,use,1,1,1,96,True,False,False
+mistral,mistral_a8_w0,8,0,cool beans,meaning,w0_meaning,initial,3,3,1,99,True,False,False
+mistral,mistral_a8_w0,8,0,cool beans,meaning,w0_meaning,use,3,3,1,99,True,False,False
+mistral,mistral_a8_w0,8,0,cool beans,application,w0_context1,initial,3,3,1,99,True,False,False
+mistral,mistral_a8_w0,8,0,cool beans,application,w0_context1,use,3,3,1,99,True,False,False
+mistral,mistral_a8_w0,8,0,cool beans,application,w0_context2,initial,2,2,1,99,True,False,False
+mistral,mistral_a8_w0,8,0,cool beans,application,w0_context2,use,2,2,1,99,True,False,False
+mistral,mistral_a3_w52,3,52,brick wall,meaning,w52_meaning,initial,2,2,1,100,True,False,False
+mistral,mistral_a3_w52,3,52,brick wall,meaning,w52_meaning,use,2,2,1,100,True,False,False
+mistral,mistral_a3_w52,3,52,brick wall,application,w52_context1,initial,1,1,1,100,True,False,False
+mistral,mistral_a3_w52,3,52,brick wall,application,w52_context1,use,1,1,1,100,True,False,False
+mistral,mistral_a3_w52,3,52,brick wall,application,w52_context2,initial,1,1,1,100,True,False,False
+mistral,mistral_a3_w52,3,52,brick wall,application,w52_context2,use,1,1,1,100,True,False,False

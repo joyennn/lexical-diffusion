@@ -1,0 +1,5 @@
+model,unique_main_calls,completed_turns,unexposed_terms,exposed_agent_term_pairs,linked_agent_term_first_users,first_use_observed_terms,first_use_censored_terms,first_use_conditional_median,full_set_first_use_median_reached,half_population_events,half_population_censored_terms,write_turns,read_turns,source_generated_messages
+llama,2294,1000,25,75,16,9,51,29,False,"[{'word': 'Galentine’s Day', 'cycle': 85}]",59,704,296,79
+qwen,2167,1000,44,19,9,9,51,21,False,[],60,885,115,88
+gemma,2218,1000,23,68,10,7,53,19,False,[],60,758,242,100
+mistral,2369,1000,12,113,24,16,44,17.5,False,"[{'word': 'alpha', 'cycle': 60}]",59,665,335,87

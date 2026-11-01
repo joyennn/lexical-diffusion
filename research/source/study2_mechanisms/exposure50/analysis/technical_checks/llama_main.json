@@ -1,0 +1,16 @@
+{
+  "model": "llama",
+  "stage": "main",
+  "cycles": 100,
+  "completed_calls": 2324,
+  "failed_calls": 0,
+  "seconds": 5667.072639420629,
+  "branches": {
+    "recommended_source": 126,
+    "ordinary_unread": 146,
+    "source_baseline": 39
+  },
+  "raw_and_feed_selection_verified": true,
+  "checkpoint_sha256": "5c72283b57bb8283ba96efc6e8305f251f1c631777d893b59dd752cce71ac717",
+  "calls_sha256": "29d22d397d3abcd4cd554e9ab1e4e4278cc65e5cc06a1796497574f6d1df0a40"
+}

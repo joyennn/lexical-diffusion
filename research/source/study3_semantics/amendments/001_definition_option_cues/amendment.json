@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-01T23:51:15.496033+09:00",
+  "reason": "Source-derived distractors retained other headwords and were substantially longer than keyed paraphrases, creating non-semantic format cues. Identified in item-format review before response-accuracy analysis.",
+  "action": "Replace definition distractors with short headword-free paraphrases; preserve all version1 pilot and partial main responses, exclude them from all analyses, rerun all models and states with fixed revised items. Scenario items unchanged.",
+  "scientific_scope": "Same135 cases,3questions per case,2states,810responses. No accuracy-based selection or exclusions.",
+  "old_freeze_sha256": "b5644d903287a8b60b33176708352ba8a1bc5b1d0dbd087f51be076d561f513d",
+  "new_prepare_sha256": "0a09e873ede4034a6368d609b10b763b40dfaa92dd335ae4d632a58e47efc661",
+  "partial_main_counts": {
+    "gemma": 37,
+    "qwen": 102,
+    "llama": 174
+  },
+  "replacement_freeze_sha256": "bd799adc4c261b6bb2acb3780df81efa91ea23d12b63be8fea15c5c812725e38"
+}
