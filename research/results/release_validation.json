@@ -7,7 +7,7 @@
   "fresh_inference_cli_dry_runs_passed": 5,
   "new_model_inference_executed_during_packaging": false,
   "raw_members_scanned": 1891,
-  "distribution_files_scanned": 225,
+  "distribution_files_scanned": 227,
   "largest_file_bytes": 47459435,
   "credential_scan_passed": true,
   "local_home_paths_removed": true,

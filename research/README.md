@@ -136,5 +136,6 @@ are not proxies for human language users.
 
 See [the data dictionary](docs/DATA_DICTIONARY.md), [provenance and portability](docs/PROVENANCE.md),
 and [excluded records](docs/EXCLUSIONS.md). Licensing and third-party material notes
-are in [NOTICE](docs/NOTICE.md). No public repository, DOI, or external validation
-is claimed solely by the presence of this local release.
+are in [NOTICE](docs/NOTICE.md). The repository is hosted at
+https://github.com/joyennn/neologism-circulation. No DOI or independent human
+validation is claimed by this release.
