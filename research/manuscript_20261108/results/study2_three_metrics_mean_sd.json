@@ -1,0 +1,98 @@
+[
+  {
+    "model": "llama",
+    "metric": "occurrences_per100messages",
+    "baseline": "3.73 (3.01)",
+    "exposure50": "8.28 (1.51)",
+    "time200": "3.22 (3.25)",
+    "memory4000": "3.74 (1.15)"
+  },
+  {
+    "model": "llama",
+    "metric": "expression_coverage_percent",
+    "baseline": "15.83 (3.54)",
+    "exposure50": "36.67 (9.43)",
+    "time200": "8.33 (2.36)",
+    "memory4000": "15.83 (1.18)"
+  },
+  {
+    "model": "llama",
+    "metric": "user_word_coverage_percent",
+    "baseline": "2.59 (1.31)",
+    "exposure50": "6.20 (1.18)",
+    "time200": "1.67 (0.79)",
+    "memory4000": "2.41 (0.00)"
+  },
+  {
+    "model": "qwen",
+    "metric": "occurrences_per100messages",
+    "baseline": "3.20 (3.38)",
+    "exposure50": "12.34 (2.38)",
+    "time200": "3.08 (0.59)",
+    "memory4000": "2.92 (3.16)"
+  },
+  {
+    "model": "qwen",
+    "metric": "expression_coverage_percent",
+    "baseline": "9.17 (8.25)",
+    "exposure50": "20.83 (1.18)",
+    "time200": "4.17 (1.18)",
+    "memory4000": "5.83 (1.18)"
+  },
+  {
+    "model": "qwen",
+    "metric": "user_word_coverage_percent",
+    "baseline": "1.02 (0.92)",
+    "exposure50": "2.78 (0.52)",
+    "time200": "0.74 (0.52)",
+    "memory4000": "0.74 (0.26)"
+  },
+  {
+    "model": "gemma",
+    "metric": "occurrences_per100messages",
+    "baseline": "9.49 (3.33)",
+    "exposure50": "15.25 (3.30)",
+    "time200": "7.51 (9.87)",
+    "memory4000": "17.38 (5.12)"
+  },
+  {
+    "model": "gemma",
+    "metric": "expression_coverage_percent",
+    "baseline": "15.00 (4.71)",
+    "exposure50": "29.17 (20.03)",
+    "time200": "9.17 (3.54)",
+    "memory4000": "27.50 (10.61)"
+  },
+  {
+    "model": "gemma",
+    "metric": "user_word_coverage_percent",
+    "baseline": "2.41 (0.79)",
+    "exposure50": "4.44 (2.62)",
+    "time200": "1.30 (0.79)",
+    "memory4000": "3.33 (1.57)"
+  },
+  {
+    "model": "mistral",
+    "metric": "occurrences_per100messages",
+    "baseline": "12.90 (0.28)",
+    "exposure50": "19.41 (1.45)",
+    "time200": "6.22 (1.07)",
+    "memory4000": "25.55 (5.16)"
+  },
+  {
+    "model": "mistral",
+    "metric": "expression_coverage_percent",
+    "baseline": "29.17 (1.18)",
+    "exposure50": "50.83 (1.18)",
+    "time200": "15.83 (3.54)",
+    "memory4000": "34.17 (3.54)"
+  },
+  {
+    "model": "mistral",
+    "metric": "user_word_coverage_percent",
+    "baseline": "4.91 (0.39)",
+    "exposure50": "9.44 (1.05)",
+    "time200": "2.96 (1.05)",
+    "memory4000": "6.20 (0.13)"
+  }
+]

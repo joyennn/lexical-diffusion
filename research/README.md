@@ -1,4 +1,9 @@
-# Research release
+# Original single-run research release
+
+For the current two-run manuscript code, 180-item Study 3 bank, actual option
+orders and Bayesian analyses, see [manuscript_20261108](manuscript_20261108/README.md).
+The counts and reproduction workflow below document the original single-run release.
+
 
 This release supports the manuscript **Neologism circulation and semantic
 recognition in language model agents**. It contains observed outputs, not simulated

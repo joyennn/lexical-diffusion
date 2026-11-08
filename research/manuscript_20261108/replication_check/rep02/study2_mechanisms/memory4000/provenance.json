@@ -1,0 +1,4 @@
+{
+  "baseline_root": "${WORKSPACE}/replication_check/rep02/fresh_study1",
+  "reason": "Rep02 immutable baseline runner, only threshold differs."
+}

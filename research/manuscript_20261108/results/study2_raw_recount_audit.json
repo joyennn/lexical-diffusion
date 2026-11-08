@@ -1,0 +1,230 @@
+{
+  "datasets": 32,
+  "continuation_scope": "All uses within cycles 101\u2013200, irrespective of use before cycle 101",
+  "checks": [
+    {
+      "replication": "rep01",
+      "model": "llama",
+      "condition": "baseline",
+      "checkpoint_sha256": "2b88f0f8a1676a3ec79e78af3275a70e8c4f23e82a7b4c256714034481bff68d",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "qwen",
+      "condition": "baseline",
+      "checkpoint_sha256": "f651936ac9f06391e1e049c46318bc2cae1e9f05fb5406d002cf532778cc3ed1",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "gemma",
+      "condition": "baseline",
+      "checkpoint_sha256": "09a8c3d197fb9003bea1fd9ce120dfdf30ae278ddc881a38c8bd4d5531529414",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "mistral",
+      "condition": "baseline",
+      "checkpoint_sha256": "ceff1acb48dd4ac632440044cb9cb082531c3b45d92e5d00493a6398e08a2320",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "llama",
+      "condition": "exposure50",
+      "checkpoint_sha256": "5c72283b57bb8283ba96efc6e8305f251f1c631777d893b59dd752cce71ac717",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "qwen",
+      "condition": "exposure50",
+      "checkpoint_sha256": "72f3f5b7101c098b120e1fe3dfff2b0ff0f07594b613961414026e996b46fb79",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "gemma",
+      "condition": "exposure50",
+      "checkpoint_sha256": "3e365942a7e8688f307bba0cf0b2f21f765d247cfb828b651a8f1541c9fe0a21",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "mistral",
+      "condition": "exposure50",
+      "checkpoint_sha256": "64ce55d5da8f11bb5c9053161ba106cb32390f865f371d9b0aef13dfe186962b",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "llama",
+      "condition": "memory4000",
+      "checkpoint_sha256": "3a93cceef5cbce78f6a2ba6c170cf03a279cf841a54053ec401f3d45d2ba7c13",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "qwen",
+      "condition": "memory4000",
+      "checkpoint_sha256": "571d2b756e572dece363ddf6f23c3afd5cef2d4f47ff9a886f084f70a0fc506c",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "gemma",
+      "condition": "memory4000",
+      "checkpoint_sha256": "6fbabcc4a566611a6d388d8e1f48876a1dc2783ed418477ed51246d77ae30732",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "mistral",
+      "condition": "memory4000",
+      "checkpoint_sha256": "bba12e49152edc8ddeb047dc6abd386f417e675845349588b1c088d915e3dee9",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "llama",
+      "condition": "time200",
+      "checkpoint_sha256": "1846db37d5f7a21b245897527d71dc8b2035efc2e863dd35bc643e99d02b6419",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "qwen",
+      "condition": "time200",
+      "checkpoint_sha256": "c8b58c71dd17fd0af931a66ebceb2ad839800a952e42bad4e9eedd3e58bb8903",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "gemma",
+      "condition": "time200",
+      "checkpoint_sha256": "cc35bc7034a9fa0e56e10ce98c50483b57efff04d4cb78b9d2b0bec5739eb564",
+      "verified": true
+    },
+    {
+      "replication": "rep01",
+      "model": "mistral",
+      "condition": "time200",
+      "checkpoint_sha256": "353376b17f76278f145805b83242f7566013722b6392ed3bdda1998b92fe97f1",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "llama",
+      "condition": "baseline",
+      "checkpoint_sha256": "579bafd4e506061562f0ee22a7667a97ae810010bec694713164e1e3ba220989",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "qwen",
+      "condition": "baseline",
+      "checkpoint_sha256": "f88ee5439b2419a09c57350f6a9a0a8946cd5897d41484da8342aeae80b219e8",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "gemma",
+      "condition": "baseline",
+      "checkpoint_sha256": "1d210c17de8f8256a7dcef03aa07b7a83b4935b8fae529eab708403ea731e0a5",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "mistral",
+      "condition": "baseline",
+      "checkpoint_sha256": "fc127840137e0468256e74cfce05bd8fc12cfa82eefc03f7132bb1b81ec8cb74",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "llama",
+      "condition": "exposure50",
+      "checkpoint_sha256": "efefbcaa1779867a44d94b107680ffcaa67b3ae32bab5848e5f80b1bfe087002",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "qwen",
+      "condition": "exposure50",
+      "checkpoint_sha256": "618bfcd463ee864d40510a3ee56f51b9206f9da9473c5bb6f4518bf4ae387242",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "gemma",
+      "condition": "exposure50",
+      "checkpoint_sha256": "c75ab81a4df805cf35b38c3fb91b3af60900830092b11f9630457bdff4d78438",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "mistral",
+      "condition": "exposure50",
+      "checkpoint_sha256": "4b9d4f548ddacb07884c2ecaed3c30751f77815951da69b880660c7bebf7a721",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "llama",
+      "condition": "memory4000",
+      "checkpoint_sha256": "fd55b6705f80ee0319e8e51ee114497a5e57c4a7895de7b2fcd049ddb26a5455",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "qwen",
+      "condition": "memory4000",
+      "checkpoint_sha256": "13598b7f04055d25e984154aa3f324eae0438f7c87918d3cf0ac70c8de1ea40b",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "gemma",
+      "condition": "memory4000",
+      "checkpoint_sha256": "9637eae2d4106d922f278e7479ecd69de2951e3a57a574794a80937a93b072f8",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "mistral",
+      "condition": "memory4000",
+      "checkpoint_sha256": "2e89d0733d0f96925e41b3f5593902f76c0b0acfeba2582190bfe015ec1bec54",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "llama",
+      "condition": "time200",
+      "checkpoint_sha256": "bc6d6d64d1de02227fd3e7805654c69ad419e7452a6a403a7603b2aff8b89ebf",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "qwen",
+      "condition": "time200",
+      "checkpoint_sha256": "bc0d3fd6d07a679c2be3d2265a0be8e5139d7ba9eab1726b7f51881062cd9e07",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "gemma",
+      "condition": "time200",
+      "checkpoint_sha256": "85c2603bc90b950b9eed991b3fa023fffad0db6a6c762d5e2a5beb6f5b04926c",
+      "verified": true
+    },
+    {
+      "replication": "rep02",
+      "model": "mistral",
+      "condition": "time200",
+      "checkpoint_sha256": "a646ea61f9918957fd319e56f1209b85dd67b84e3b4bc0d1b0e665cafe0d14f5",
+      "verified": true
+    }
+  ]
+}

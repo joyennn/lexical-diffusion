@@ -10,7 +10,22 @@ actual exposure, repeated output, coverage across agents, and receptive recognit
 The systems are studied as computational text-production systems; they are not proxies
 for human language users.
 
-## Studies
+## Current manuscript code and questions
+
+The [manuscript package](research/manuscript_20261108/README.md) adds code and
+analysis for **two independently seeded runs per model and fresh condition**, plus
+[all 180 Study 3 questions and answer keys](research/manuscript_20261108/study3_questions/QUESTIONS_AND_KEYS.md)
+and [actual option orders](research/manuscript_20261108/study3_questions/actual_item_presentations_1482.json).
+It contains 247 first-use cases and 1,482 scored semantic responses overall, with
+Bayesian analysis scripts, inputs, estimates and diagnostics. See its README for
+coverage, verification, and the distinction between distributed analysis inputs
+and second-run raw logs, which are not included in this update.
+
+The original single-run release and its numerical reproduction workflow remain
+available below. Their one-trajectory counts describe that historical release,
+not the current two-run manuscript package.
+
+## Original single-run studies
 
 All simulation conditions retain 60 expressions, 10 persona instructions, and four
 pinned model configurations: Llama 3 8B Instruct, Qwen3-8B, Gemma 2 9B IT, and

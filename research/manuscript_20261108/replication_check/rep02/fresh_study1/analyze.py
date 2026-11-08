@@ -1,0 +1,63 @@
+"""Descriptive diffusion measures from four fresh completed trajectories.
+
+Size is unique nonseed first users whose first literal use follows recorded
+external exposure. It is an operational event, not proof of semantic learning.
+Unreached time thresholds are right-censored at 100, never imputed as events.
+"""
+from pathlib import Path
+import csv,json,re,unicodedata,math
+ROOT=Path(__file__).resolve().parent
+def read(p):return json.loads(p.read_text())
+def write_csv(path,rows):
+ path.parent.mkdir(parents=True,exist_ok=True)
+ with path.open('w',newline='') as f:
+  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+def trajectory(state,terms,model):
+ seed=state['source_agent'];n=9;horizon=state['target_cycles'];first_use={};first_exposure={};channel={}
+ for e in state['exposures']:
+  if e['agent']==seed:continue
+  for wi in e['term_ids']:
+   k=e['agent'],wi;t=e['cycle'],e['turn']
+   if k not in first_exposure or t<first_exposure[k]:first_exposure[k]=t
+ for event in state['events']:
+  g=event['generated']
+  if event['agent']==seed or not g:continue
+  for wi in g['term_ids']:
+   k=event['agent'],wi;t=event['cycle'],event['turn']
+   if k not in first_use or t<first_use[k]:first_use[k]=t;channel[k]=event['action']
+ unit=[];pairs=[];curves=[]
+ for word in terms:
+  wi=word['id'];linked=[];allusers=[];pre=[];lags=[]
+  for agent in range(10):
+   if agent==seed:continue
+   k=agent,wi;u=first_use.get(k);e=first_exposure.get(k);qualifies=u is not None and e is not None and e<=u
+   if u:allusers.append(u)
+   if qualifies:linked.append(u);lags.append(u[0]-e[0])
+   elif u:pre.append(u)
+   pairs.append(dict(model=model,word=word['word'],term_id=wi,agent=agent,first_exposure_cycle=e[0] if e else None,first_use_cycle=u[0] if u else None,first_use_channel=channel.get(k),first_use_exposure_linked=qualifies,cycle_lag=u[0]-e[0] if qualifies else None,never_used_by_end=u is None))
+  linked.sort();threshold=math.ceil(.5*n)
+  unit.append(dict(model=model,term_id=wi,word=word['word'],linguistic=word['linguistic'],sentiment=word['sentiment'],nonseed_population=n,exposed_agents=sum((a,wi) in first_exposure for a in range(10) if a!=seed),all_first_users=len(allusers),exposure_linked_first_users=len(linked),preexposure_first_users=len(pre),linked_reach=len(linked)/n,time_first_linked_use=linked[0][0] if linked else None,time_first_linked_use_observed=bool(linked),time_first_linked_use_followup=horizon,time_50percent=linked[threshold-1][0] if len(linked)>=threshold else None,time_50percent_observed=len(linked)>=threshold,time_50percent_followup=horizon,exposure_to_use_mean_cycle_lag=sum(lags)/len(lags) if lags else None))
+  for c in range(horizon+1):curves.append(dict(model=model,term_id=wi,word=word['word'],cycle=c,linked_users=sum(x[0]<=c for x in linked),all_users=sum(x[0]<=c for x in allusers)))
+ messages=[dict(channel='post',**x) for x in state['posts'] if not x['initial_material']]+[dict(channel='comment',**x) for x in state['comments']]
+ counts=[]
+ for ch in ['post','comment']:
+  selected=[x for x in messages if x['channel']==ch];chars=sum(len(x['text']) for x in selected);freq=0
+  for x in selected:
+   text=unicodedata.normalize('NFKC',x['text']).casefold().replace('’',"'").replace('‘',"'")
+   for word in terms:
+    form=unicodedata.normalize('NFKC',word['word']).casefold().replace('’',"'")
+    freq+=len(re.findall(r'(?<!\w)'+r'\s+'.join(re.escape(y) for y in form.split())+r'(?!\w)',text))
+  counts.append(dict(model=model,channel=ch,messages=len(selected),characters=chars,lexical_occurrences=freq,occurrences_per_100_messages=100*freq/len(selected) if selected else None,occurrences_per_1000_characters=1000*freq/chars if chars else None,truncated_messages=sum(not x['length_compliant'] for x in selected)))
+ summary=dict(model=model,cycles=horizon,independent_trajectories=1,generated_messages=len(messages),mean_linked_reach=sum(x['linked_reach'] for x in unit)/len(unit),words_ever_linked_used=sum(x['time_first_linked_use_observed'] for x in unit),words_reaching_50percent=sum(x['time_50percent_observed'] for x in unit),preexposure_agent_term_first_uses=sum(x['preexposure_first_users'] for x in unit),interpretation='Descriptive trajectory; cycles, words and agents are not independent model replications.')
+ return unit,pairs,curves,counts,summary
+def main():
+ terms=read(ROOT/'materials/terms.json');out=ROOT/'analysis';out.mkdir(exist_ok=True);units=[];pairs=[];curves=[];counts=[];summaries=[]
+ for model in ['llama','qwen','gemma','mistral']:
+  state=read(ROOT/'runs/main'/model/'checkpoint.json');assert state['completed'] and state['target_cycles']==100,'Completed100-cycle data required.'
+  assert len(state['events'])==1000 and {(e['cycle'],e['agent']) for e in state['events']}=={(c,a) for c in range(1,101) for a in range(10)},'Missing or duplicated agent turns.'
+  assert len([x for x in state['posts'] if x['initial_material']])==60,'Initial materials incomplete.'
+  a,b,c,d,e=trajectory(state,terms,model);units+=a;pairs+=b;curves+=c;counts+=d;summaries.append(e)
+ for name,rows in [('term_metrics',units),('agent_term_first_events',pairs),('adoption_curves',curves),('channel_metrics',counts),('model_summary',summaries)]:write_csv(out/(name+'.csv'),rows)
+ (out/'summary.json').write_text(json.dumps(dict(complete=True,models=summaries,channel_metrics=counts,terms=units,limitations=['One trajectory per model; no model-level inferential claims','Natural words may be familiar from pretraining','Exposure-linked first use is operational and not proof of causal acquisition or correct meaning','Time measured in simulator cycles, not human time','Unreached thresholds are censored, not excluded']),ensure_ascii=False,indent=2))
+ print('Fresh-only descriptive analysis complete.',flush=True)
+if __name__=='__main__':main()

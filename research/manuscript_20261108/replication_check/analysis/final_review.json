@@ -1,0 +1,143 @@
+{
+  "time": "2026-11-05T09:32:02.088798+09:00",
+  "status": "final_review_complete",
+  "network_completion_records": [
+    {
+      "condition": "baseline",
+      "model": "llama",
+      "cycles": 100,
+      "calls": 2294,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "baseline",
+      "model": "qwen",
+      "cycles": 100,
+      "calls": 2141,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "baseline",
+      "model": "gemma",
+      "cycles": 100,
+      "calls": 2264,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "baseline",
+      "model": "mistral",
+      "cycles": 100,
+      "calls": 2377,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "exposure50",
+      "model": "llama",
+      "cycles": 100,
+      "calls": 2343,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "exposure50",
+      "model": "qwen",
+      "cycles": 100,
+      "calls": 2165,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "exposure50",
+      "model": "gemma",
+      "cycles": 100,
+      "calls": 2263,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "exposure50",
+      "model": "mistral",
+      "cycles": 100,
+      "calls": 2411,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "memory4000",
+      "model": "llama",
+      "cycles": 100,
+      "calls": 2205,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "memory4000",
+      "model": "qwen",
+      "cycles": 100,
+      "calls": 2061,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "memory4000",
+      "model": "gemma",
+      "cycles": 100,
+      "calls": 2167,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "memory4000",
+      "model": "mistral",
+      "cycles": 100,
+      "calls": 2184,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "time200",
+      "model": "llama",
+      "cycles": 200,
+      "calls": 4576,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "time200",
+      "model": "qwen",
+      "cycles": 200,
+      "calls": 4282,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "time200",
+      "model": "gemma",
+      "cycles": 200,
+      "calls": 4485,
+      "no_failed_or_duplicate_calls": true
+    },
+    {
+      "condition": "time200",
+      "model": "mistral",
+      "cycles": 200,
+      "calls": 4746,
+      "no_failed_or_duplicate_calls": true
+    }
+  ],
+  "all_32_network_datasets_audited": true,
+  "semantic_retained_response_count": 1482,
+  "rep02_main_semantic_responses": 672,
+  "rep02_first_use_cases": 112,
+  "rep02_pilot_responses_excluded": 24,
+  "descriptive_summary_rows_verified": 60,
+  "within_seed_contrasts_verified": 120,
+  "all8_access_comparisons_increase_for_both_rate_denominators_and_message_share": true,
+  "expression_coverage_not_uniformly_increased": true,
+  "no_additional_inference_or_design_change": true,
+  "originals_unchanged": true,
+  "files": {
+    "결과요약.txt": "436367948dc971efd5fb0d35651384afe1254f29025d3f57a68ef7df3ab47c24",
+    "semantic_paired_transitions.csv": "c5afae9501549fa62b00ff91da1f236781c2a677af2526d8a6a2896bd4669742",
+    "within_seed_contrasts.csv": "95f93159b46d1d9544620337d4010ed37c8e53c1dd9509ca84a628ffc2d2110d",
+    "run_metrics.csv": "d0ea1eaed962d14bd1192b0493e833c458818159f4d5d073c9aba49db201d419",
+    "two_run_descriptive_summary.csv": "d4177b73c84de071149a916754b98a09d1b544ee4741299ac62b611199da5421",
+    "semantic_accuracy_by_run.csv": "ca36da9689adf3fb2e92b5d3174c918c0b465c06de8fc00d76b0b15b0348580d",
+    "semantic_responses.csv": "0f4221f66e555537290488e36f409ca501a00c541abbd0c5ac8e6605ff916eeb",
+    "semantic_common_word_sensitivity.csv": "d28e30a1d5079b0bc0c1c70b14934180dbe8d9592b055249a32fd582d30c9fe6",
+    "최종_반복실험_비교보고서.txt": "77d6206b7283eeb806b6a5bf84a0ae2a734e5918a1f90ffd031754cc79da0528",
+    "semantic_two_run_summary.csv": "6df2c7770ce357b1580342bcb4bc027b1d117d6de7c7a04ff9fd5f64da58503b",
+    "semantic_definition_strata.csv": "d9e49506c9701343800cef5770781279be5511997da8d7a11e56e09f84db248e",
+    "independent_audit.json": "c99519bda28c9f52eba9451013617ec6a95e3a5bad24d3cad2b9d043ca9be1c8"
+  }
+}
