@@ -1,8 +1,4 @@
-*.tar.gz binary
-*.json text eol=lf
-*.jsonl text eol=lf
 *.py text eol=lf
 *.md text eol=lf
+*.json text eol=lf
 *.csv text eol=lf
-# Checksummed research artifacts must survive clone/checkout byte-for-byte.
-research/** -text

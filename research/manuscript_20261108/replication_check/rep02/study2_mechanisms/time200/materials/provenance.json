@@ -1,6 +1,0 @@
-{
-  "terms_source": "Author-supplied neologism.xlsx; unchanged60items",
-  "terms_source_sha256": "03d6fe55e6b9092668b3fd75a9e753a7c4a2b0776ef60a7ea485a98310288818",
-  "personas_source": "Author-supplied simulation_repository/sns_simulation/config.py persona_list; unchanged10profiles",
-  "missing_example": "shadow banning: omit missing example, retain original word and meaning; explicitly tagged by null example in materials."
-}

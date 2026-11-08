@@ -1,109 +1,127 @@
-# Neologism circulation
+# Lexical diffusion
 
-Research code and data for **Neologism circulation and semantic recognition in
-language model agents**.
+Execution code and Study 3 semantic evaluation questions for the lexical-circulation
+experiments with four language model agent configurations. This repository contains
+**code and input materials only**. Results, generated responses, saved interaction
+contexts, checkpoints, statistical outputs, manuscript drafts, and model weights
+are not included in the current published tree.
 
-This repository examines how supplied English expressions recur and spread across
-outputs of interacting language model agents, and how the models perform on semantic
-recognition questions in the contexts preceding first use. The experiments distinguish
-actual exposure, repeated output, coverage across agents, and receptive recognition.
-The systems are studied as computational text-production systems; they are not proxies
-for human language users.
+## Find what you need
 
-## Current manuscript code and questions
-
-The [manuscript package](research/manuscript_20261108/README.md) adds code and
-analysis for **two independently seeded runs per model and fresh condition**, plus
-[all 180 Study 3 questions and answer keys](research/manuscript_20261108/study3_questions/QUESTIONS_AND_KEYS.md)
-and [actual option orders](research/manuscript_20261108/study3_questions/actual_item_presentations_1482.json).
-It contains 247 first-use cases and 1,482 scored semantic responses overall, with
-Bayesian analysis scripts, inputs, estimates and diagnostics. See its README for
-coverage, verification, and the distinction between distributed analysis inputs
-and second-run raw logs, which are not included in this update.
-
-The original single-run release and its numerical reproduction workflow remain
-available below. Their one-trajectory counts describe that historical release,
-not the current two-run manuscript package.
-
-## Original single-run studies
-
-All simulation conditions retain 60 expressions, 10 persona instructions, and four
-pinned model configurations: Llama 3 8B Instruct, Qwen3-8B, Gemma 2 9B IT, and
-Mistral 7B Instruct v0.3, using community four-bit MLX conversions.
-
-| Study | Question and design |
+| Folder | Contents |
 |---|---|
-| Study 1 | Baseline circulation over 100 cycles |
-| Study 2-1 | Fresh 100-cycle runs with a 50% source-recommendation branch on voluntary reads, allowing rereading |
-| Study 2-2 | Continue the same baseline trajectories through cycle 200 |
-| Study 2-3 | Fresh 100-cycle runs with the memory-summary trigger increased from 1,000 to 4,000 characters |
-| Study 3 | Definition and novel-scenario recognition in matched initial and pre-generation contexts: 135 cases and 810 retained responses |
+| [`code/`](code/) | Simulation runners, run preparation, model download, and Study 3 job preparation/inference |
+| [`evaluation/`](evaluation/) | Study 3 questions, correct answers, and distractors — readable, CSV, and JSON |
+| [`materials/`](materials/) | Shared 60 expressions, 10 personas, and pinned model identifiers |
 
-Each fresh simulation condition has **one exploratory trajectory per model**.
-Cycles, agents, words, and semantic responses are not independent simulation repeats.
-Study 2-2 extends existing trajectories rather than adding independent runs.
-Semantic probes assess receptive recognition, not the correctness of each original
-message or evidence of learning during interaction.
+**Start here:** [Read all Study 3 questions and answer keys](evaluation/QUESTIONS_AND_KEYS.md)
 
-## Repository contents
+- [Download question/answer CSV](evaluation/questions_and_keys.csv)
+- [Machine-readable question bank](evaluation/questions.json)
+- [Study 1 baseline runner](code/runners/baseline.py)
+- [Study 2-1 source-access runner](code/runners/source_access.py)
+- [Study 2-2 continuation preparation](code/prepare_run.py)
+- [Study 2-3 delayed-summary runner](code/runners/memory4000.py)
+- [Study 3 context and question preparation](code/study3/prepare.py)
+- [Study 3 inference runner](code/study3/run.py)
 
-The full release is in [`research/`](research/README.md):
+## Experimental conditions
 
-- [`source/`](research/source/): experimental scripts, protocols, materials, frozen
-  semantic questions, answer keys, amendments, and derived results.
-- [`data/`](research/data/): compressed raw requests/responses, checkpoints, per-cycle
-  snapshots, message/exposure tables, and separate pilot/excluded records, with checksums.
-- [`results/`](research/results/): manuscript tables and reproduction/validation reports.
-- [`tools/`](research/tools/): verification, data restoration, pinned-model download,
-  and table/figure export tools.
-- [`docs/`](research/docs/): data dictionary, provenance, exclusions, and rights notes.
+All fresh simulations retain 60 expressions, ten fixed persona instructions, four
+pinned model configurations, and 100 cycles. Model configurations are Llama 3 8B
+Instruct, Qwen3-8B, Gemma 2 9B IT, and Mistral 7B Instruct v0.3 (four-bit MLX).
 
-Model weights, API credentials, reviewer correspondence, manuscript drafts, virtual
-environments, and unrelated historical simulation outcomes are excluded. Technical
-pilots and the superseded preliminary semantic responses are retained separately
-for auditing and are never pooled with main results.
+| Condition | Change relative to baseline |
+|---|---|
+| Study 1 — `baseline` | Ordinary unread-post selection; summary trigger >1,000 characters |
+| Study 2-1 — `source_access` | On a voluntary non-source read, a 50% branch samples a source introduction with replacement; the other branch uses baseline selection |
+| Study 2-2 — `continuation` | Preserve a completed baseline state and continue cycles 101–200 |
+| Study 2-3 — `memory4000` | Fresh 100 cycles; change only the summary trigger to >4,000 characters |
+| Study 3 | Probe the initial and exact pre-generation contexts for each first non-source agent–expression use under source access |
 
-## Reproduce the results without a GPU
+Study 2-1 combines recommendation priority and rereading; it does not impose a
+fixed word-level exposure count. Continuation uses the same baseline trajectory,
+not an independent repeat. The delayed summary retains the same 100-token summary
+generation limit and maximum 500 stored characters.
 
-Clone with Git, then run Python 3.11+ on macOS or Linux:
+## Run locally
+
+Inference requires Apple Silicon/macOS, Python, sufficient model memory and access
+to the pinned weights. Read the scripts before starting long computations. Commands
+below prepare fresh local outputs; they do not reproduce historical observations
+byte-for-byte or download any published results.
 
 ```sh
-git clone https://github.com/joyennn/neologism-circulation.git
-cd neologism-circulation
+python3 -m venv .venv
+.venv/bin/pip install -r code/requirements.txt
+.venv/bin/python code/download_models.py --output work/models
+export MODEL_STORE="$PWD/work/models"
+
+.venv/bin/python code/prepare_run.py --condition baseline --seed 2026110300 --output work/baseline
 ```
 
-Verify and regenerate the numerical results without downloading models:
+Preparation prints four commands, one per model. Run these sequentially using the
+same virtual-environment Python. For example:
 
 ```sh
-python3 research/tools/verify_release.py
-python3 research/reproduce.py --workspace work/reproduction
+.venv/bin/python work/baseline/run.py --model llama --stage main --cycles 100 --hours 96
 ```
 
-The second command restores about 4.05 GiB of uncompressed records into a **new**
-workspace, runs tests and independent audits, and compares 15 regenerated numerical
-CSVs with the retained results. It performs **no LLM inference**. Numerical
-reproduction uses Python's standard library; fresh model inference and optional
-plotting have separate dependencies.
+Replace `llama` with `qwen`, `gemma`, and `mistral` to run the remaining models.
+For a different independent seed, create another output directory. The recorded
+seed values were 2026103000 and 2026110300. Seeds end in zero to retain source identity.
 
-Fresh inference on Apple Silicon is documented in the
-[research README](research/README.md#fresh-inference-on-apple-silicon). It requires
-explicit execution, the pinned model downloads, and a separate destination; supplied
-observations are not overwritten.
+Prepare the other conditions with:
 
-## Interpretation and reuse
+```sh
+.venv/bin/python code/prepare_run.py --condition source_access --seed 2026110300 --output work/source_access
+.venv/bin/python code/prepare_run.py --condition memory4000 --seed 2026110300 --output work/memory4000
+.venv/bin/python code/prepare_run.py --condition continuation --seed 2026110300 --baseline-dir work/baseline --output work/continuation
+```
 
-These findings describe the recorded configurations and exploratory trajectories.
-Literal frequency, user coverage, and semantic recognition are distinct outcomes.
-Some semantic-test contexts retain source definitions, and the AI-assisted question
-bank has not received independent human validation. See the
-[interpretation limits](research/README.md#interpretation) and
-[data dictionary](research/docs/DATA_DICTIONARY.md) before drawing conclusions.
+Run the printed commands; continuation requires all four baseline checkpoints to
+be complete. It copies their history locally and adds only cycles 101–200. The
+original baseline folder is preserved. Interrupted runs can resume with the same
+copied runner command. Avoid simultaneous runs of the same model/output directory.
+Technical pilots were separate from main observations; these minimal commands
+launch main inference only. To conduct a local technical check first, the copied
+simulation runner also accepts `--stage pilot --cycles 3` in a separate pilot tree.
 
-Citation metadata are provided in [`CITATION.cff`](research/CITATION.cff).
-No DOI or unrestricted third-party license is claimed. Consult
-[NOTICE](research/docs/NOTICE.md) for model and source-material rights.
+### Study 3
 
-**한국어 안내:** 실험별 코드·데이터와 재현 설명서를 포함한 저장소입니다.
-기존 결과 재분석은 GPU나 모델 다운로드 없이 가능하며, 새 실험 실행은 별도
-환경에서 명시적으로 시작해야 합니다. 이전 실험과 폐기 조건은 현재 결과에
-포함하지 않습니다.
+After all four source-access trajectories are complete:
+
+```sh
+.venv/bin/python code/study3/prepare.py --exposure-dir work/source_access --output work/study3
+.venv/bin/python work/study3/run.py
+```
+
+The preparation code preserves the additional-run case-selection and paired-option
+logic, using the fixed published 180-item bank. It creates case-specific contexts,
+jobs, and a hash freeze locally before semantic inference. Both contexts share
+options/order and sampling seed. The runner uses `MODEL_STORE` to locate weights;
+it generates new local pilot/main responses. Neither generated contexts nor answers
+are uploaded by these scripts. The portable wrappers change file locations and
+execution setup, not the inference rules. Simulation runner files retain the
+original experimental implementation; continuation reuses the baseline runner.
+
+## Study 3 evaluation sheet
+
+The bank contains **180 items**: one definition and two scenario questions for each
+of 60 expressions. It preserves the original 135 items and the 45 items added before
+the additional simulation. Each question has one keyed answer and three distractors.
+The CSV and JSON show the correct answer separately; they do not represent the
+randomized option order used in any particular assessment. In JSON, `correct` is
+answer text. Locally prepared job files use `correct` as a zero-based option index.
+
+The source senses define the keys. AI-assisted questions have not received independent
+human validation or calibrated distractor difficulty. The probes assess recognition
+in supplied contexts, not the appropriateness of spontaneous output or evidence
+of human language learning.
+
+**한국어 안내:** 실행 코드는 `code`, 평가 문항·정답은 `evaluation`, 공통 입력자료는
+`materials`에 있습니다. 결과·응답·통계표는 현재 공개 파일에 포함하지 않습니다.
+평가 문항은 원문을 유지했고, 보기 순서는 실제 평가 실행 시 코드에서 구성합니다.
+
+See [NOTICE](NOTICE.md) for source-material and model rights. No unrestricted
+third-party license or human validation is claimed.

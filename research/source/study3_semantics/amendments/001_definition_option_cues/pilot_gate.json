@@ -1,6 +1,0 @@
-{
-  "time": "2026-11-01T23:41:22.781280+09:00",
-  "passed": true,
-  "responses": 24,
-  "criterion": "format, context length and execution only; no accuracy criterion"
-}

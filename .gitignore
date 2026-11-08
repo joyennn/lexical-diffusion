@@ -1,16 +1,30 @@
-# Curated public release only. Original working data and manuscript drafts stay local.
+# Publish only execution source, essential inputs and the fixed evaluation sheet.
 /*
 !/.gitignore
 !/.gitattributes
 !/README.md
-!/research/
+!/NOTICE.md
+!/code/
+!/materials/
+!/evaluation/
 **/__pycache__/
 **/*.pyc
 **/.DS_Store
 **/.env
 **/.env.*
 **/.venv/
+**/runs/
+**/results/
+**/analysis/
+**/checkpoints/
+**/work/
+**/*.jsonl
+**/*.rds
+**/*.tar.gz
 **/*.safetensors
 **/*.gguf
 **/*.pem
 **/*.key
+**/checkpoint*.json
+**/status.json
+**/progress.json

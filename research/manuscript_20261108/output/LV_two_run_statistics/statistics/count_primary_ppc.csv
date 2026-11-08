@@ -1,5 +1,0 @@
-"metric","observed","predictive_median","lower","upper","tail_probability"
-"total",2359,2739,1876,4445.025,0.780625
-"maximum",219,393,190,1161,0.9404375
-"variance",3009.49899193548,8449.23538306452,2382.82164818548,52405.679032258,0.9438125
-"zero_rows",0,0,0,1,1

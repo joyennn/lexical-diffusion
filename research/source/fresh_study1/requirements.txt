@@ -1,4 +1,0 @@
-mlx==0.32.4
-mlx-lm==0.32.2
-huggingface-hub==2.3.0
-matplotlib>=3.9,<4
