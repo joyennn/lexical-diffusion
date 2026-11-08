@@ -1,4 +1,4 @@
-# Lexical diffusion
+# Lexical Diffusion and Semantic Recognition in LLM Agent Interactions
 
 Execution code and Study 3 semantic evaluation questions for the lexical-circulation
 experiments with four language model agent configurations. This repository contains
