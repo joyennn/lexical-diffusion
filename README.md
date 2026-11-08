@@ -18,12 +18,18 @@ are not included in the current published tree.
 
 - [Download question/answer CSV](evaluation/questions_and_keys.csv)
 - [Machine-readable question bank](evaluation/questions.json)
-- [Study 1 baseline runner](code/runners/baseline.py)
-- [Study 2-1 source-access runner](code/runners/source_access.py)
-- [Study 2-2 continuation preparation](code/prepare_run.py)
-- [Study 2-3 delayed-summary runner](code/runners/memory4000.py)
+- [Study 1 baseline runner](code/study1/run.py)
+- [Study 2-1 source-access runner](code/study2/source_access.py)
+- [Study 2-2 continuation preparation](code/study2/prepare.py)
+- [Study 2-3 delayed-summary runner](code/study2/memory4000.py)
 - [Study 3 context and question preparation](code/study3/prepare.py)
 - [Study 3 inference runner](code/study3/run.py)
+
+## Code organized by study
+
+- [`code/study1/`](code/study1/): baseline runner and preparation, plus shared model download and environment requirements.
+- [`code/study2/`](code/study2/): source access, time continuation, and delayed summarization. Continuation reuses the unchanged Study 1 runner.
+- [`code/study3/`](code/study3/): prepare paired context-specific evaluations and run semantic probes.
 
 ## Experimental conditions
 
@@ -53,11 +59,11 @@ byte-for-byte or download any published results.
 
 ```sh
 python3 -m venv .venv
-.venv/bin/pip install -r code/requirements.txt
-.venv/bin/python code/download_models.py --output work/models
+.venv/bin/pip install -r code/study1/requirements.txt
+.venv/bin/python code/study1/download_models.py --output work/models
 export MODEL_STORE="$PWD/work/models"
 
-.venv/bin/python code/prepare_run.py --condition baseline --seed 2026110300 --output work/baseline
+.venv/bin/python code/study1/prepare.py --condition baseline --seed 2026110300 --output work/baseline
 ```
 
 Preparation prints four commands, one per model. Run these sequentially using the
@@ -74,9 +80,9 @@ seed values were 2026103000 and 2026110300. Seeds end in zero to retain source i
 Prepare the other conditions with:
 
 ```sh
-.venv/bin/python code/prepare_run.py --condition source_access --seed 2026110300 --output work/source_access
-.venv/bin/python code/prepare_run.py --condition memory4000 --seed 2026110300 --output work/memory4000
-.venv/bin/python code/prepare_run.py --condition continuation --seed 2026110300 --baseline-dir work/baseline --output work/continuation
+.venv/bin/python code/study2/prepare.py --condition source_access --seed 2026110300 --output work/source_access
+.venv/bin/python code/study2/prepare.py --condition memory4000 --seed 2026110300 --output work/memory4000
+.venv/bin/python code/study2/prepare.py --condition continuation --seed 2026110300 --baseline-dir work/baseline --output work/continuation
 ```
 
 Run the printed commands; continuation requires all four baseline checkpoints to

@@ -1,16 +1,16 @@
 """Prepare an isolated inference folder; this command never generates model responses."""
 from pathlib import Path
 import argparse,json,shutil,sys
-REPO=Path(__file__).resolve().parents[1]
+REPO=Path(__file__).resolve().parents[2]
 load=lambda p:json.loads(p.read_text())
-def main():
+def main(conditions=None, default_condition="baseline"):
  p=argparse.ArgumentParser(description=__doc__)
- p.add_argument('--condition',choices=['baseline','source_access','memory4000','continuation'],required=True)
+ p.add_argument('--condition',choices=conditions or ['baseline'],default=default_condition,required=default_condition is None)
  p.add_argument('--output',type=Path,required=True);p.add_argument('--seed',type=int,default=2026110300)
  p.add_argument('--baseline-dir',type=Path);a=p.parse_args();dest=a.output.resolve()
  if dest==REPO or dest in REPO.parents or (dest.exists() and any(dest.iterdir())):raise ValueError('Choose a new, empty output folder.')
  if a.seed%10:raise ValueError('Use a seed ending in zero to preserve source identity.')
- runner={'baseline':'baseline.py','source_access':'source_access.py','memory4000':'memory4000.py','continuation':'baseline.py'}[a.condition]
+ runner={'baseline':'study1/run.py','source_access':'study2/source_access.py','memory4000':'study2/memory4000.py','continuation':'study1/run.py'}[a.condition]
  states={}
  if a.condition=='continuation':
   if not a.baseline_dir:raise ValueError('Continuation requires --baseline-dir.')
@@ -19,8 +19,8 @@ def main():
    assert state['completed'] and state['target_cycles']==100 and state['next_cycle']==101
    assert state['seed']==a.seed,'Seed must match baseline.';states[model]=(src,state)
  (dest/'materials').mkdir(parents=True)
- for src,name in [(REPO/'materials/models.json','models.json'),(REPO/'materials/expressions.json','materials/terms.json'),(REPO/'materials/personas.json','materials/personas.json'),(REPO/'code/runners'/runner,'run.py')]:shutil.copy2(src,dest/name)
- if a.condition=='source_access':shutil.copy2(REPO/'code/runners/feed_policy.py',dest/'feed_policy.py')
+ for src,name in [(REPO/'materials/models.json','models.json'),(REPO/'materials/expressions.json','materials/terms.json'),(REPO/'materials/personas.json','materials/personas.json'),(REPO/'code'/runner,'run.py')]:shutil.copy2(src,dest/name)
+ if a.condition=='source_access':shutil.copy2(REPO/'code/study2/feed_policy.py',dest/'feed_policy.py')
  (dest/'protocol.json').write_text(json.dumps({'main_seed':a.seed,'pilot_seed':a.seed+90,'recommendation_probability':.5},indent=2))
  for model,(src,state) in states.items():
   target=dest/'runs/main'/model;target.mkdir(parents=True);origin=dest/'origin'/model;origin.mkdir(parents=True)
